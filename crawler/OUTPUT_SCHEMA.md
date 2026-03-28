@@ -11,6 +11,9 @@ crawler/
       research/
       engineering/
       news/
+    support.claude.com/
+      en/
+        articles/
     _runs/
     _manifests/
 ```
@@ -34,7 +37,7 @@ Rules:
 
 - `source_url`: original canonical crawl URL.
 - `title`: extracted page title.
-- `section`: top-level Anthropic section, currently `research`, `engineering`, or `news`.
+- `section`: site-level content bucket such as `research`, `engineering`, `news`, or `articles`.
 - `date`: normalized ISO date when available.
 
 Body rules:
@@ -58,7 +61,7 @@ Paragraph text.
 Each crawler run updates one section manifest:
 
 ```text
-output/_manifests/anthropic-<section>.json
+output/_manifests/<site>-<section>.json
 ```
 
 Example shape:
@@ -86,12 +89,13 @@ Rules:
 - `output_path` is an absolute path in the local workspace.
 - `block_count` is the number of extracted content blocks written into the Markdown body.
 - `block_count` may be `0` for link-out or placeholder pages that expose metadata but no substantive on-page body.
+- Current validated manifests include `www.anthropic.com` and `support.claude.com`.
 
 ## Run report contract
 
 Each batch run writes:
 
-- `output/_runs/anthropic-<section>-run-<timestamp>.json`
-- `output/_runs/anthropic-<section>-failures.json`
+- `output/_runs/<crawler>-run-<timestamp>.json`
+- `output/_runs/<crawler>-failures.json`
 
 These files are operational artifacts for crawl monitoring, not long-term content inputs.

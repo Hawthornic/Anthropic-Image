@@ -7,6 +7,7 @@
     "crawl:engineering": "tsx src/crawl-anthropic-research.ts --section engineering",
     "crawl:news": "tsx src/crawl-anthropic-research.ts --section news",
     "crawl:research": "tsx src/crawl-anthropic-research.ts --section research",
+    "crawl:support": "tsx src/crawl-support-claude.ts",
     "crawl:test": "tsx src/test-single-page.ts"
   },
   "keywords": [],

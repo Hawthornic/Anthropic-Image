@@ -13,12 +13,13 @@ type ManifestItem = {
 
 export async function writeSectionManifest(payload: {
   items: ManifestItem[];
+  site: string;
   section: string;
 }): Promise<void> {
   const manifestDir = path.resolve(process.cwd(), "output", "_manifests");
   await fs.mkdir(manifestDir, { recursive: true });
 
-  const manifestPath = path.join(manifestDir, `anthropic-${payload.section}.json`);
+  const manifestPath = path.join(manifestDir, `${payload.site}-${payload.section}.json`);
   const items = [...payload.items]
     .map((item) => ({
       ...item,
@@ -31,7 +32,7 @@ export async function writeSectionManifest(payload: {
     JSON.stringify(
       {
         updated_at: new Date().toISOString(),
-        site: "www.anthropic.com",
+        site: payload.site,
         section: payload.section,
         items,
       },

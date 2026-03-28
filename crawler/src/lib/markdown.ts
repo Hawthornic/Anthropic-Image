@@ -1,6 +1,6 @@
 import path from "node:path";
 
-import type { ExtractedArticle } from "./extract-anthropic-article.js";
+import type { ExtractedDocument } from "./content.js";
 
 export function toIsoDate(value: string | null): string | null {
   if (!value) {
@@ -15,7 +15,7 @@ export function toIsoDate(value: string | null): string | null {
   return parsed.toISOString().slice(0, 10);
 }
 
-export function buildMarkdownDocument(article: ExtractedArticle): string {
+export function buildMarkdownDocument(article: ExtractedDocument): string {
   const lines: string[] = [
     "---",
     `source_url: ${article.sourceUrl}`,

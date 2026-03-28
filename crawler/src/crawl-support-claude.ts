@@ -1,12 +1,11 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
-import { discoverAnthropicSectionUrls, type AnthropicSection } from "./lib/anthropic-sitemap.js";
 import { runWithConcurrency } from "./lib/batch.js";
-import { extractAnthropicArticle } from "./lib/extract-anthropic-article.js";
 import { fetchText } from "./lib/http.js";
 import { writeSectionManifest } from "./lib/manifest.js";
 import { buildMarkdownDocument, buildOutputPath } from "./lib/markdown.js";
+import { discoverSupportClaudeUrls, extractSupportClaudeArticle } from "./lib/support-claude.js";
 
 type CrawlFailure = {
   url: string;
@@ -23,9 +22,8 @@ type ManifestItem = {
 
 async function main(): Promise<void> {
   const options = parseArgs(process.argv.slice(2));
-
-  const urls = await discoverAnthropicSectionUrls(options.section, options.limit);
-  console.log(`Discovered ${urls.length} ${options.section} article URLs`);
+  const urls = await discoverSupportClaudeUrls(options.limit);
+  console.log(`Discovered ${urls.length} support articles`);
 
   let successCount = 0;
   const failures: CrawlFailure[] = [];
@@ -35,7 +33,7 @@ async function main(): Promise<void> {
   await runWithConcurrency(urls, options.concurrency, async (url, index) => {
     try {
       const html = await fetchText(url, { retries: options.retries });
-      const article = extractAnthropicArticle(url, html);
+      const article = extractSupportClaudeArticle(url, html);
       const markdown = buildMarkdownDocument(article);
       const outputPath = path.resolve(process.cwd(), buildOutputPath(article.sourceUrl));
 
@@ -61,19 +59,18 @@ async function main(): Promise<void> {
   });
 
   await writeRunArtifacts({
-    section: options.section,
-    urlsDiscovered: urls.length,
-    successCount,
-    failureCount: failures.length,
     concurrency: options.concurrency,
-    retries: options.retries,
+    failureCount: failures.length,
     failures,
+    retries: options.retries,
     savedPaths,
+    successCount,
+    urlsDiscovered: urls.length,
   });
 
   await writeSectionManifest({
-    site: "www.anthropic.com",
-    section: options.section,
+    site: "support.claude.com",
+    section: "articles",
     items: manifestItems,
   });
 
@@ -89,14 +86,12 @@ type CrawlOptions = {
   concurrency: number;
   limit?: number;
   retries: number;
-  section: AnthropicSection;
 };
 
 function parseArgs(args: string[]): CrawlOptions {
   const options: CrawlOptions = {
-    concurrency: 3,
+    concurrency: 4,
     retries: 2,
-    section: "research",
   };
 
   let positionalLimit: number | undefined;
@@ -117,12 +112,6 @@ function parseArgs(args: string[]): CrawlOptions {
 
     if (arg === "--limit") {
       positionalLimit = parseNumberArg(arg, args[index + 1]);
-      index += 1;
-      continue;
-    }
-
-    if (arg === "--section") {
-      options.section = parseSectionArg(args[index + 1]);
       index += 1;
       continue;
     }
@@ -154,25 +143,12 @@ function parseNumberArg(flag: string, value: string | undefined): number {
   return parsed;
 }
 
-function parseSectionArg(value: string | undefined): AnthropicSection {
-  if (!value) {
-    throw new Error("Missing value for --section");
-  }
-
-  if (value === "research" || value === "engineering" || value === "news") {
-    return value;
-  }
-
-  throw new Error(`Invalid value for --section: ${value}`);
-}
-
 async function writeRunArtifacts(payload: {
   concurrency: number;
   failureCount: number;
   failures: CrawlFailure[];
   retries: number;
   savedPaths: string[];
-  section: AnthropicSection;
   successCount: number;
   urlsDiscovered: number;
 }): Promise<void> {
@@ -180,15 +156,17 @@ async function writeRunArtifacts(payload: {
   await fs.mkdir(outputDir, { recursive: true });
 
   const timestamp = new Date().toISOString().replace(/[:]/g, "-");
-  const reportPath = path.join(outputDir, `anthropic-${payload.section}-run-${timestamp}.json`);
-  const failurePath = path.join(outputDir, `anthropic-${payload.section}-failures.json`);
+  const reportPath = path.join(outputDir, `support-claude-articles-run-${timestamp}.json`);
+  const failurePath = path.join(outputDir, "support-claude-articles-failures.json");
 
   await fs.writeFile(
     reportPath,
     JSON.stringify(
       {
         created_at: new Date().toISOString(),
-        crawler: `anthropic-${payload.section}`,
+        crawler: "support-claude-articles",
+        site: "support.claude.com",
+        section: "articles",
         ...payload,
       },
       null,
@@ -202,7 +180,8 @@ async function writeRunArtifacts(payload: {
     JSON.stringify(
       {
         created_at: new Date().toISOString(),
-        section: payload.section,
+        site: "support.claude.com",
+        section: "articles",
         failures: payload.failures,
       },
       null,

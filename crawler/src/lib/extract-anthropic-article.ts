@@ -1,17 +1,5 @@
 import { load } from "cheerio";
-
-export type ExtractedBlock = {
-  kind: "paragraph" | "heading" | "list" | "image" | "quote" | "code" | "hr";
-  markdown: string;
-};
-
-export type ExtractedArticle = {
-  sourceUrl: string;
-  title: string;
-  date: string | null;
-  section: string;
-  blocks: ExtractedBlock[];
-};
+import type { ExtractedBlock, ExtractedDocument } from "./content.js";
 
 type HtmlNode = {
   type?: string;
@@ -21,7 +9,7 @@ type HtmlNode = {
   children?: HtmlNode[];
 };
 
-export function extractAnthropicArticle(sourceUrl: string, html: string): ExtractedArticle {
+export function extractAnthropicArticle(sourceUrl: string, html: string): ExtractedDocument {
   const $ = load(html);
   const pathnameParts = new URL(sourceUrl).pathname.split("/").filter(Boolean);
   const section = pathnameParts[0] ?? "unknown";
@@ -99,7 +87,7 @@ function serializeBlock($: ReturnType<typeof load>, node: HtmlNode, sourceUrl: s
   if (tagName === "div") {
     const className = node.attribs?.class ?? "";
     if (className.includes("media-column")) {
-      const figure = $(node).find("figure").first().get(0) as HtmlNode | undefined;
+      const figure = $(node as any).find("figure").first().get(0) as HtmlNode | undefined;
       return figure ? serializeBlock($, figure, sourceUrl) : null;
     }
     return null;
@@ -135,7 +123,7 @@ function serializeBlock($: ReturnType<typeof load>, node: HtmlNode, sourceUrl: s
   }
 
   if (tagName === "pre") {
-    const code = $(node).find("code").first().text() || $(node).text();
+    const code = $(node as any).find("code").first().text() || $(node as any).text();
     const markdown = code.trimEnd();
     return markdown ? { kind: "code", markdown: `\`\`\`\n${markdown}\n\`\`\`` } : null;
   }
@@ -145,14 +133,14 @@ function serializeBlock($: ReturnType<typeof load>, node: HtmlNode, sourceUrl: s
   }
 
   if (tagName === "figure") {
-    const image = $(node).find("img").first();
+    const image = $(node as any).find("img").first();
     if (!image.length) {
       return null;
     }
 
     const alt = collapseWhitespace(image.attr("alt") ?? "");
     const src = absolutizeUrl(image.attr("src") ?? "", sourceUrl);
-    const caption = collapseWhitespace($(node).find("figcaption").first().text());
+    const caption = collapseWhitespace($(node as any).find("figcaption").first().text());
     const lines = [`![${alt}](${src})`];
     if (caption) {
       lines.push(caption);

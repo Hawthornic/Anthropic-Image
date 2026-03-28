@@ -9,9 +9,11 @@
 - [x] Playwright Chromium 浏览器已下载
 - [x] tsconfig.json 配置完成
 - [x] package.json 配置完成（type: module, scripts）
+- [x] anthropic.com `research` / `engineering` / `news` 全量抓取跑通
+- [x] support.claude.com 英文帮助中心全量抓取跑通
 
 ### 进行中
-- [ ] 编写 `src/test-single-page.ts` — 单页爬取试验脚本
+- [ ] 编写 `claude.com` 主站爬虫
 
 ## 后续步骤（按顺序）
 
@@ -43,7 +45,7 @@ output/
 - platform.claude.com/docs
 - alignment.anthropic.com
 - red.anthropic.com
-- support.claude.com
+- [x] support.claude.com
 
 ### Step 5：翻译管线
 - 编写 translator/ 模块

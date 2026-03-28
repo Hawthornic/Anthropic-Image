@@ -40,6 +40,7 @@ export async function discoverClaudeUrls(limit?: number): Promise<string[]> {
 
 export function extractClaudePage(sourceUrl: string, html: string): ExtractedDocument {
   const $ = load(html);
+  const pathname = new URL(sourceUrl).pathname;
   const root = selectContentRoot($, sourceUrl);
   const title = selectTitle($);
   const date = selectDate($);
@@ -59,6 +60,15 @@ export function extractClaudePage(sourceUrl: string, html: string): ExtractedDoc
     collectBlocks($, child as HtmlNode, sourceUrl, blocks, seen);
   }
 
+  const collectionBlocks = extractCollectionBlocks($, sourceUrl);
+  for (const block of collectionBlocks) {
+    const signature = `${block.kind}:${block.markdown}`;
+    if (!seen.has(signature)) {
+      blocks.push(block);
+      seen.add(signature);
+    }
+  }
+
   if (blocks.length === 0) {
     throw new Error("Unable to extract claude.com content blocks");
   }
@@ -67,7 +77,7 @@ export function extractClaudePage(sourceUrl: string, html: string): ExtractedDoc
     sourceUrl,
     title,
     date,
-    section: deriveSection(sourceUrl),
+    section: deriveSection(pathname),
     blocks,
   };
 }
@@ -171,8 +181,8 @@ function extractJsonValues(raw: string): Array<Record<string, unknown>> {
   return values;
 }
 
-function deriveSection(sourceUrl: string): string {
-  const parts = new URL(sourceUrl).pathname.split("/").filter(Boolean);
+function deriveSection(pathname: string): string {
+  const parts = pathname.split("/").filter(Boolean);
   return parts[0] ?? "home";
 }
 
@@ -370,6 +380,7 @@ function shouldKeepText(value: string): boolean {
   return (
     normalized !== "nothing to see here" &&
     normalized !== "no posts for those filters" &&
+    normalized !== "no connectors for those filters" &&
     normalized !== "no plugins for those filters" &&
     normalized !== "try another search or clear some of your filters." &&
     normalized !== "get the developer newsletter" &&
@@ -394,4 +405,126 @@ function normalizeTextSpacing(value: string): string {
     .replace(/([A-Za-z0-9)])(\[)/g, "$1 $2")
     .replace(/(\])([A-Z0-9"])/g, "$1 $2")
     .replace(/([a-z])([A-Z][a-z])/g, "$1 $2");
+}
+
+function extractCollectionBlocks($: CheerioAPI, sourceUrl: string): ExtractedBlock[] {
+  const pathname = new URL(sourceUrl).pathname;
+
+  if (pathname === "/resources/use-cases") {
+    return buildCardBlocks(
+      $,
+      $(".card_uc_wrap").toArray().map((node) => $(node as never)),
+      "Use Cases",
+      sourceUrl,
+    );
+  }
+
+  if (pathname === "/plugins") {
+    return buildCardBlocks($, extractLinkedCards($, "/plugins/"), "Plugins", sourceUrl);
+  }
+
+  if (pathname === "/connectors") {
+    return buildCardBlocks($, extractLinkedCards($, "/connectors/"), "Connectors", sourceUrl);
+  }
+
+  return [];
+}
+
+function extractLinkedCards($: CheerioAPI, pathPrefix: string): Array<ReturnType<CheerioAPI["root"]>> {
+  const cards = new Map<string, ReturnType<CheerioAPI["root"]>>();
+
+  $(`a[href^="${pathPrefix}"]`).each((_, anchor) => {
+    const href = $(anchor).attr("href");
+    if (!href) {
+      return;
+    }
+
+    const card = $(anchor as never).closest(".w-dyn-item, .card_link_wrap, .card_uc_wrap").first() as ReturnType<
+      CheerioAPI["root"]
+    >;
+    if (!card.length || cards.has(href)) {
+      return;
+    }
+
+    cards.set(href, card);
+  });
+
+  return [...cards.values()];
+}
+
+function buildCardBlocks(
+  $: CheerioAPI,
+  cards: Array<ReturnType<CheerioAPI["root"]>>,
+  label: string,
+  sourceUrl: string,
+): ExtractedBlock[] {
+  const items = cards
+    .map((card) => extractCardItem($, card, sourceUrl))
+    .filter((item): item is { title: string; summary: string | null; url: string } => item !== null);
+
+  if (items.length === 0) {
+    return [];
+  }
+
+  const blocks: ExtractedBlock[] = [{ kind: "heading", markdown: `## ${label}` }];
+  for (const item of items) {
+    blocks.push({ kind: "heading", markdown: `### [${item.title}](${item.url})` });
+    if (item.summary) {
+      blocks.push({ kind: "paragraph", markdown: item.summary });
+    }
+  }
+
+  return blocks;
+}
+
+function extractCardItem(
+  $: CheerioAPI,
+  card: ReturnType<CheerioAPI["root"]>,
+  sourceUrl: string,
+): { title: string; summary: string | null; url: string } | null {
+  const anchor = card.find("a[href]").first();
+  const href = anchor.attr("href");
+  if (!href) {
+    return null;
+  }
+
+  const title =
+    collapseWhitespace(
+      card.find("h2, h3, h4, [class*='title']").first().text() ||
+        anchor.text(),
+    ) || null;
+
+  if (!title || !shouldKeepText(title)) {
+    return null;
+  }
+
+  const summary = card
+    .find("p, [class*='text'], [class*='description']")
+    .toArray()
+    .map((node) => collapseWhitespace($(node as never).text()))
+    .find((text) => text && text !== title && shouldKeepText(text)) ?? null;
+
+  return {
+    title,
+    summary: normalizeCardSummary(title, summary),
+    url: absolutizeUrl(href, sourceUrl),
+  };
+}
+
+function normalizeCardSummary(title: string, summary: string | null): string | null {
+  if (!summary) {
+    return null;
+  }
+
+  return summary
+    .replace(new RegExp(`^${escapeRegExp(title)}\\s*`, "i"), "")
+    .replace(/([a-z.])Anthropic verified/gi, "$1 Anthropic verified")
+    .replace(/Anthropic verified/gi, "Anthropic verified ")
+    .replace(/(\d+)installs\b/gi, "")
+    .replace(/\s{2,}/g, " ")
+    .trim() || null;
+}
+
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }

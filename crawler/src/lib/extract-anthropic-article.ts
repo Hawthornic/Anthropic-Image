@@ -25,16 +25,13 @@ export function extractAnthropicArticle(sourceUrl: string, html: string): Extrac
   const $ = load(html);
   const pathnameParts = new URL(sourceUrl).pathname.split("/").filter(Boolean);
   const section = pathnameParts[0] ?? "unknown";
-  const header = $(".PostDetail-module-scss-module__UQuRMa__header").first();
   const body = $(".Body-module-scss-module__z40yvW__body").first();
   const footnotes = $(".PostDetail-module-scss-module__UQuRMa__footnotes").first();
+  const header = selectHeader($);
 
-  if (!header.length || !body.length) {
+  if (!body.length || !header.title) {
     throw new Error("Unable to locate Anthropic article body");
   }
-
-  const title = collapseWhitespace(header.find("h1").first().text() || $("title").text());
-  const dateText = collapseWhitespace(header.find("time").first().text() || header.find(".agate").first().text());
 
   const blocks: ExtractedBlock[] = [];
   for (const child of body.children().toArray()) {
@@ -60,10 +57,36 @@ export function extractAnthropicArticle(sourceUrl: string, html: string): Extrac
 
   return {
     sourceUrl,
-    title,
-    date: dateText || null,
+    title: header.title,
+    date: header.date || null,
     section,
     blocks,
+  };
+}
+
+function selectHeader($: ReturnType<typeof load>): { date: string | null; title: string | null } {
+  const postDetailHeader = $(".PostDetail-module-scss-module__UQuRMa__header").first();
+  if (postDetailHeader.length) {
+    return {
+      title: collapseWhitespace(postDetailHeader.find("h1").first().text() || $("title").text()),
+      date: collapseWhitespace(
+        postDetailHeader.find("time").first().text() || postDetailHeader.find(".agate").first().text(),
+      ),
+    };
+  }
+
+  const heroEngineering = $(".HeroEngineering-module-scss-module__j1ivRa__hero").first();
+  if (heroEngineering.length) {
+    const rawDate = collapseWhitespace(heroEngineering.find(".HeroEngineering-module-scss-module__j1ivRa__date").first().text());
+    return {
+      title: collapseWhitespace(heroEngineering.find("h1").first().text() || $("title").text()),
+      date: rawDate.replace(/^Published\s+/i, ""),
+    };
+  }
+
+  return {
+    title: null,
+    date: null,
   };
 }
 

@@ -116,7 +116,7 @@ function selectTitle($: CheerioAPI): string | null {
     return heading;
   }
 
-  const documentTitle = collapseWhitespace($("title").text()).replace(/\s*\|\s*Claude\s*$/i, "");
+  const documentTitle = collapseWhitespace($("title").text()).replace(/\s*\|\s*(Claude|Anthropic)\s*$/i, "");
   return documentTitle || null;
 }
 
@@ -346,7 +346,7 @@ function escapeMarkdown(value: string): string {
 }
 
 function collapseWhitespace(value: string): string {
-  return value.replace(/\u00a0/g, " ").replace(/\s+/g, " ").trim();
+  return normalizeTextSpacing(value.replace(/\u00a0/g, " ").replace(/\s+/g, " ").trim());
 }
 
 function absolutizeUrl(value: string, sourceUrl: string): string {
@@ -370,8 +370,10 @@ function shouldKeepText(value: string): boolean {
   return (
     normalized !== "nothing to see here" &&
     normalized !== "no posts for those filters" &&
+    normalized !== "no plugins for those filters" &&
     normalized !== "try another search or clear some of your filters." &&
-    normalized !== "get the developer newsletter"
+    normalized !== "get the developer newsletter" &&
+    normalized !== "faq"
   );
 }
 
@@ -383,4 +385,13 @@ function isUnavailablePage(title: string, $: CheerioAPI): boolean {
 
   const pageText = collapseWhitespace($("main").first().text()).toLowerCase();
   return pageText.includes("nothing to see here") && pageText.includes("unexpected detours");
+}
+
+function normalizeTextSpacing(value: string): string {
+  return value
+    .replace(/\b(Category|Used in|Made by|Capabilities|More)(?=[A-Z\[])/g, "$1: ")
+    .replace(/:("|\[|\*\*)/g, ": $1")
+    .replace(/([A-Za-z0-9)])(\[)/g, "$1 $2")
+    .replace(/(\])([A-Z0-9"])/g, "$1 $2")
+    .replace(/([a-z])([A-Z][a-z])/g, "$1 $2");
 }

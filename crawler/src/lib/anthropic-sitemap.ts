@@ -1,4 +1,10 @@
 const SITEMAP_URL = "https://www.anthropic.com/sitemap.xml";
+const EXCLUDED_URLS = new Set<string>([
+  // This path currently resolves to Claude Code docs content rather than the Anthropic site article template.
+  "https://www.anthropic.com/engineering/claude-code-best-practices",
+  // This path currently resolves to claude.com/blog content rather than the Anthropic site article template.
+  "https://www.anthropic.com/news/fine-tune-claude-3-haiku",
+]);
 
 export type AnthropicSection = "engineering" | "news" | "research";
 
@@ -35,6 +41,10 @@ function extractUrls(xml: string): string[] {
 function isAnthropicSectionUrl(value: string, section: AnthropicSection): boolean {
   const url = new URL(value);
   const parts = url.pathname.split("/").filter(Boolean);
+
+  if (EXCLUDED_URLS.has(value)) {
+    return false;
+  }
 
   if (url.hostname !== "www.anthropic.com") {
     return false;

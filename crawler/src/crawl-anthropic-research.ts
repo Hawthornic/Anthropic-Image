@@ -5,11 +5,20 @@ import { discoverAnthropicSectionUrls, type AnthropicSection } from "./lib/anthr
 import { runWithConcurrency } from "./lib/batch.js";
 import { extractAnthropicArticle } from "./lib/extract-anthropic-article.js";
 import { fetchText } from "./lib/http.js";
+import { writeSectionManifest } from "./lib/manifest.js";
 import { buildMarkdownDocument, buildOutputPath } from "./lib/markdown.js";
 
 type CrawlFailure = {
   url: string;
   error: string;
+};
+
+type ManifestItem = {
+  block_count: number;
+  date: string | null;
+  output_path: string;
+  source_url: string;
+  title: string;
 };
 
 async function main(): Promise<void> {
@@ -20,6 +29,7 @@ async function main(): Promise<void> {
 
   let successCount = 0;
   const failures: CrawlFailure[] = [];
+  const manifestItems: ManifestItem[] = [];
   const savedPaths: string[] = [];
 
   await runWithConcurrency(urls, options.concurrency, async (url, index) => {
@@ -34,6 +44,13 @@ async function main(): Promise<void> {
 
       successCount += 1;
       savedPaths.push(outputPath);
+      manifestItems.push({
+        block_count: article.blocks.length,
+        date: article.date,
+        output_path: outputPath,
+        source_url: article.sourceUrl,
+        title: article.title,
+      });
       console.log(`[ok ${index + 1}/${urls.length}] ${article.title}`);
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
@@ -52,6 +69,11 @@ async function main(): Promise<void> {
     retries: options.retries,
     failures,
     savedPaths,
+  });
+
+  await writeSectionManifest({
+    section: options.section,
+    items: manifestItems,
   });
 
   console.log(`Finished: ${successCount}/${urls.length} pages saved`);

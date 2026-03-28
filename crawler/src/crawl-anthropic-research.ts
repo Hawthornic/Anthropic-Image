@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
-import { discoverResearchArticleUrls } from "./lib/anthropic-sitemap.js";
+import { discoverAnthropicSectionUrls, type AnthropicSection } from "./lib/anthropic-sitemap.js";
 import { runWithConcurrency } from "./lib/batch.js";
 import { extractAnthropicArticle } from "./lib/extract-anthropic-article.js";
 import { fetchText } from "./lib/http.js";
@@ -15,8 +15,8 @@ type CrawlFailure = {
 async function main(): Promise<void> {
   const options = parseArgs(process.argv.slice(2));
 
-  const urls = await discoverResearchArticleUrls(options.limit);
-  console.log(`Discovered ${urls.length} research article URLs`);
+  const urls = await discoverAnthropicSectionUrls(options.section, options.limit);
+  console.log(`Discovered ${urls.length} ${options.section} article URLs`);
 
   let successCount = 0;
   const failures: CrawlFailure[] = [];
@@ -44,6 +44,7 @@ async function main(): Promise<void> {
   });
 
   await writeRunArtifacts({
+    section: options.section,
     urlsDiscovered: urls.length,
     successCount,
     failureCount: failures.length,
@@ -65,12 +66,14 @@ type CrawlOptions = {
   concurrency: number;
   limit?: number;
   retries: number;
+  section: AnthropicSection;
 };
 
 function parseArgs(args: string[]): CrawlOptions {
   const options: CrawlOptions = {
     concurrency: 3,
     retries: 2,
+    section: "research",
   };
 
   let positionalLimit: number | undefined;
@@ -91,6 +94,12 @@ function parseArgs(args: string[]): CrawlOptions {
 
     if (arg === "--limit") {
       positionalLimit = parseNumberArg(arg, args[index + 1]);
+      index += 1;
+      continue;
+    }
+
+    if (arg === "--section") {
+      options.section = parseSectionArg(args[index + 1]);
       index += 1;
       continue;
     }
@@ -122,12 +131,25 @@ function parseNumberArg(flag: string, value: string | undefined): number {
   return parsed;
 }
 
+function parseSectionArg(value: string | undefined): AnthropicSection {
+  if (!value) {
+    throw new Error("Missing value for --section");
+  }
+
+  if (value === "research" || value === "engineering" || value === "news") {
+    return value;
+  }
+
+  throw new Error(`Invalid value for --section: ${value}`);
+}
+
 async function writeRunArtifacts(payload: {
   concurrency: number;
   failureCount: number;
   failures: CrawlFailure[];
   retries: number;
   savedPaths: string[];
+  section: AnthropicSection;
   successCount: number;
   urlsDiscovered: number;
 }): Promise<void> {
@@ -135,15 +157,15 @@ async function writeRunArtifacts(payload: {
   await fs.mkdir(outputDir, { recursive: true });
 
   const timestamp = new Date().toISOString().replace(/[:]/g, "-");
-  const reportPath = path.join(outputDir, `anthropic-research-run-${timestamp}.json`);
-  const failurePath = path.join(outputDir, "anthropic-research-failures.json");
+  const reportPath = path.join(outputDir, `anthropic-${payload.section}-run-${timestamp}.json`);
+  const failurePath = path.join(outputDir, `anthropic-${payload.section}-failures.json`);
 
   await fs.writeFile(
     reportPath,
     JSON.stringify(
       {
         created_at: new Date().toISOString(),
-        crawler: "anthropic-research",
+        crawler: `anthropic-${payload.section}`,
         ...payload,
       },
       null,
@@ -157,6 +179,7 @@ async function writeRunArtifacts(payload: {
     JSON.stringify(
       {
         created_at: new Date().toISOString(),
+        section: payload.section,
         failures: payload.failures,
       },
       null,

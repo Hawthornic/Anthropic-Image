@@ -1,8 +1,13 @@
 const SITEMAP_URL = "https://www.anthropic.com/sitemap.xml";
 
-export async function discoverResearchArticleUrls(limit?: number): Promise<string[]> {
+export type AnthropicSection = "engineering" | "news" | "research";
+
+export async function discoverAnthropicSectionUrls(
+  section: AnthropicSection,
+  limit?: number,
+): Promise<string[]> {
   const xml = await fetchSitemapXml();
-  const urls = extractUrls(xml).filter(isResearchArticleUrl);
+  const urls = extractUrls(xml).filter((url) => isAnthropicSectionUrl(url, section));
 
   return typeof limit === "number" ? urls.slice(0, limit) : urls;
 }
@@ -27,7 +32,7 @@ function extractUrls(xml: string): string[] {
   return matches.map((match) => match[1].trim());
 }
 
-function isResearchArticleUrl(value: string): boolean {
+function isAnthropicSectionUrl(value: string, section: AnthropicSection): boolean {
   const url = new URL(value);
   const parts = url.pathname.split("/").filter(Boolean);
 
@@ -35,7 +40,7 @@ function isResearchArticleUrl(value: string): boolean {
     return false;
   }
 
-  if (parts[0] !== "research") {
+  if (parts[0] !== section) {
     return false;
   }
 
@@ -43,7 +48,7 @@ function isResearchArticleUrl(value: string): boolean {
     return false;
   }
 
-  if (parts[1] === "team") {
+  if (section === "research" && parts[1] === "team") {
     return false;
   }
 

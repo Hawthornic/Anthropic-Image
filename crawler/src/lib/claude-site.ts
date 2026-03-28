@@ -48,6 +48,10 @@ export function extractClaudePage(sourceUrl: string, html: string): ExtractedDoc
     throw new Error("Unable to locate claude.com page content");
   }
 
+  if (isUnavailablePage(title, $)) {
+    throw new Error("claude.com page is unavailable");
+  }
+
   const blocks: ExtractedBlock[] = [];
   const seen = new Set<string>();
 
@@ -93,11 +97,21 @@ function selectContentRoot($: CheerioAPI, sourceUrl: string) {
     }
   }
 
-  return $("main").first();
+  const main = $("main").first();
+  if (main.length) {
+    return main;
+  }
+
+  const pageWrap = $(".page_wrap").first();
+  if (pageWrap.length) {
+    return pageWrap;
+  }
+
+  return $("body").first();
 }
 
 function selectTitle($: CheerioAPI): string | null {
-  const heading = collapseWhitespace($("main h1").first().text());
+  const heading = collapseWhitespace($("main h1").first().text() || $("h1").first().text());
   if (heading) {
     return heading;
   }
@@ -207,7 +221,19 @@ function shouldSkipElement($: CheerioAPI, element: ReturnType<CheerioAPI["root"]
     className.includes("nav_") ||
     className.includes("footer_") ||
     className.includes("form_") ||
+    className.includes("artifact_") ||
+    className.includes("button_") ||
+    className.includes("card_") ||
+    className.includes("clickable_") ||
+    className.includes("cookie") ||
+    className.includes("cta_") ||
+    className.includes("faq_") ||
+    className.includes("locale-banner") ||
     className.includes("newsletter") ||
+    className.includes("related_") ||
+    className.includes("social_") ||
+    className.includes("tab_") ||
+    className.includes("w-form") ||
     className.includes("locale_picker") ||
     className.includes("breadcrumb")
   );
@@ -221,13 +247,13 @@ function serializeBlock($: CheerioAPI, node: HtmlNode, sourceUrl: string): Extra
 
   if (tagName === "p") {
     const markdown = collapseWhitespace(serializeChildren($, node, sourceUrl));
-    return markdown ? { kind: "paragraph", markdown } : null;
+    return shouldKeepText(markdown) ? { kind: "paragraph", markdown } : null;
   }
 
   if (/^h[1-6]$/.test(tagName)) {
     const depth = Number.parseInt(tagName.slice(1), 10);
     const markdown = collapseWhitespace(serializeChildren($, node, sourceUrl));
-    return markdown ? { kind: "heading", markdown: `${"#".repeat(depth)} ${markdown}` } : null;
+    return shouldKeepText(markdown) ? { kind: "heading", markdown: `${"#".repeat(depth)} ${markdown}` } : null;
   }
 
   if (tagName === "ul" || tagName === "ol") {
@@ -237,7 +263,7 @@ function serializeBlock($: CheerioAPI, node: HtmlNode, sourceUrl: string): Extra
       .map((child, index) => {
         const marker = ordered ? `${index + 1}. ` : "- ";
         const text = collapseWhitespace(serializeChildren($, child, sourceUrl));
-        return text ? `${marker}${text}` : "";
+        return shouldKeepText(text) ? `${marker}${text}` : "";
       })
       .filter(Boolean);
 
@@ -246,7 +272,7 @@ function serializeBlock($: CheerioAPI, node: HtmlNode, sourceUrl: string): Extra
 
   if (tagName === "blockquote") {
     const markdown = collapseWhitespace(serializeChildren($, node, sourceUrl));
-    return markdown ? { kind: "quote", markdown: `> ${markdown}` } : null;
+    return shouldKeepText(markdown) ? { kind: "quote", markdown: `> ${markdown}` } : null;
   }
 
   if (tagName === "pre") {
@@ -333,4 +359,28 @@ function absolutizeUrl(value: string, sourceUrl: string): string {
   } catch {
     return value;
   }
+}
+
+function shouldKeepText(value: string): boolean {
+  if (!value) {
+    return false;
+  }
+
+  const normalized = value.toLowerCase();
+  return (
+    normalized !== "nothing to see here" &&
+    normalized !== "no posts for those filters" &&
+    normalized !== "try another search or clear some of your filters." &&
+    normalized !== "get the developer newsletter"
+  );
+}
+
+function isUnavailablePage(title: string, $: CheerioAPI): boolean {
+  const normalizedTitle = title.toLowerCase();
+  if (normalizedTitle === "nothing to see here" || normalizedTitle === "app unavailable") {
+    return true;
+  }
+
+  const pageText = collapseWhitespace($("main").first().text()).toLowerCase();
+  return pageText.includes("nothing to see here") && pageText.includes("unexpected detours");
 }

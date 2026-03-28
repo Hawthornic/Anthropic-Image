@@ -1,0 +1,21 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "crawl:test": "tsx src/test-single-page.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^25.5.0",
+    "@types/turndown": "^5.0.6",
+    "crawlee": "^3.16.0",
+    "playwright": "^1.58.2",
+    "tsx": "^4.21.0",
+    "turndown": "^7.2.2",
+    "typescript": "^6.0.2"
+  }
+}

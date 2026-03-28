@@ -4,6 +4,7 @@
   "description": "",
   "type": "module",
   "scripts": {
+    "crawl:claude": "tsx src/crawl-claude-site.ts",
     "crawl:engineering": "tsx src/crawl-anthropic-research.ts --section engineering",
     "crawl:news": "tsx src/crawl-anthropic-research.ts --section news",
     "crawl:research": "tsx src/crawl-anthropic-research.ts --section research",

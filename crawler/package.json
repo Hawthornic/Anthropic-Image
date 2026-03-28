@@ -4,6 +4,7 @@
   "description": "",
   "type": "module",
   "scripts": {
+    "crawl:research": "tsx src/crawl-anthropic-research.ts",
     "crawl:test": "tsx src/test-single-page.ts"
   },
   "keywords": [],

@@ -1,50 +1,38 @@
 ---
-import fs from "node:fs/promises";
-
 import BilingualBlock from "../components/BilingualBlock.astro";
 import LanguageToggle from "../components/LanguageToggle.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { listContentPaths, pathToSlug, readBilingualDocument, slugToCandidatePaths } from "../lib/bilingual";
+import { listDocumentPaths, readMirrorDocument, resolveDocumentPath, sourcePathToSlug } from "../lib/content";
 
 export async function getStaticPaths() {
-  const files = await listContentPaths();
+  const files = await listDocumentPaths();
   return files.map((file) => ({
     params: {
-      slug: pathToSlug(file).join("/"),
+      slug: sourcePathToSlug(file).join("/"),
     },
   }));
 }
 
 const slug = Astro.params.slug?.split("/").filter(Boolean) ?? [];
-const sourcePath = await resolveSourcePath(slug);
-const document = await readBilingualDocument(sourcePath);
+const sourcePath = await resolveDocumentPath(slug);
+const document = await readMirrorDocument(sourcePath);
 const title = document.metadata.title ?? slug.join("/");
-
-async function resolveSourcePath(slugParts: string[]): Promise<string> {
-  for (const candidate of slugToCandidatePaths(slugParts)) {
-    try {
-      await fs.access(candidate);
-      return candidate;
-    } catch {
-      continue;
-    }
-  }
-
-  throw new Error(`No content file found for slug ${slugParts.join("/")}`);
-}
+const availableTranslations = new Set(document.entries.flatMap((entry) => Object.keys(entry.translations)));
+const isBilingual = availableTranslations.size > 1;
 ---
 
-<BaseLayout title={title} sourceUrl={document.metadata.source_url}>
+<BaseLayout title={title} sourceUrl={document.metadata.source_url} defaultMode={isBilingual ? "bilingual" : "source-only"}>
   <section class="article-header">
     <p class="eyebrow">{document.metadata.section ?? "content"}</p>
     <h1>{title}</h1>
     <p class="meta-line">
       <span>{document.metadata.date ?? "undated"}</span>
       <span>{slug.join("/")}</span>
+      <span>{isBilingual ? "bilingual" : "source only"}</span>
     </p>
   </section>
 
-  <LanguageToggle />
+  {isBilingual ? <LanguageToggle /> : <p class="status-note">Translation pending. This page is currently rendered from the original crawler markdown.</p>}
 
   <section class="article-body">
     {document.entries.map((entry) => (

@@ -2,11 +2,13 @@
 import "../styles/global.css";
 
 type Props = {
+  defaultMode?: "bilingual" | "source-only" | "target-only";
   title: string;
   sourceUrl?: string;
 };
 
-const { sourceUrl, title } = Astro.props;
+const { defaultMode = "bilingual", sourceUrl, title } = Astro.props;
+const baseUrl = import.meta.env.BASE_URL;
 ---
 
 <!doctype html>
@@ -16,10 +18,10 @@ const { sourceUrl, title } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
   </head>
-  <body data-lang="zh-Hant" data-mode="bilingual">
+  <body data-lang="zh-Hant" data-mode={defaultMode}>
     <header class="site-header">
       <div>
-        <a class="home-link" href="/">Anthropic Mirror</a>
+        <a class="home-link" href={baseUrl}>Anthropic Mirror</a>
         <p class="site-tagline">English source with paragraph-aligned translations.</p>
       </div>
       {sourceUrl && (
@@ -39,7 +41,8 @@ const { sourceUrl, title } = Astro.props;
         localStorage.setItem("mirror-mode", mode);
         localStorage.setItem("mirror-lang", lang);
       };
-      apply(localStorage.getItem("mirror-mode") || "bilingual", localStorage.getItem("mirror-lang") || "zh-Hant");
+      const defaultMode = document.body.dataset.mode || "bilingual";
+      apply(localStorage.getItem("mirror-mode") || defaultMode, localStorage.getItem("mirror-lang") || "zh-Hant");
       document.addEventListener("click", (event) => {
         const target = event.target;
         if (!(target instanceof HTMLElement)) return;

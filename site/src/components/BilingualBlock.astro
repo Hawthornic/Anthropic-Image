@@ -1,5 +1,6 @@
 ---
 import { marked } from "marked";
+import { Renderer } from "marked";
 
 type Props = {
   en?: string;
@@ -9,11 +10,61 @@ type Props = {
 };
 
 const { en = "", ja = "", paraId, zhHant = "" } = Astro.props;
+const baseUrl = import.meta.env.BASE_URL;
+
+function renderMarkdown(input: string): string {
+  const renderer = new Renderer();
+  renderer.link = ({ href, text, title }) => {
+    const rewrittenHref = rewriteHref(href ?? "");
+    const titleAttr = title ? ` title="${escapeHtml(title)}"` : "";
+    return `<a href="${escapeHtml(rewrittenHref)}"${titleAttr}>${text}</a>`;
+  };
+
+  return marked.parse(input, { renderer }) as string;
+}
+
+function rewriteHref(value: string): string {
+  if (!value || value.startsWith("#")) {
+    return value;
+  }
+
+  try {
+    const url = new URL(value);
+    if (!isMirroredHost(url.hostname)) {
+      return value;
+    }
+
+    const normalizedPath = url.pathname.replace(/\/$/, "");
+    const pathSuffix = normalizedPath ? `${url.hostname}${normalizedPath}` : url.hostname;
+    return `${baseUrl}${pathSuffix}${url.hash}`;
+  } catch {
+    return value;
+  }
+}
+
+function isMirroredHost(hostname: string): boolean {
+  return [
+    "www.anthropic.com",
+    "claude.com",
+    "platform.claude.com",
+    "support.claude.com",
+    "alignment.anthropic.com",
+    "red.anthropic.com",
+  ].includes(hostname);
+}
+
+function escapeHtml(value: string): string {
+  return value
+    .replaceAll("&", "&amp;")
+    .replaceAll("\"", "&quot;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;");
+}
 ---
 
 <section class="bilingual-block" id={`para-${paraId}`}>
   <div class="block-label">para {paraId}</div>
-  <article class="bilingual-pane bilingual-en" lang="en" set:html={marked.parse(en)} />
-  <article class="bilingual-pane bilingual-zh-Hant" lang="zh-Hant" set:html={marked.parse(zhHant)} />
-  <article class="bilingual-pane bilingual-ja" lang="ja" set:html={marked.parse(ja)} />
+  <article class="bilingual-pane bilingual-en" lang="en" set:html={renderMarkdown(en)} />
+  {zhHant && <article class="bilingual-pane bilingual-zh-Hant" lang="zh-Hant" set:html={renderMarkdown(zhHant)} />}
+  {ja && <article class="bilingual-pane bilingual-ja" lang="ja" set:html={renderMarkdown(ja)} />}
 </section>

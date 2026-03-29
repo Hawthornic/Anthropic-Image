@@ -1,15 +1,17 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { listContentPaths, pathToSlug, readBilingualDocument } from "../lib/bilingual";
+import { listDocumentPaths, readMirrorDocument, sourcePathToSlug } from "../lib/content";
 
-const files = await listContentPaths();
+const files = await listDocumentPaths();
+const baseUrl = import.meta.env.BASE_URL;
 const pages = await Promise.all(
   files.slice(0, 50).map(async (file) => {
-    const document = await readBilingualDocument(file);
+    const document = await readMirrorDocument(file);
     return {
-      href: `/${pathToSlug(file).join("/")}`,
-      title: document.metadata.title ?? pathToSlug(file).join("/"),
+      href: `${baseUrl}${sourcePathToSlug(file).join("/")}`,
+      title: document.metadata.title ?? sourcePathToSlug(file).join("/"),
       section: document.metadata.section ?? "unknown",
+      translated: Object.keys(document.entries[0]?.translations ?? {}).length > 1,
     };
   }),
 );
@@ -18,8 +20,8 @@ const pages = await Promise.all(
 <BaseLayout title="Anthropic Mirror">
   <section class="hero">
     <p class="eyebrow">Mirror</p>
-    <h1>Anthropic bilingual content prototype</h1>
-    <p class="hero-copy">Crawler output is assembled into paragraph-aligned bilingual markdown and rendered directly from local content files.</p>
+    <h1>Anthropic mirror prototype</h1>
+    <p class="hero-copy">The site now renders crawler output directly. Translated pages are used when available; otherwise it falls back to the original English markdown.</p>
   </section>
 
   <section class="index-list">
@@ -27,6 +29,7 @@ const pages = await Promise.all(
       <a class="index-card" href={page.href}>
         <span class="index-section">{page.section}</span>
         <strong>{page.title}</strong>
+        <span class="index-status">{page.translated ? "bilingual" : "source only"}</span>
       </a>
     ))}
   </section>

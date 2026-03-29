@@ -21,8 +21,27 @@ export type DocumentRecord = {
 
 export type SectionGroup = {
   docsPrefix?: string[];
+  href: string;
   items: DocumentRecord[];
+  label: string;
   section: string;
+};
+
+export type ArchiveChild = {
+  count: number;
+  description: string;
+  href: string;
+  label: string;
+};
+
+export type ArchiveRecord = {
+  children: ArchiveChild[];
+  description: string;
+  host: string;
+  href: string;
+  items: DocumentRecord[];
+  slug: string[];
+  title: string;
 };
 
 const SITE_META: Record<string, SiteMeta> = {
@@ -64,11 +83,21 @@ const SITE_META: Record<string, SiteMeta> = {
   },
 };
 
-let cache: Promise<DocumentRecord[]> | null = null;
+let archiveCache: Promise<ArchiveRecord[]> | null = null;
+let catalogCache: Promise<DocumentRecord[]> | null = null;
 
 export async function getCatalog(): Promise<DocumentRecord[]> {
-  cache ??= buildCatalog();
-  return cache;
+  catalogCache ??= buildCatalog();
+  return catalogCache;
+}
+
+export async function getArchivePaths(): Promise<string[][]> {
+  return (await getArchives()).map((archive) => archive.slug);
+}
+
+export async function getArchiveRecord(slug: string[]): Promise<ArchiveRecord | null> {
+  const joined = slug.join("/");
+  return (await getArchives()).find((archive) => archive.slug.join("/") === joined) ?? null;
 }
 
 export async function getHosts(): Promise<Array<{ count: number; host: string; meta: SiteMeta }>> {
@@ -103,9 +132,12 @@ export async function getHostSections(host: string): Promise<SectionGroup[]> {
 
   return sectionNames.map((section) => {
     const sectionItems = items.filter((item) => item.section === section);
+    const archiveSlug = getSectionArchiveSlug(host, section);
     return {
       section,
+      label: prettifySegment(section),
       items: sectionItems,
+      href: archiveSlug ? `/${archiveSlug.join("/")}/` : `/${host}/`,
       docsPrefix: host === "platform.claude.com" && section === "docs" ? ["docs", "en"] : undefined,
     };
   });
@@ -140,7 +172,7 @@ export async function getSupportHighlights(): Promise<DocumentRecord[]> {
     .slice(0, 24);
 }
 
-export async function getRelatedDocuments(record: DocumentRecord): Promise<DocumentRecord[]> {
+export async function getRelatedDocuments(record: Pick<DocumentRecord, "host" | "href" | "section" | "slug">): Promise<DocumentRecord[]> {
   const catalog = await getCatalog();
   const prefixLength = record.host === "platform.claude.com" ? 4 : 2;
   const prefix = record.slug.slice(0, prefixLength).join("/");
@@ -153,6 +185,17 @@ export async function getRelatedDocuments(record: DocumentRecord): Promise<Docum
     .slice(0, 12);
 }
 
+export async function getSectionNavigation(
+  host: string,
+): Promise<Array<{ count: number; href: string; label: string; section: string }>> {
+  return (await getHostSections(host)).map((section) => ({
+    count: section.items.length,
+    href: section.href,
+    label: section.label,
+    section: section.section,
+  }));
+}
+
 export function getSiteMeta(host: string): SiteMeta {
   return SITE_META[host] ?? {
     label: host,
@@ -162,13 +205,17 @@ export function getSiteMeta(host: string): SiteMeta {
   };
 }
 
-export function getBreadcrumbs(record: DocumentRecord): Array<{ href: string; label: string }> {
-  const crumbs = [{ href: "/", label: "Home" }, { href: `/${record.host}/`, label: getSiteMeta(record.host).label }];
+export function getBreadcrumbsFromSlug(slug: string[]): Array<{ href: string; label: string }> {
+  if (slug.length === 0) {
+    return [{ href: "/", label: "Home" }];
+  }
+
+  const crumbs = [{ href: "/", label: "Home" }, { href: `/${slug[0]}/`, label: getSiteMeta(slug[0]).label }];
   let current = "";
-  for (const segment of record.slug.slice(1, -1)) {
+  for (const segment of slug.slice(1, -1)) {
     current = `${current}/${segment}`;
     crumbs.push({
-      href: `/${record.host}${current}/`,
+      href: `/${slug[0]}${current}/`,
       label: prettifySegment(segment),
     });
   }
@@ -179,6 +226,11 @@ export function prettifySegment(value: string): string {
   return value
     .replace(/[-_]/g, " ")
     .replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+async function getArchives(): Promise<ArchiveRecord[]> {
+  archiveCache ??= buildArchives();
+  return archiveCache;
 }
 
 async function buildCatalog(): Promise<DocumentRecord[]> {
@@ -205,6 +257,141 @@ async function buildCatalog(): Promise<DocumentRecord[]> {
       };
     })
     .sort(compareByDateAndTitle);
+}
+
+async function buildArchives(): Promise<ArchiveRecord[]> {
+  const catalog = await getCatalog();
+  const exactRoutes = new Set(catalog.map((item) => item.slug.join("/")));
+  const archiveBuckets = new Map<string, DocumentRecord[]>();
+
+  for (const item of catalog) {
+    for (const prefix of getArchivePrefixes(item.slug)) {
+      const key = prefix.join("/");
+      if (exactRoutes.has(key)) {
+        continue;
+      }
+      const current = archiveBuckets.get(key) ?? [];
+      current.push(item);
+      archiveBuckets.set(key, current);
+    }
+  }
+
+  return Array.from(archiveBuckets.entries())
+    .map(([key, items]) => {
+      const slug = key.split("/");
+      return {
+        slug,
+        host: slug[0] ?? "unknown",
+        href: `/${slug.join("/")}/`,
+        title: getArchiveTitle(slug),
+        description: getArchiveDescription(slug, items),
+        items: items.sort(compareByDateAndTitle),
+        children: buildArchiveChildren(slug, items),
+      };
+    })
+    .sort((left, right) => left.href.localeCompare(right.href));
+}
+
+function buildArchiveChildren(prefix: string[], items: DocumentRecord[]): ArchiveChild[] {
+  const groups = new Map<string, DocumentRecord[]>();
+
+  for (const item of items) {
+    if (item.slug.length <= prefix.length) {
+      continue;
+    }
+
+    const child = item.slug[prefix.length];
+    const current = groups.get(child) ?? [];
+    current.push(item);
+    groups.set(child, current);
+  }
+
+  return Array.from(groups.entries())
+    .map(([segment, descendants]) => ({
+      label: prettifySegment(segment),
+      href: `/${prefix.concat(segment).join("/")}/`,
+      count: descendants.length,
+      description: descendants.find((item) => item.description)?.description ?? "",
+    }))
+    .sort((left, right) => right.count - left.count || left.label.localeCompare(right.label));
+}
+
+function getArchivePrefixes(slug: string[]): string[][] {
+  const host = slug[0];
+  if (!host) {
+    return [];
+  }
+
+  if (host === "platform.claude.com") {
+    const prefixes: string[][] = [];
+    for (let length = 3; length < slug.length; length += 1) {
+      prefixes.push(slug.slice(0, length));
+    }
+    return prefixes;
+  }
+
+  if (host === "support.claude.com") {
+    return slug.length > 3 ? [slug.slice(0, 3)] : [];
+  }
+
+  if (host === "alignment.anthropic.com" || host === "red.anthropic.com") {
+    return [];
+  }
+
+  return slug.length > 2 ? [slug.slice(0, 2)] : [];
+}
+
+function getArchiveTitle(slug: string[]): string {
+  const host = slug[0] ?? "";
+  const meta = getSiteMeta(host);
+
+  if (host === "platform.claude.com") {
+    if (slug.length === 3) {
+      return "Documentation";
+    }
+    return prettifySegment(slug.at(-1) ?? "Docs");
+  }
+
+  if (host === "support.claude.com") {
+    return "Support Articles";
+  }
+
+  return `${meta.label} ${prettifySegment(slug.at(-1) ?? "Section")}`;
+}
+
+function getArchiveDescription(slug: string[], items: DocumentRecord[]): string {
+  const host = slug[0] ?? "";
+  const meta = getSiteMeta(host);
+
+  if (host === "platform.claude.com") {
+    if (slug.length === 3) {
+      return "Browse the mirrored Claude developer documentation by section, with direct links into each docs subtree.";
+    }
+    return `A mirrored index for the ${prettifySegment(slug.at(-1) ?? "docs")} documentation area.`;
+  }
+
+  if (host === "support.claude.com") {
+    return "A mirrored help center archive with direct links into the full support article corpus.";
+  }
+
+  const latest = items[0]?.description;
+  return latest || `${meta.label} archive for ${prettifySegment(slug.at(-1) ?? "this section")}.`;
+}
+
+function getSectionArchiveSlug(host: string, section: string): string[] | null {
+  if (host === "platform.claude.com" && section === "docs") {
+    return [host, "docs", "en"];
+  }
+
+  if (host === "support.claude.com" && section === "articles") {
+    return [host, "en", "articles"];
+  }
+
+  if (host === "alignment.anthropic.com" || host === "red.anthropic.com") {
+    return null;
+  }
+
+  return [host, section];
 }
 
 function deriveSection(slug: string[], metadataSection: string | undefined): string {
@@ -238,6 +425,7 @@ function firstParagraph(document: MirrorDocument): string {
       .replace(/[#>*`[\]()!-]/g, " ")
       .replace(/\s+/g, " ")
       .trim();
+
     if (stripped.length > 40) {
       return stripped.slice(0, 180);
     }

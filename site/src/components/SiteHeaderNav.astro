@@ -1,12 +1,17 @@
 ---
 import { getHosts } from "../lib/catalog";
 
+type Props = {
+  currentHost?: string;
+};
+
+const { currentHost } = Astro.props;
 const hosts = await getHosts();
 ---
 
 <nav class="top-nav">
   {hosts.map(({ count, host, meta }) => (
-    <a class="top-nav-link" href={`/${host}/`}>
+    <a class:list={["top-nav-link", currentHost === host && "is-active"]} href={`/${host}/`}>
       <span>{meta.label}</span>
       <small>{count}</small>
     </a>

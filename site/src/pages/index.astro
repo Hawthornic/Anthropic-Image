@@ -43,7 +43,7 @@ const primarySections = await Promise.all(
             <h2><a href={`/${host}/`}>{hosts.find((item) => item.host === host)?.meta.label ?? host}</a></h2>
           </div>
           {sections.map((section) => (
-            <SectionList title={section.section} items={section.items.slice(0, 6)} />
+            <SectionList title={section.label} href={section.href} items={section.items.slice(0, 6)} />
           ))}
         </section>
       ))}

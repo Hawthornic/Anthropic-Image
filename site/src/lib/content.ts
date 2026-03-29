@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+import type { Dirent } from "node:fs";
 import path from "node:path";
 
 export type MirrorEntry = {
@@ -106,7 +107,7 @@ async function walkMarkdownFiles(root: string): Promise<string[]> {
   const paths: string[] = [];
 
   async function walk(dir: string): Promise<void> {
-    let items: fs.Dirent[];
+    let items: Dirent[];
     try {
       items = await fs.readdir(dir, { withFileTypes: true });
     } catch {

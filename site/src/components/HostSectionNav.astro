@@ -1,0 +1,24 @@
+---
+import { getSectionNavigation } from "../lib/catalog";
+
+type Props = {
+  activeHref: string;
+  host: string;
+};
+
+const { activeHref, host } = Astro.props;
+const sections = await getSectionNavigation(host);
+---
+
+{
+  sections.length > 0 && (
+    <nav class="section-nav" aria-label={`${host} sections`}>
+      {sections.map((section) => (
+        <a class:list={["section-nav-link", activeHref.startsWith(section.href) && "is-active"]} href={section.href}>
+          <span>{section.label}</span>
+          <small>{section.count}</small>
+        </a>
+      ))}
+    </nav>
+  )
+}

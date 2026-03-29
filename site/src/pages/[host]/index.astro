@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import BilingualBlock from "../../components/BilingualBlock.astro";
+import HostSectionNav from "../../components/HostSectionNav.astro";
 import SectionList from "../../components/SectionList.astro";
 import { getHostSections, getHosts, getSiteMeta } from "../../lib/catalog";
 import { readMirrorDocument, resolveDocumentPath } from "../../lib/content";
@@ -26,12 +27,14 @@ async function loadHomeDocument(value: string) {
 }
 ---
 
-<BaseLayout title={meta.label} description={meta.description}>
+<BaseLayout title={meta.label} description={meta.description} currentHost={host}>
   <section class="hero compact-hero">
     <p class="eyebrow">{meta.shortLabel}</p>
     <h1>{meta.label}</h1>
     <p class="hero-copy">{meta.description}</p>
   </section>
+
+  <HostSectionNav host={host} activeHref={`/${host}/`} />
 
   {homeDocument && (
     <section class="section-panel">
@@ -53,7 +56,7 @@ async function loadHomeDocument(value: string) {
 
   <section class="section-grid">
     {sections.map((section) => (
-      <SectionList title={section.section} items={section.items.slice(0, 24)} />
+      <SectionList title={section.label} href={section.href} items={section.items.slice(0, 24)} />
     ))}
   </section>
 </BaseLayout>

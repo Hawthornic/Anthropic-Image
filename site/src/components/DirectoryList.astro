@@ -1,25 +1,24 @@
 ---
-import type { DocumentRecord } from "../lib/catalog";
+import type { ArchiveChild } from "../lib/catalog";
 
 type Props = {
-  href?: string;
-  items: DocumentRecord[];
+  items: ArchiveChild[];
   title: string;
 };
 
-const { href, items, title } = Astro.props;
+const { items, title } = Astro.props;
 ---
 
 <section class="section-panel">
   <div class="section-heading">
-    <h2>{href ? <a href={href}>{title}</a> : title}</h2>
+    <h2>{title}</h2>
     <span>{items.length}</span>
   </div>
   <div class="section-list">
     {items.map((item) => (
       <a class="section-item" href={item.href}>
-        <strong>{item.title}</strong>
-        <span>{item.date ?? item.section}</span>
+        <strong>{item.label}</strong>
+        <span>{item.count} pages</span>
         {item.description && <p>{item.description}</p>}
       </a>
     ))}

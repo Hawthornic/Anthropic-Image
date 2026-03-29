@@ -3,13 +3,14 @@ import "../styles/global.css";
 import SiteHeaderNav from "../components/SiteHeaderNav.astro";
 
 type Props = {
+  currentHost?: string;
   defaultMode?: "bilingual" | "source-only" | "target-only";
   description?: string;
   title: string;
   sourceUrl?: string;
 };
 
-const { defaultMode = "bilingual", description = "Anthropic source mirror", sourceUrl, title } = Astro.props;
+const { currentHost, defaultMode = "bilingual", description = "Anthropic source mirror", sourceUrl, title } = Astro.props;
 const baseUrl = import.meta.env.BASE_URL;
 ---
 
@@ -27,7 +28,7 @@ const baseUrl = import.meta.env.BASE_URL;
         <a class="home-link" href={baseUrl}>Anthropic Mirror</a>
         <p class="site-tagline">A navigable mirror of Anthropic public sites. Translation comes later.</p>
       </div>
-      <SiteHeaderNav />
+      <SiteHeaderNav currentHost={currentHost} />
       {sourceUrl && (
         <a class="source-link" href={sourceUrl} target="_blank" rel="noreferrer">
           Source

@@ -1,0 +1,66 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  crawler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: crawler/package-lock.json
+      - name: Install crawler deps
+        working-directory: crawler
+        run: npm ci
+      - name: Typecheck crawler
+        working-directory: crawler
+        run: npx tsc --noEmit
+
+  translator:
+    runs-on: ubuntu-latest
+    needs: crawler
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: translator/package-lock.json
+      - name: Install translator deps
+        working-directory: translator
+        run: npm ci
+      - name: Typecheck translator
+        working-directory: translator
+        run: npx tsc --noEmit
+      - name: Mock-translate sample page
+        working-directory: translator
+        run: npm run translate -- --source ../crawler/output/red.anthropic.com/2025/ai-for-cyber-defenders.md --mock --langs zh-Hant,ja
+      - name: Validate bilingual alignment
+        working-directory: translator
+        run: npm run validate:alignment -- ../site/content/red.anthropic.com/2025/ai-for-cyber-defenders.md
+      - name: Validate bilingual format
+        working-directory: translator
+        run: npm run validate:format -- ../site/content/red.anthropic.com/2025/ai-for-cyber-defenders.md
+
+  site:
+    runs-on: ubuntu-latest
+    needs: translator
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Install site deps
+        working-directory: site
+        run: npm ci
+      - name: Build site
+        working-directory: site
+        run: npm run build

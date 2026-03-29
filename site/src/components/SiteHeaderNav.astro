@@ -1,0 +1,14 @@
+---
+import { getHosts } from "../lib/catalog";
+
+const hosts = await getHosts();
+---
+
+<nav class="top-nav">
+  {hosts.map(({ count, host, meta }) => (
+    <a class="top-nav-link" href={`/${host}/`}>
+      <span>{meta.label}</span>
+      <small>{count}</small>
+    </a>
+  ))}
+</nav>

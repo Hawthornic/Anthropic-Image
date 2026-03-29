@@ -1,36 +1,69 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { listDocumentPaths, readMirrorDocument, sourcePathToSlug } from "../lib/content";
+import SectionList from "../components/SectionList.astro";
+import { getDocsGroups, getHostSections, getHosts, getSupportHighlights } from "../lib/catalog";
 
-const files = await listDocumentPaths();
-const baseUrl = import.meta.env.BASE_URL;
-const pages = await Promise.all(
-  files.slice(0, 50).map(async (file) => {
-    const document = await readMirrorDocument(file);
-    return {
-      href: `${baseUrl}${sourcePathToSlug(file).join("/")}`,
-      title: document.metadata.title ?? sourcePathToSlug(file).join("/"),
-      section: document.metadata.section ?? "unknown",
-      translated: Object.keys(document.entries[0]?.translations ?? {}).length > 1,
-    };
-  }),
+const hosts = await getHosts();
+const docsGroups = await getDocsGroups();
+const supportHighlights = await getSupportHighlights();
+const primarySections = await Promise.all(
+  hosts.map(async ({ host }) => ({
+    host,
+    sections: (await getHostSections(host)).slice(0, 2),
+  })),
 );
 ---
 
-<BaseLayout title="Anthropic Mirror">
+<BaseLayout title="Anthropic Mirror" description="Public-site mirror of Anthropic, Claude, platform docs, alignment blog, red team blog, and support.">
   <section class="hero">
-    <p class="eyebrow">Mirror</p>
-    <h1>Anthropic mirror prototype</h1>
-    <p class="hero-copy">The site now renders crawler output directly. Translated pages are used when available; otherwise it falls back to the original English markdown.</p>
+    <p class="eyebrow">Source Mirror</p>
+    <h1>Anthropic public sites, reorganized as one mirror.</h1>
+    <p class="hero-copy">
+      This version mirrors source content first. It keeps the current public writing, docs, support articles, and research
+      pages browsable under one static site, with host-aware navigation instead of a flat article dump.
+    </p>
   </section>
 
-  <section class="index-list">
-    {pages.map((page) => (
-      <a class="index-card" href={page.href}>
-        <span class="index-section">{page.section}</span>
-        <strong>{page.title}</strong>
-        <span class="index-status">{page.translated ? "bilingual" : "source only"}</span>
+  <section class="host-grid">
+    {hosts.map(({ count, host, meta }) => (
+      <a class="host-card" href={`/${host}/`}>
+        <span class="index-section">{meta.shortLabel}</span>
+        <strong>{meta.label}</strong>
+        <p>{meta.description}</p>
+        <span class="index-status">{count} pages</span>
       </a>
     ))}
+  </section>
+
+  <section class="home-grid">
+    <div class="home-stack">
+      {primarySections.map(({ host, sections }) => (
+        <section class="home-host-panel">
+          <div class="section-heading">
+            <h2><a href={`/${host}/`}>{hosts.find((item) => item.host === host)?.meta.label ?? host}</a></h2>
+          </div>
+          {sections.map((section) => (
+            <SectionList title={section.section} items={section.items.slice(0, 6)} />
+          ))}
+        </section>
+      ))}
+    </div>
+    <aside class="home-rail">
+      <section class="section-panel">
+        <div class="section-heading">
+          <h2>Docs Areas</h2>
+          <span>{docsGroups.length}</span>
+        </div>
+        <div class="section-list compact">
+          {docsGroups.map((group) => (
+            <a class="section-item" href={`/${group.slug}/`}>
+              <strong>{group.label}</strong>
+              <span>{group.items.length} pages</span>
+            </a>
+          ))}
+        </div>
+      </section>
+      <SectionList title="Support Highlights" items={supportHighlights.slice(0, 12)} />
+    </aside>
   </section>
 </BaseLayout>

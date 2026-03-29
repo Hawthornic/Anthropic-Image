@@ -1,16 +1,28 @@
 ---
 import BilingualBlock from "../components/BilingualBlock.astro";
+import Breadcrumbs from "../components/Breadcrumbs.astro";
+import DocsSidebar from "../components/DocsSidebar.astro";
 import LanguageToggle from "../components/LanguageToggle.astro";
+import SectionList from "../components/SectionList.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import {
+  getBreadcrumbs,
+  getDocsGroups,
+  getRelatedDocuments,
+  getSiteMeta,
+  prettifySegment,
+} from "../lib/catalog";
 import { listDocumentPaths, readMirrorDocument, resolveDocumentPath, sourcePathToSlug } from "../lib/content";
 
 export async function getStaticPaths() {
   const files = await listDocumentPaths();
-  return files.map((file) => ({
+  return files
+    .filter((file) => sourcePathToSlug(file).length > 1)
+    .map((file) => ({
     params: {
       slug: sourcePathToSlug(file).join("/"),
     },
-  }));
+    }));
 }
 
 const slug = Astro.params.slug?.split("/").filter(Boolean) ?? [];
@@ -19,29 +31,64 @@ const document = await readMirrorDocument(sourcePath);
 const title = document.metadata.title ?? slug.join("/");
 const availableTranslations = new Set(document.entries.flatMap((entry) => Object.keys(entry.translations)));
 const isBilingual = availableTranslations.size > 1;
+const record = {
+  href: `/${slug.join("/")}/`,
+  title,
+  host: slug[0] ?? "",
+  slug,
+  section:
+    slug[0] === "platform.claude.com"
+      ? "docs"
+      : slug[0] === "support.claude.com"
+        ? "articles"
+        : slug[0] === "alignment.anthropic.com" || slug[0] === "red.anthropic.com"
+          ? "blog"
+          : slug[1] ?? document.metadata.section ?? "home",
+  date: document.metadata.date ?? null,
+  description: "",
+  document,
+  hasTranslations: isBilingual,
+} as const;
+const siteMeta = getSiteMeta(record.host);
+const breadcrumbs = getBreadcrumbs(record);
+const related = await getRelatedDocuments(record);
+const docsGroups = record.host === "platform.claude.com" ? await getDocsGroups() : [];
 ---
 
-<BaseLayout title={title} sourceUrl={document.metadata.source_url} defaultMode={isBilingual ? "bilingual" : "source-only"}>
+<BaseLayout
+  title={title}
+  description={`${siteMeta.label}: ${title}`}
+  sourceUrl={document.metadata.source_url}
+  defaultMode={isBilingual ? "bilingual" : "source-only"}
+>
   <section class="article-header">
-    <p class="eyebrow">{document.metadata.section ?? "content"}</p>
+    <Breadcrumbs items={breadcrumbs} />
+    <p class="eyebrow">{prettifySegment(record.section)}</p>
     <h1>{title}</h1>
     <p class="meta-line">
       <span>{document.metadata.date ?? "undated"}</span>
-      <span>{slug.join("/")}</span>
+      <span>{siteMeta.shortLabel}</span>
       <span>{isBilingual ? "bilingual" : "source only"}</span>
     </p>
   </section>
 
   {isBilingual ? <LanguageToggle /> : <p class="status-note">Translation pending. This page is currently rendered from the original crawler markdown.</p>}
 
-  <section class="article-body">
-    {document.entries.map((entry) => (
-      <BilingualBlock
-        paraId={entry.id}
-        en={entry.translations.en}
-        zhHant={entry.translations["zh-Hant"]}
-        ja={entry.translations.ja}
-      />
-    ))}
-  </section>
+  <div class="content-frame">
+    {record.host === "platform.claude.com" ? <DocsSidebar groups={docsGroups} activeHref={record.href} /> : null}
+    <section class="article-column">
+      <section class="article-body">
+        {document.entries.map((entry) => (
+          <BilingualBlock
+            paraId={entry.id}
+            en={entry.translations.en}
+            zhHant={entry.translations["zh-Hant"]}
+            ja={entry.translations.ja}
+          />
+        ))}
+      </section>
+
+      {related.length > 0 && <SectionList title="More in this section" items={related.slice(0, 8)} />}
+    </section>
+  </div>
 </BaseLayout>

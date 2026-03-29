@@ -1,0 +1,59 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BilingualBlock from "../../components/BilingualBlock.astro";
+import SectionList from "../../components/SectionList.astro";
+import { getHostSections, getHosts, getSiteMeta } from "../../lib/catalog";
+import { readMirrorDocument, resolveDocumentPath } from "../../lib/content";
+
+export async function getStaticPaths() {
+  const hosts = await getHosts();
+  return hosts.map(({ host }) => ({
+    params: { host },
+  }));
+}
+
+const host = Astro.params.host ?? "";
+const meta = getSiteMeta(host);
+const sections = await getHostSections(host);
+const homeDocument = await loadHomeDocument(host);
+
+async function loadHomeDocument(value: string) {
+  try {
+    return await readMirrorDocument(await resolveDocumentPath([value]));
+  } catch {
+    return null;
+  }
+}
+---
+
+<BaseLayout title={meta.label} description={meta.description}>
+  <section class="hero compact-hero">
+    <p class="eyebrow">{meta.shortLabel}</p>
+    <h1>{meta.label}</h1>
+    <p class="hero-copy">{meta.description}</p>
+  </section>
+
+  {homeDocument && (
+    <section class="section-panel">
+      <div class="section-heading">
+        <h2>Home Page</h2>
+      </div>
+      <div class="article-body">
+        {homeDocument.entries.slice(0, 6).map((entry) => (
+          <BilingualBlock
+            paraId={entry.id}
+            en={entry.translations.en}
+            zhHant={entry.translations["zh-Hant"]}
+            ja={entry.translations.ja}
+          />
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="section-grid">
+    {sections.map((section) => (
+      <SectionList title={section.section} items={section.items.slice(0, 24)} />
+    ))}
+  </section>
+</BaseLayout>

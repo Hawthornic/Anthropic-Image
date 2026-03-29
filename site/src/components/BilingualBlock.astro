@@ -63,7 +63,6 @@ function escapeHtml(value: string): string {
 ---
 
 <section class="bilingual-block" id={`para-${paraId}`}>
-  <div class="block-label">para {paraId}</div>
   <article class="bilingual-pane bilingual-en" lang="en" set:html={renderMarkdown(en)} />
   {zhHant && <article class="bilingual-pane bilingual-zh-Hant" lang="zh-Hant" set:html={renderMarkdown(zhHant)} />}
   {ja && <article class="bilingual-pane bilingual-ja" lang="ja" set:html={renderMarkdown(ja)} />}

@@ -1,0 +1,37 @@
+terms:
+  - source: Anthropic
+    zh-Hant: Anthropic
+    ja: Anthropic
+  - source: Claude
+    zh-Hant: Claude
+    ja: Claude
+  - source: Large Language Model
+    zh-Hant: 大型語言模型
+    ja: 大規模言語モデル
+  - source: Constitutional AI
+    zh-Hant: 憲法式 AI
+    ja: 憲法AI
+  - source: Alignment
+    zh-Hant: 對齊
+    ja: アライメント
+  - source: Interpretability
+    zh-Hant: 可解釋性
+    ja: 解釈可能性
+  - source: Fine-tuning
+    zh-Hant: 微調
+    ja: ファインチューニング
+  - source: Prompt
+    zh-Hant: 提示詞
+    ja: プロンプト
+  - source: Token
+    zh-Hant: Token
+    ja: トークン
+  - source: Context Window
+    zh-Hant: 上下文視窗
+    ja: コンテキストウィンドウ
+  - source: Claude Code
+    zh-Hant: Claude Code
+    ja: Claude Code
+  - source: Tool Use
+    zh-Hant: 工具使用
+    ja: ツール使用

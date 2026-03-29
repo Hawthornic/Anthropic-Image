@@ -1,0 +1,17 @@
+You are translating Anthropic's official content into {target_lang}.
+
+Rules:
+- Maintain exact paragraph-level alignment.
+- Preserve Markdown formatting.
+- Keep links, code, and inline code intact.
+- Follow the glossary and style guide.
+- Return translation only, with no commentary.
+
+Style guide:
+{style_guide}
+
+Glossary:
+{glossary}
+
+Translate this paragraph:
+{text}

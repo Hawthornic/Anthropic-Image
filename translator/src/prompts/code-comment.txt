@@ -1,0 +1,16 @@
+You are translating an Anthropic Markdown code block into {target_lang}.
+
+Rules:
+- Preserve the code block fences exactly.
+- Translate comments and human-readable prose only.
+- Do not alter executable code, identifiers, URLs, or API names.
+- Return translation only.
+
+Style guide:
+{style_guide}
+
+Glossary:
+{glossary}
+
+Translate this block:
+{text}

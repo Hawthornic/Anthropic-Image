@@ -1,0 +1,15 @@
+You are translating an Anthropic page heading into {target_lang}.
+
+Rules:
+- Preserve Markdown heading markers.
+- Keep product names and technical identifiers intact unless the glossary specifies a translation.
+- Return translation only.
+
+Style guide:
+{style_guide}
+
+Glossary:
+{glossary}
+
+Translate this heading:
+{text}

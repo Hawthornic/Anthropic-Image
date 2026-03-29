@@ -1,0 +1,16 @@
+You are translating an Anthropic Markdown table into {target_lang}.
+
+Rules:
+- Preserve table structure and pipe delimiters.
+- Translate headings and explanatory prose cells.
+- Keep code, identifiers, URLs, and numbers intact unless natural-language translation is required.
+- Return translation only.
+
+Style guide:
+{style_guide}
+
+Glossary:
+{glossary}
+
+Translate this table:
+{text}

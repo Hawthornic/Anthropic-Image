@@ -17,6 +17,8 @@ import {
   getSiteMeta,
   getSupportTopicGroups,
   prettifySegment,
+  type ArchiveRecord,
+  type DocumentRecord,
 } from "../lib/catalog";
 import { listDocumentPaths, readMirrorDocument, resolveDocumentPath, sourcePathToSlug } from "../lib/content";
 
@@ -91,6 +93,37 @@ const record =
     : null;
 
 const related = record ? await getRelatedDocuments(record) : [];
+const archiveYearGroups = archive && archive.host === "www.anthropic.com" && archive.slug.length === 2 ? groupDocumentsByYear(archive.items) : [];
+const resourceCollections = archive && archive.host === "claude.com" && archive.slug[1] === "resources" ? buildArchiveCollections(archive) : [];
+
+function groupDocumentsByYear(items: DocumentRecord[]) {
+  const groups = new Map<string, DocumentRecord[]>();
+
+  for (const item of items) {
+    const year = item.date?.slice(0, 4) ?? "Undated";
+    const current = groups.get(year) ?? [];
+    current.push(item);
+    groups.set(year, current);
+  }
+
+  return Array.from(groups.entries())
+    .sort((left, right) => right[0].localeCompare(left[0]))
+    .map(([year, yearItems]) => ({
+      label: year,
+      items: yearItems.sort((left, right) => (right.date ?? "").localeCompare(left.date ?? "") || left.title.localeCompare(right.title)),
+    }));
+}
+
+function buildArchiveCollections(currentArchive: ArchiveRecord) {
+  return currentArchive.children
+    .map((child) => ({
+      ...child,
+      items: currentArchive.items
+        .filter((item) => item.slug[currentArchive.slug.length] === child.href.split("/").filter(Boolean).at(-1))
+        .slice(0, 10),
+    }))
+    .filter((child) => child.items.length > 0);
+}
 ---
 
 <BaseLayout
@@ -120,11 +153,31 @@ const related = record ? await getRelatedDocuments(record) : [];
         {archive.host === "platform.claude.com" ? <DocsSidebar groups={docsNavigation} activeHref={archive.href} /> : null}
         {archive.host === "support.claude.com" ? <SupportSidebar groups={supportTopics} activeHref={archive.href} /> : null}
         <section class="article-column">
-          {archive.children.length > 0 && <DirectoryList title="Subsections" items={archive.children} />}
-          {archive.host === "support.claude.com" ? (
+          {archive.host === "claude.com" && archive.slug[1] === "resources" ? (
+            <>
+              {archive.children.length > 0 && <DirectoryList title="Collections" items={archive.children} />}
+              <section class="section-grid">
+                {resourceCollections.map((collection) => (
+                  <SectionList title={collection.label} href={collection.href} items={collection.items.slice(0, 8)} />
+                ))}
+              </section>
+            </>
+          ) : archive.host === "www.anthropic.com" && archive.slug.length === 2 ? (
+            <>
+              <SectionList title="Recent" items={archive.items.slice(0, 12)} />
+              <section class="section-grid">
+                {archiveYearGroups.slice(0, 4).map((group) => (
+                  <SectionList title={group.label} items={group.items.slice(0, 8)} />
+                ))}
+              </section>
+            </>
+          ) : archive.host === "support.claude.com" ? (
             supportTopics.map((group) => <SectionList title={group.label} items={group.items.slice(0, 10)} />)
           ) : (
-            <SectionList title={`Latest in ${prettifySegment(slug.at(-1) ?? archive.host)}`} items={archive.items.slice(0, 18)} />
+            <>
+              {archive.children.length > 0 && <DirectoryList title="Subsections" items={archive.children} />}
+              <SectionList title={`Latest in ${prettifySegment(slug.at(-1) ?? archive.host)}`} items={archive.items.slice(0, 18)} />
+            </>
           )}
         </section>
       </div>

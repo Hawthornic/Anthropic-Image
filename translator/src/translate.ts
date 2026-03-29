@@ -20,58 +20,32 @@ type GlossaryTerm = {
 type TranslateOptions = {
   force: boolean;
   langs: string[];
+  limit?: number;
+  manifest?: string;
   mock: boolean;
   model: string;
-  source: string;
+  source?: string;
 };
 
 async function main(): Promise<void> {
   const options = parseArgs(process.argv.slice(2));
-  const sourcePath = path.resolve(process.cwd(), options.source);
-  const sourceDocument = await readSourceDocument(sourcePath);
   const glossary = await readGlossary();
   const styleGuide = await fs.readFile(path.resolve(process.cwd(), "src", "style-guide.md"), "utf8");
-  const outputPath = mapCrawlerOutputToContentPath(sourcePath);
-
   const client = options.mock ? null : createAnthropicClient();
+  const sources = await resolveSourcePaths(options);
 
-  const blocks: BilingualBlock[] = [];
-  for (const block of sourceDocument.blocks) {
-    const translations: Record<string, string> = {};
-
-    for (const lang of options.langs) {
-      translations[lang] = options.mock
-        ? block.markdown
-        : await translateBlock({
-            client,
-            glossary,
-            lang,
-            model: options.model,
-            styleGuide,
-            text: block.markdown,
-            type: inferBlockKind(block.markdown),
-          });
-    }
-
-    blocks.push({
-      id: block.id,
-      kind: block.kind,
-      source: block.markdown,
-      translations,
+  for (const sourcePath of sources) {
+    await translateSourceFile({
+      client,
+      force: options.force,
+      glossary,
+      langs: options.langs,
+      model: options.model,
+      mock: options.mock,
+      sourcePath,
+      styleGuide,
     });
   }
-
-  const markdown = assembleBilingualMarkdown({
-    metadata: sourceDocument.metadata,
-    blocks,
-    targetLangs: options.langs,
-  });
-
-  await fs.mkdir(path.dirname(outputPath), { recursive: true });
-  await fs.writeFile(outputPath, markdown, "utf8");
-  await updateSyncState(sourcePath, outputPath, options.langs, blocks);
-
-  console.log(`Translated ${sourceDocument.blocks.length} blocks -> ${path.relative(path.resolve(process.cwd(), ".."), outputPath)}`);
 }
 
 main().catch((error) => {
@@ -167,7 +141,6 @@ function parseArgs(args: string[]): TranslateOptions {
     langs: ["zh-Hant", "ja"],
     mock: false,
     model: "claude-sonnet-4-5",
-    source: "",
   };
 
   for (let index = 0; index < args.length; index += 1) {
@@ -175,6 +148,18 @@ function parseArgs(args: string[]): TranslateOptions {
 
     if (arg === "--source") {
       options.source = args[index + 1] ?? "";
+      index += 1;
+      continue;
+    }
+
+    if (arg === "--manifest") {
+      options.manifest = args[index + 1] ?? "";
+      index += 1;
+      continue;
+    }
+
+    if (arg === "--limit") {
+      options.limit = Number.parseInt(args[index + 1] ?? "", 10);
       index += 1;
       continue;
     }
@@ -216,8 +201,8 @@ function parseArgs(args: string[]): TranslateOptions {
     throw new Error(`Unexpected positional argument: ${arg}`);
   }
 
-  if (!options.source) {
-    throw new Error("Missing required --source argument");
+  if (!options.source && !options.manifest) {
+    throw new Error("Missing required --source or --manifest argument");
   }
 
   if (options.langs.length === 0) {
@@ -225,6 +210,78 @@ function parseArgs(args: string[]): TranslateOptions {
   }
 
   return options;
+}
+
+async function resolveSourcePaths(options: TranslateOptions): Promise<string[]> {
+  if (options.source) {
+    return [path.resolve(process.cwd(), options.source)];
+  }
+
+  if (!options.manifest) {
+    throw new Error("No source input provided");
+  }
+
+  const manifestPath = path.resolve(process.cwd(), options.manifest);
+  const manifestFile = await fs.readFile(manifestPath, "utf8");
+  const manifest = JSON.parse(manifestFile) as {
+    items?: Array<{ output_path: string }>;
+  };
+
+  const items = manifest.items ?? [];
+  const selected = typeof options.limit === "number" ? items.slice(0, options.limit) : items;
+  return selected.map((item) => path.resolve(item.output_path));
+}
+
+async function translateSourceFile(payload: {
+  client: Anthropic | null;
+  force: boolean;
+  glossary: GlossaryTerm[];
+  langs: string[];
+  model: string;
+  mock: boolean;
+  sourcePath: string;
+  styleGuide: string;
+}): Promise<void> {
+  const sourceDocument = await readSourceDocument(payload.sourcePath);
+  const outputPath = mapCrawlerOutputToContentPath(payload.sourcePath);
+  const blocks: BilingualBlock[] = [];
+
+  for (const block of sourceDocument.blocks) {
+    const translations: Record<string, string> = {};
+
+    for (const lang of payload.langs) {
+      translations[lang] = payload.mock
+        ? block.markdown
+        : await translateBlock({
+            client: payload.client,
+            glossary: payload.glossary,
+            lang,
+            model: payload.model,
+            styleGuide: payload.styleGuide,
+            text: block.markdown,
+            type: inferBlockKind(block.markdown),
+          });
+    }
+
+    blocks.push({
+      id: block.id,
+      kind: block.kind,
+      source: block.markdown,
+      translations,
+    });
+  }
+
+  const markdown = assembleBilingualMarkdown({
+    metadata: sourceDocument.metadata,
+    blocks,
+    targetLangs: payload.langs,
+  });
+
+  await fs.mkdir(path.dirname(outputPath), { recursive: true });
+  await fs.writeFile(outputPath, markdown, "utf8");
+  await updateSyncState(payload.sourcePath, outputPath, payload.langs, blocks);
+
+  console.log(`Translated ${sourceDocument.blocks.length} blocks -> ${path.relative(path.resolve(process.cwd(), ".."), outputPath)}`);
 }
 
 async function updateSyncState(

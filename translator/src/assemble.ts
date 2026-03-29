@@ -85,7 +85,8 @@ export function assembleBilingualMarkdown(payload: {
 export function mapCrawlerOutputToContentPath(sourcePath: string): string {
   const sourceRoot = path.resolve(process.cwd(), "..", "crawler", "output");
   const relativePath = path.relative(sourceRoot, sourcePath);
-  return path.resolve(process.cwd(), "..", "site", "content", relativePath);
+  const normalizedPath = relativePath.replace(/index\.html\.md$/, "index.md");
+  return path.resolve(process.cwd(), "..", "site", "content", normalizedPath);
 }
 
 export function inferBlockKind(markdown: string): SourceBlock["kind"] {

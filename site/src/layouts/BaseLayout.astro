@@ -1,0 +1,53 @@
+---
+import "../styles/global.css";
+
+type Props = {
+  title: string;
+  sourceUrl?: string;
+};
+
+const { sourceUrl, title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+  </head>
+  <body data-lang="zh-Hant" data-mode="bilingual">
+    <header class="site-header">
+      <div>
+        <a class="home-link" href="/">Anthropic Mirror</a>
+        <p class="site-tagline">English source with paragraph-aligned translations.</p>
+      </div>
+      {sourceUrl && (
+        <a class="source-link" href={sourceUrl} target="_blank" rel="noreferrer">
+          Source
+        </a>
+      )}
+    </header>
+    <main class="page-shell">
+      <slot />
+    </main>
+    <script is:inline>
+      const body = document.body;
+      const apply = (mode, lang) => {
+        body.dataset.mode = mode;
+        body.dataset.lang = lang;
+        localStorage.setItem("mirror-mode", mode);
+        localStorage.setItem("mirror-lang", lang);
+      };
+      apply(localStorage.getItem("mirror-mode") || "bilingual", localStorage.getItem("mirror-lang") || "zh-Hant");
+      document.addEventListener("click", (event) => {
+        const target = event.target;
+        if (!(target instanceof HTMLElement)) return;
+        const mode = target.dataset.setMode;
+        const lang = target.dataset.setLang;
+        if (mode) apply(mode, body.dataset.lang || "zh-Hant");
+        if (lang) apply(body.dataset.mode || "bilingual", lang);
+      });
+    </script>
+  </body>
+</html>

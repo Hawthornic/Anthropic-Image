@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { listContentPaths, pathToSlug, readBilingualDocument } from "../lib/bilingual";
+
+const files = await listContentPaths();
+const pages = await Promise.all(
+  files.slice(0, 50).map(async (file) => {
+    const document = await readBilingualDocument(file);
+    return {
+      href: `/${pathToSlug(file).join("/")}`,
+      title: document.metadata.title ?? pathToSlug(file).join("/"),
+      section: document.metadata.section ?? "unknown",
+    };
+  }),
+);
+---
+
+<BaseLayout title="Anthropic Mirror">
+  <section class="hero">
+    <p class="eyebrow">Mirror</p>
+    <h1>Anthropic bilingual content prototype</h1>
+    <p class="hero-copy">Crawler output is assembled into paragraph-aligned bilingual markdown and rendered directly from local content files.</p>
+  </section>
+
+  <section class="index-list">
+    {pages.map((page) => (
+      <a class="index-card" href={page.href}>
+        <span class="index-section">{page.section}</span>
+        <strong>{page.title}</strong>
+      </a>
+    ))}
+  </section>
+</BaseLayout>

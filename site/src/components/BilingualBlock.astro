@@ -1,0 +1,19 @@
+---
+import { marked } from "marked";
+
+type Props = {
+  en?: string;
+  ja?: string;
+  paraId: string;
+  zhHant?: string;
+};
+
+const { en = "", ja = "", paraId, zhHant = "" } = Astro.props;
+---
+
+<section class="bilingual-block" id={`para-${paraId}`}>
+  <div class="block-label">para {paraId}</div>
+  <article class="bilingual-pane bilingual-en" lang="en" set:html={marked.parse(en)} />
+  <article class="bilingual-pane bilingual-zh-Hant" lang="zh-Hant" set:html={marked.parse(zhHant)} />
+  <article class="bilingual-pane bilingual-ja" lang="ja" set:html={marked.parse(ja)} />
+</section>

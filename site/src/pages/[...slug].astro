@@ -1,0 +1,59 @@
+---
+import fs from "node:fs/promises";
+
+import BilingualBlock from "../components/BilingualBlock.astro";
+import LanguageToggle from "../components/LanguageToggle.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { listContentPaths, pathToSlug, readBilingualDocument, slugToCandidatePaths } from "../lib/bilingual";
+
+export async function getStaticPaths() {
+  const files = await listContentPaths();
+  return files.map((file) => ({
+    params: {
+      slug: pathToSlug(file).join("/"),
+    },
+  }));
+}
+
+const slug = Astro.params.slug?.split("/").filter(Boolean) ?? [];
+const sourcePath = await resolveSourcePath(slug);
+const document = await readBilingualDocument(sourcePath);
+const title = document.metadata.title ?? slug.join("/");
+
+async function resolveSourcePath(slugParts: string[]): Promise<string> {
+  for (const candidate of slugToCandidatePaths(slugParts)) {
+    try {
+      await fs.access(candidate);
+      return candidate;
+    } catch {
+      continue;
+    }
+  }
+
+  throw new Error(`No content file found for slug ${slugParts.join("/")}`);
+}
+---
+
+<BaseLayout title={title} sourceUrl={document.metadata.source_url}>
+  <section class="article-header">
+    <p class="eyebrow">{document.metadata.section ?? "content"}</p>
+    <h1>{title}</h1>
+    <p class="meta-line">
+      <span>{document.metadata.date ?? "undated"}</span>
+      <span>{slug.join("/")}</span>
+    </p>
+  </section>
+
+  <LanguageToggle />
+
+  <section class="article-body">
+    {document.entries.map((entry) => (
+      <BilingualBlock
+        paraId={entry.id}
+        en={entry.translations.en}
+        zhHant={entry.translations["zh-Hant"]}
+        ja={entry.translations.ja}
+      />
+    ))}
+  </section>
+</BaseLayout>

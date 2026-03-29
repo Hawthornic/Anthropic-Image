@@ -356,6 +356,20 @@ body[data-mode="source-only"] .bilingual-ja {
   font-size: 0.98rem;
 }
 
+.collection-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.collection-card {
+  min-height: 172px;
+}
+
+.product-landing-panel {
+  background:
+    radial-gradient(circle at top left, rgba(210, 233, 255, 0.55), transparent 38%),
+    rgba(255, 250, 241, 0.88);
+}
+
 .sidebar-group + .sidebar-group {
   margin-top: 18px;
 }

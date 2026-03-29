@@ -22,6 +22,10 @@ const homeDocument = await loadHomeDocument(host);
 const docsGroups = host === "platform.claude.com" ? await getDocsGroups() : [];
 const docsNavigation = host === "platform.claude.com" ? await getDocsNavigation([host, "docs", "en"]) : [];
 const supportTopics = host === "support.claude.com" ? await getSupportTopicGroups() : [];
+const sectionMap = new Map(sections.map((section) => [section.section, section]));
+const claudeFeatureSections = ["product", "solutions", "customers", "connectors", "plugins", "resources", "blog"]
+  .map((section) => sectionMap.get(section))
+  .filter(Boolean);
 
 async function loadHomeDocument(value: string) {
   try {
@@ -90,6 +94,48 @@ async function loadHomeDocument(value: string) {
         </section>
       </section>
     </div>
+  ) : host === "claude.com" ? (
+    <>
+      <section class="section-panel product-landing-panel">
+        <div class="section-heading">
+          <h2>Explore Claude</h2>
+          <span>{claudeFeatureSections.length} sections</span>
+        </div>
+        <div class="section-list compact collection-grid">
+          {claudeFeatureSections.map((section) => (
+            <a class="section-item collection-card" href={section?.href}>
+              <strong>{section?.label}</strong>
+              <span>{section?.items.length} pages</span>
+              <p>{section?.items[0]?.description ?? `Browse the mirrored ${section?.label.toLowerCase()} pages.`}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      {homeDocument ? (
+        <section class="section-panel">
+          <div class="section-heading">
+            <h2>Home Page</h2>
+          </div>
+          <div class="article-body">
+            {homeDocument.entries.slice(0, 4).map((entry) => (
+              <BilingualBlock
+                paraId={entry.id}
+                en={entry.translations.en}
+                zhHant={entry.translations["zh-Hant"]}
+                ja={entry.translations.ja}
+              />
+            ))}
+          </div>
+        </section>
+      ) : null}
+
+      <section class="section-grid">
+        {["product", "customers", "connectors", "blog"].map((section) => sectionMap.get(section)).filter(Boolean).map((section) => (
+          <SectionList title={section?.label ?? ""} href={section?.href} items={section?.items.slice(0, 12) ?? []} />
+        ))}
+      </section>
+    </>
   ) : homeDocument ? (
     <section class="section-panel">
       <div class="section-heading">
@@ -108,7 +154,7 @@ async function loadHomeDocument(value: string) {
     </section>
   ) : null}
 
-  {host !== "platform.claude.com" && host !== "support.claude.com" ? (
+  {host !== "platform.claude.com" && host !== "support.claude.com" && host !== "claude.com" ? (
     <section class="section-grid">
       {sections.map((section) => (
         <SectionList title={section.label} href={section.href} items={section.items.slice(0, 24)} />

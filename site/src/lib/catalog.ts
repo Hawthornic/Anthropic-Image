@@ -60,7 +60,7 @@ const SITE_META: Record<string, SiteMeta> = {
     label: "Claude",
     shortLabel: "claude.com",
     description: "Product site, blog, and product collections.",
-    sectionOrder: ["home", "blog", "blog-category", "product", "solutions", "customers", "connectors", "resources"],
+    sectionOrder: ["home", "product", "solutions", "customers", "connectors", "plugins", "resources", "blog", "blog-category"],
   },
   "platform.claude.com": {
     label: "Claude API Docs",

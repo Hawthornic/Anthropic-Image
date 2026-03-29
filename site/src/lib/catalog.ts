@@ -335,7 +335,7 @@ function getArchivePrefixes(slug: string[]): string[][] {
   }
 
   if (host === "alignment.anthropic.com" || host === "red.anthropic.com") {
-    return [];
+    return slug.length > 2 ? [slug.slice(0, 2)] : [];
   }
 
   return slug.length > 2 ? [slug.slice(0, 2)] : [];

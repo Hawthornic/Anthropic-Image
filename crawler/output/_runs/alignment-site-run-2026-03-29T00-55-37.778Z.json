@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-03-29T00:55:37.778Z",
+  "crawler": "alignment-site",
+  "site": "alignment.anthropic.com",
+  "section": "blog",
+  "concurrency": 3,
+  "failureCount": 0,
+  "failures": [],
+  "retries": 2,
+  "savedPaths": [
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2024/how-to-alignment-faking/index.html.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2024/anthropic-fellows-program/index.html.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2024/safety-cases/index.html.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2024/rogue-eval/index.html.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/activation-oracles.md"
+  ],
+  "successCount": 5,
+  "urlsDiscovered": 5
+}

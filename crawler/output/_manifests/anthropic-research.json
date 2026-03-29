@@ -1,0 +1,21 @@
+{
+  "updated_at": "2026-03-28T06:24:30.906Z",
+  "site": "www.anthropic.com",
+  "section": "research",
+  "items": [
+    {
+      "block_count": 2,
+      "date": "2021-12-01",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment.md",
+      "source_url": "https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment",
+      "title": "A General Language Assistant as a Laboratory for Alignment"
+    },
+    {
+      "block_count": 0,
+      "date": "2021-12-22",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits.md",
+      "source_url": "https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits",
+      "title": "A Mathematical Framework for Transformer Circuits"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-03-29T00:56:02.979Z",
+  "crawler": "red-site",
+  "site": "red.anthropic.com",
+  "section": "blog",
+  "concurrency": 3,
+  "failureCount": 0,
+  "failures": [],
+  "retries": 2,
+  "savedPaths": [
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/claude-4-cyber.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/biorisk.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/ai-for-cyber-defenders.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/cyber-toolkits/index.html.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/nuclear-safeguards.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/project-fetch.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/project-vend-2.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/cyber-competitions.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/smart-contracts.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2026/critical-infrastructure-defense.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2026/exploit.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/project-vend/index.html.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2026/firefox.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2026/cyber-toolkits-update.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2026/property-based-testing.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2026/zero-days.md"
+  ],
+  "successCount": 16,
+  "urlsDiscovered": 16
+}

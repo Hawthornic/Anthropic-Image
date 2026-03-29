@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-03-28T05:21:56.277Z",
+  "crawler": "anthropic-research",
+  "urlsDiscovered": 2,
+  "successCount": 2,
+  "failureCount": 0,
+  "concurrency": 2,
+  "retries": 1,
+  "failures": [],
+  "savedPaths": [
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment.md"
+  ]
+}

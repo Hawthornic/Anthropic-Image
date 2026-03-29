@@ -1,0 +1,99 @@
+---
+source_url: https://www.anthropic.com/news/detecting-countering-misuse-aug-2025
+title: "Detecting and countering misuse of AI: August 2025"
+section: news
+date: 2025-08-27
+---
+
+<!-- para:0001 -->
+We’ve [developed](https://www.anthropic.com/news/building-safeguards-for-claude) sophisticated safety and security measures to prevent the misuse of our AI models. But cybercriminals and other malicious actors are actively attempting to find ways around them. Today, we’re releasing a report that details how.
+
+<!-- para:0002 -->
+Our [Threat Intelligence report](https://www-cdn.anthropic.com/b2a76c6f6992465c09a6f2fce282f6c0cea8c200.pdf) discusses several recent examples of Claude being misused, including a large-scale extortion operation using Claude Code, a fraudulent employment scheme from North Korea, and the sale of AI-generated ransomware by a cybercriminal with only basic coding skills. We also cover the steps we’ve taken to detect and counter these abuses.
+
+<!-- para:0003 -->
+We find that threat actors have adapted their operations to exploit AI’s most advanced capabilities. Specifically, our report shows:
+
+<!-- para:0004 -->
+- **Agentic AI has been weaponized.**AI models are now being used to *perform* sophisticated cyberattacks, not just advise on how to carry them out.
+- **AI has lowered the barriers to sophisticated cybercrime.**Criminals with few technical skills are using AI to conduct complex operations, such as developing ransomware, that would previously have required years of training.
+- **Cybercriminals and fraudsters have embedded AI throughout all stages of their operations**. This includes profiling victims, analyzing stolen data, stealing credit card information, and creating false identities allowing fraud operations to expand their reach to more potential targets.
+
+<!-- para:0005 -->
+Below, we summarize three case studies from our full report.
+
+<!-- para:0006 -->
+## **‘Vibe hacking’: how cybercriminals used Claude Code to scale a data extortion operation**
+
+<!-- para:0007 -->
+**The threat:**We recently disrupted a sophisticated cybercriminal that used Claude Code to commit large-scale theft and extortion of personal data. The actor targeted at least 17 distinct organizations, including in healthcare, the emergency services, and government and religious institutions. Rather than encrypt the stolen information with traditional ransomware, the actor threatened to expose the data publicly in order to attempt to extort victims into paying ransoms that sometimes exceeded $500,000.**
+
+<!-- para:0008 -->
+The actor used AI to what we believe is an unprecedented degree. Claude Code was used to automate reconnaissance, harvesting victims’ credentials, and penetrating networks. Claude was allowed to make both tactical and strategic decisions, such as deciding which data to exfiltrate, and how to craft psychologically targeted extortion demands. Claude analyzed the exfiltrated financial data to determine appropriate ransom amounts, and generated visually alarming ransom notes that were displayed on victim machines.
+
+<!-- para:0009 -->
+*Above: simulated ransom guidance created by our threat intelligence team for research and demonstration purposes.*
+
+<!-- para:0010 -->
+*Above: A simulated custom ransom note. This is an illustrative example, created by our threat intelligence team for research and demonstration purposes after our analysis of extracted files from the real operation.*
+
+<!-- para:0011 -->
+**Implications:**This represents an evolution in AI-assisted cybercrime. Agentic AI tools are now being used to provide both technical advice and active operational support for attacks that would otherwise have required a team of operators. This makes defense and enforcement increasingly difficult, since these tools can adapt to defensive measures, like malware detection systems, in real time. We expect attacks like this to become more common as AI-assisted coding reduces the technical expertise required for cybercrime.**
+
+<!-- para:0012 -->
+**Our response:**We banned the accounts in question as soon as we discovered this operation. We have also developed a tailored classifier (an automated screening tool), and introduced a new detection method to help us discover activity like this as quickly as possible in the future. To help prevent similar abuse elsewhere, we have also shared technical indicators about the attack with relevant authorities.**
+
+<!-- para:0013 -->
+## **Remote worker fraud: how North Korean IT workers are scaling fraudulent employment with AI**
+
+<!-- para:0014 -->
+**The threat:**We discovered that North Korean operatives had been using Claude to fraudulently secure and maintain remote employment positions at US Fortune 500 technology companies. This involved using our models to create elaborate false identities with convincing professional backgrounds, complete technical and coding assessments during the application process, and deliver actual technical work once hired.**
+
+<!-- para:0015 -->
+These employment schemes were designed to generate profit for the North Korean regime, in defiance of international sanctions. This is a long-running operation that began before the adoption of LLMs, and has been reported by [the FBI](https://www.ic3.gov/PSA/2025/PSA250723-4).
+
+<!-- para:0016 -->
+**Implications:** North Korean IT workers previously underwent years of specialized training prior to taking on remote technical work, which made the regime’s training capacity a major bottleneck. But AI has eliminated this constraint. Operators who cannot otherwise write basic code or communicate professionally in English are now able to pass technical interviews at reputable technology companies and then maintain their positions. This represents a fundamentally new phase for these employment scams.**
+
+<!-- para:0017 -->
+![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa474b3555a5486e3b8c0fa97434b27924a11b8d5-2756x5840.png&w=3840&q=75)
+
+Top: Simulated prompts created by our threat intelligence team demonstrating a lack of relevant technical knowledge. Bottom: Simulated prompts demonstrating linguistic and cultural barriers.
+
+<!-- para:0018 -->
+**Our response:**when we discovered this activity we immediately banned the relevant accounts, and have since improved our tools for collecting, storing, and correlating the known indicators of this scam. We’ve also shared our findings with the relevant authorities, and we’ll continue to monitor for attempts to commit fraud using our services.**
+
+<!-- para:0019 -->
+## **No-code malware: selling AI-generated ransomware-as-a-service**
+
+<!-- para:0020 -->
+**The threat:** A cybercriminal used Claude to develop, market, and distribute several variants of ransomware, each with advanced evasion capabilities, encryption, and anti-recovery mechanisms. The ransomware packages were sold on internet forums to other cybercriminals for $400 to $1200 USD.**
+
+<!-- para:0021 -->
+![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3d0f1e44057b1d4a58f56785009a18efb7123cb0-4158x2958.png&w=3840&q=75)
+
+The cybercriminal’s initial sales offering on the dark web, from January 2025.
+
+<!-- para:0022 -->
+**Implications:**This actor appears to have been dependent on AI to develop functional malware. Without Claude’s assistance, they could not implement or troubleshoot core malware components, like encryption algorithms, anti-analysis techniques, or Windows internals manipulation.**
+
+<!-- para:0023 -->
+**Our response:**We have banned the account associated with this operation, and alerted our partners. We’ve also implemented new methods for detecting malware upload, modification, and generation, to more effectively prevent the exploitation of our platform in the future.**
+
+<!-- para:0024 -->
+## **Next steps**
+
+<!-- para:0025 -->
+In each of the cases described above, the abuses we’ve uncovered have informed updates to our preventative safety measures. We have also shared details of our findings, including indicators of misuse, with third-party safety teams.
+
+<!-- para:0026 -->
+In the full report, we address a number of other malicious uses of our models, including an attempt to compromise Vietnamese telecommunications infrastructure, and the use of multiple AI agents to commit fraud. The growth of AI-enhanced fraud and cybercrime is particularly concerning to us, and we plan to prioritize further research in this area.
+
+<!-- para:0027 -->
+We’re committed to continually improving our methods for detecting and mitigating these harmful uses of our models. We hope this report helps those in industry, government, and the wider research community strengthen their own defenses against the abuse of AI systems.
+
+<!-- para:0028 -->
+## **Further reading**
+
+<!-- para:0029 -->
+For the full report with additional case studies, [see here.](https://www-cdn.anthropic.com/b2a76c6f6992465c09a6f2fce282f6c0cea8c200.pdf)

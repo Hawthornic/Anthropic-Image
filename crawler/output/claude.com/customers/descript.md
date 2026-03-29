@@ -1,0 +1,92 @@
+---
+source_url: https://claude.com/customers/descript
+title: "Descript brings creative taste to agentic video editing with Claude"
+section: customers
+---
+
+<!-- para:0001 -->
+# Descript brings creative taste to agentic video editing with Claude
+
+<!-- para:0002 -->
+Descript makes video editing work like editing a document: users change the text, and the video updates to match. Last year, the team launched Underlord, an AI agent powered by Claude, that automates complex edits users would otherwise do manually. In January 2026, Descript shipped major updates to Underlord, with Claude Sonnet 4.5 as the default model for self-serve, and Opus 4.6 for enterprise customers.
+
+<!-- para:0003 -->
+## With Claude, Descript achieved:
+
+<!-- para:0004 -->
+- 13–23% higher intent adherence for Claude Opus 4.6 over leading frontier models in internal evaluations, measured across 100+ real-world test cases
+- Two-thirds of models manually selected in the model picker are Claude models
+- 9% higher export rate for agent users compared to non-agent users, with nearly 50% more edits made per export demonstrating a deeper creative process
+- 46% higher free-to-paid conversion among users who engaged with Underlord compared to otherwise active free users who did not
+- 30%+ of all Descript projects now using its agent Underlord at some point in the project lifecycle
+- Integration of new Claude models in as little as half a day
+- Opus 4.6 outperformed other frontier models on Descript's "Do What I Asked" evaluation criteria, which measures how well the model translates a user's creative intent into concrete editing actions.
+
+<!-- para:0005 -->
+## The challenge
+
+<!-- para:0006 -->
+Use the Claude API to create new user experiences, products, and ways to work with the most advanced AI models on the market.
+
+<!-- para:0007 -->
+## From workflows to an open-world agent
+
+<!-- para:0008 -->
+Descript's AI journey didn't start with agents. The team initially built structured AI workflows: features like "Edit for clarity" or "Create clips" that ran through predetermined orchestration steps, using an LLM as an API call within a fixed pipeline. Descript first integrated Claude in mid-2024 for these workflows, where it excelled at understanding the flow of content and creating compelling clips from longer videos.
+
+<!-- para:0009 -->
+These workflows worked for their specific use cases but broke down at the edges. The old system had hard-coded pipelines for specific tasks: "Edit for clarity" would chunk a script, send it to an LLM, and batch-apply cuts. But if a user wanted something slightly different, like targeting only a few paragraphs for edits, or putting edits in a new composition instead of changing the original, the rigid orchestration couldn't accommodate it. "Sometimes users would want something that was a little bit different, and even with an open prompt box, it just wasn't going to work,” said Rachel Bloch Mellon, Head of AI Engineering.
+
+<!-- para:0010 -->
+## The solution
+
+<!-- para:0011 -->
+We’re upgrading our smartest model. The new Claude Opus 4.6 improves on its predecessor’s coding skills. It plans more carefully, sustains agentic tasks for longer, and features a 1M token context window.
+
+<!-- para:0012 -->
+## Selecting Claude for creative intent
+
+<!-- para:0013 -->
+Building Underlord as a fully agentic system meant the underlying model needed to reason about creative intent, coordinate dozens of tools, and make judgment calls about narrative flow.
+
+<!-- para:0014 -->
+Descript evaluated frontier models using an internal framework built around three dimensions: "Don't break things," "Do what I asked," and "Do it well." The team ran more than 100 test cases drawn from real user queries, weighted toward nuanced and difficult edits. Each test is scored by an LLM-as-judge that the team has calibrated against human reviewers. Opus 4.6 outperformed other leading frontier models by 13–23% on intent adherence, with corresponding advantages on quality.
+
+<!-- para:0015 -->
+That first dimension—whether it preserves the integrity of the user's project—mattered most. Users are far more tolerant of Underlord not quite nailing their creative preferences than of it overstepping, the team shared. "The degree of anger you see when people say 'it did too much' is much greater than when it didn't quite get the taste right," said Aleks Mistratov, Head of AI Product.
+
+<!-- para:0016 -->
+A lot of video editing comes down to taste. "We've found that Claude models do a better job converting very vague and high-level descriptions of taste into concrete edits that are holistically aligned with the user's intent," said Mistratov. "This produces more polished final videos with less required direction from the user."
+
+<!-- para:0017 -->
+## The outcome
+
+<!-- para:0018 -->
+## How Underlord with Claude changes the editing process
+
+<!-- para:0019 -->
+Descript offers all three Claude model tiers through Underlord's model picker: Sonnet models as the default for most users, Opus for enterprise customers who prioritize quality, and Haiku for fast, iterative sessions. More than two thirds of Underlord users default to or select a Claude model.
+
+<!-- para:0020 -->
+The advantages show up most clearly on tasks that require creative reasoning. A user uploads a hypnotherapy recording and asks Underlord to recommend where to lengthen or shorten pauses for therapeutic effect. A podcast host provides a detailed list of audio refinements: adjusting music transitions, balancing levels between speakers, adding chapter markers. "Opus outperforms the other leading models on those sorts of things," said Mistratov.
+
+<!-- para:0021 -->
+The collaborative workflows are where Underlord really comes alive. A user might ask: ‘Can you highlight parts of the script where an infographic might help me deliver my point?’ Then they review the suggestions and push back where they disagree. "Those types of collaborative workflows were impossible with one-shotting and workflows, and are far more possible now with the agent," Mistratov said.
+
+<!-- para:0022 -->
+Descript's philosophy is that Underlord should be a "co-editor to assist in creation, rather than a tool that can one-shot to a final result." That keeps users in the director's chair while Underlord handles the tedious work. "There is so much more of a positive reception of cutting out the drudgery, but keeping the user and the creator in control," Mistratov said.
+
+<!-- para:0023 -->
+The numbers tell a similar story. Agent users export at an 8.6% higher rate than non-agent users and make nearly 50% more edits per export, suggesting Underlord isn't replacing the creative process but deepening it. Over 30% of Descript projects now involve agentic editing at some point in the project lifecycle.
+
+<!-- para:0024 -->
+## Looking to the future
+
+<!-- para:0025 -->
+Descript's thesis was that building a generalized agent with broad context and low-level tools would let them ride improvements in frontier model intelligence. That bet has paid off: when Descript upgraded from Opus 4.5 to 4.6, quality metrics improved across the board on offline evals—with no changes to the agent harness. Opus 4.6 was also their fastest model integration yet: half a day from release to understanding the model's strengths and weaknesses. The team is now focused on multi-turn success metrics, moving beyond single-query evaluations to understanding how well the agent performs across entire collaborative editing sessions.
+
+<!-- para:0026 -->
+For the Descript team, the most meaningful impact isn't efficiency gains for power users. It's expanding who can make videos in the first place.
+
+<!-- para:0027 -->
+“Underlord might make a pro user who produces five videos a week much more efficient,” Mellon said. “But it’s an even bigger unlock for the teacher who wants to make engaging content for their students but doesn’t have the time to learn complex NLE software, or the time-constrained small business owner who wants to elevate their brand messaging.”

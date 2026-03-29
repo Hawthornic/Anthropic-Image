@@ -1,0 +1,45 @@
+---
+source_url: https://www.anthropic.com/news/claude-partner-network
+title: "Anthropic invests $100 million into the Claude Partner Network"
+section: news
+date: 2026-03-12
+---
+
+<!-- para:0001 -->
+*We’re launching the Claude Partner Network, a program for partner organizations helping enterprises adopt Claude. We’re committing an initial $100 million to support our partners with training courses, dedicated technical support, and joint market development. Partners who join [from today](https://claude.com/partners) will get immediate access to a new technical certification and be eligible for investment.*
+
+<!-- para:0002 -->
+Anthropic is focused on ensuring that our AI model, Claude, serves the needs of businesses. To do this, we’ve partnered with a number of other companies. Notably, Claude is the only frontier AI model available on all three leading cloud providers: AWS, Google Cloud, and Microsoft.
+
+<!-- para:0003 -->
+We also work with large management consultancies, professional services firms, specialist AI firms, and similar agencies. These organizations help our enterprise customers identify where Claude can provide the most value to their work, and then help them get started with our AI tools. Our partners act as trusted guides in what can feel like uncharted territory: navigating the deployment requirements, compliance, and change management necessary inside large organizations.
+
+<!-- para:0004 -->
+Now, we’re doubling down our commitment to our partners, aiming to make it even easier for these organizations to support enterprises in adopting Claude.
+
+<!-- para:0005 -->
+"Anthropic is the most committed AI company in the world to the partner ecosystem—and we're putting $100 million behind that this year to prove it. The certification, the co-investment, the dedicated team—this infrastructure is built so that any firm, at any scale, can build a Claude practice. Our partners are instrumental in getting enterprises from proof of concept to production with Claude, and we're making sure they have everything they need to do it."—Steve Corfield, Head of Global Business Development and Partnerships, Anthropic.
+
+<!-- para:0006 -->
+## Introducing the Claude Partner Network
+
+<!-- para:0007 -->
+The Claude Partner Network provides training, technical support, and joint market development for our partners helping enterprises adopt Claude. We’re committing an initial $100 million to this network for 2026, and expect to invest even more over time.
+
+<!-- para:0008 -->
+A significant proportion of our $100 million investment will go directly to our partners as direct support for training and sales enablement, and for market development (including work to make customer deployments successful) and co-marketing for joint campaigns and events. We’re also scaling our partner-facing team fivefold, so that we can provide dedicated Applied AI engineers to partners working on live customer deals, technical architects to scope more complex implementations, and localized go-to-market support in international markets.
+
+<!-- para:0009 -->
+Those who join the network will have access to our Partner Portal, where we’ll share our Anthropic Academy training materials, the sales playbooks used by our own go-to-market team, and other co-marketing documentation. Qualified partners will also be added to our Services Partner Directory, where enterprise buyers can find firms with Claude implementation experience.
+
+<!-- para:0010 -->
+Alongside the network, we’re introducing the first Claude technical certification: [Claude Certified Architect, Foundations](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request), available today for partners. This is a technical exam for solution architects building production applications with Claude. Later this year, we’ll introduce additional certifications for sellers, architects, and developers. Partners who join the network now will get priority access to new certifications as they roll out.
+
+<!-- para:0011 -->
+Finally, we’re launching a Code Modernization starter kit, which gives our partners a straightforward starting point for migrating legacy codebases and remediating enterprises’ technical debt. This is one of the highest-demand enterprise workloads, and one where Claude’s agentic coding capabilities most directly translate into client outcomes.
+
+<!-- para:0012 -->
+Any organization that is bringing Claude to market is eligible to join the Claude Partner Network. Membership is free of charge, and applications open today. You can [find out more here](https://claude.com/partners).
+
+<!-- para:0013 -->
+*Below, our partners share more about their work with Claude:*

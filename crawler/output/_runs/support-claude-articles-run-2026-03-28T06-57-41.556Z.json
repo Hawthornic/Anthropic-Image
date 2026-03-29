@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-03-28T06:57:41.556Z",
+  "crawler": "support-claude-articles",
+  "site": "support.claude.com",
+  "section": "articles",
+  "concurrency": 4,
+  "failureCount": 1,
+  "failures": [
+    {
+      "url": "https://support.claude.com/en/articles/7996853-introduction-to-prompt-design",
+      "error": "Class constructor LoadedCheerio cannot be invoked without 'new'"
+    }
+  ],
+  "retries": 2,
+  "savedPaths": [
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer.md"
+  ],
+  "successCount": 2,
+  "urlsDiscovered": 3
+}

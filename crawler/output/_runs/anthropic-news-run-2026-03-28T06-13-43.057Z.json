@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-03-28T06:13:43.058Z",
+  "crawler": "anthropic-news",
+  "section": "news",
+  "urlsDiscovered": 3,
+  "successCount": 3,
+  "failureCount": 0,
+  "concurrency": 2,
+  "retries": 1,
+  "failures": [],
+  "savedPaths": [
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/news/100k-context-windows.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/news/3-5-models-and-computer-use.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations.md"
+  ]
+}

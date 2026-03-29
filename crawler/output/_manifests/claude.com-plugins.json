@@ -1,0 +1,1008 @@
+{
+  "updated_at": "2026-03-29T14:32:41.076Z",
+  "site": "claude.com",
+  "section": "plugins",
+  "items": [
+    {
+      "block_count": 205,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins.md",
+      "source_url": "https://claude.com/plugins",
+      "title": "Plugins for Claude Code and Cowork"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/adspirer-ads-agent.md",
+      "source_url": "https://claude.com/plugins/adspirer-ads-agent",
+      "title": "Adspirer Ads Agent"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/agent-sdk-dev.md",
+      "source_url": "https://claude.com/plugins/agent-sdk-dev",
+      "title": "Agent SDK Dev"
+    },
+    {
+      "block_count": 18,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/ai-firstify.md",
+      "source_url": "https://claude.com/plugins/ai-firstify",
+      "title": "ai-firstify"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/ai-plugins.md",
+      "source_url": "https://claude.com/plugins/ai-plugins",
+      "title": "Endor Labs"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/aikido.md",
+      "source_url": "https://claude.com/plugins/aikido",
+      "title": "Aikido Security"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/amazon-location-service.md",
+      "source_url": "https://claude.com/plugins/amazon-location-service",
+      "title": "Amazon Location Service"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/apollo.md",
+      "source_url": "https://claude.com/plugins/apollo",
+      "title": "Apollo"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/asana.md",
+      "source_url": "https://claude.com/plugins/asana",
+      "title": "Asana"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/astronomer-data-agents.md",
+      "source_url": "https://claude.com/plugins/astronomer-data-agents",
+      "title": "Astronomer Data Agents"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/atlan.md",
+      "source_url": "https://claude.com/plugins/atlan",
+      "title": "Atlan"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/atlassian.md",
+      "source_url": "https://claude.com/plugins/atlassian",
+      "title": "Atlassian"
+    },
+    {
+      "block_count": 18,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/atomic-agents.md",
+      "source_url": "https://claude.com/plugins/atomic-agents",
+      "title": "atomic-agents"
+    },
+    {
+      "block_count": 18,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/autofix-bot.md",
+      "source_url": "https://claude.com/plugins/autofix-bot",
+      "title": "autofix-bot"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/aws-serverless.md",
+      "source_url": "https://claude.com/plugins/aws-serverless",
+      "title": "AWS Serverless"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/bio-research.md",
+      "source_url": "https://claude.com/plugins/bio-research",
+      "title": "Bio Research"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/brand-voice.md",
+      "source_url": "https://claude.com/plugins/brand-voice",
+      "title": "Brand Voice"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/brightdata-plugin.md",
+      "source_url": "https://claude.com/plugins/brightdata-plugin",
+      "title": "Bright Data"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/chrome-devtools-mcp.md",
+      "source_url": "https://claude.com/plugins/chrome-devtools-mcp",
+      "title": "Chrome Dev Tools"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/circleback.md",
+      "source_url": "https://claude.com/plugins/circleback",
+      "title": "Circleback"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/clangd-lsp.md",
+      "source_url": "https://claude.com/plugins/clangd-lsp",
+      "title": "Clangd LSP"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/claude-code-setup.md",
+      "source_url": "https://claude.com/plugins/claude-code-setup",
+      "title": "Claude Code Setup"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/claude-md-management.md",
+      "source_url": "https://claude.com/plugins/claude-md-management",
+      "title": "CLAUDE.md Management"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/cloudinary.md",
+      "source_url": "https://claude.com/plugins/cloudinary",
+      "title": "Cloudinary"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/cockroachdb.md",
+      "source_url": "https://claude.com/plugins/cockroachdb",
+      "title": "CockroachDB"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/code-review.md",
+      "source_url": "https://claude.com/plugins/code-review",
+      "title": "Code Review"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/code-simplifier.md",
+      "source_url": "https://claude.com/plugins/code-simplifier",
+      "title": "Code Simplifier"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/coderabbit.md",
+      "source_url": "https://claude.com/plugins/coderabbit",
+      "title": "Code Rabbit"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/commit-commands.md",
+      "source_url": "https://claude.com/plugins/commit-commands",
+      "title": "Commit Commands"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/common-room.md",
+      "source_url": "https://claude.com/plugins/common-room",
+      "title": "Common Room"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/context7.md",
+      "source_url": "https://claude.com/plugins/context7",
+      "title": "Context7"
+    },
+    {
+      "block_count": 18,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/cowork-plugin-management.md",
+      "source_url": "https://claude.com/plugins/cowork-plugin-management",
+      "title": "Cowork Plugin Management"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/csharp-lsp.md",
+      "source_url": "https://claude.com/plugins/csharp-lsp",
+      "title": "C# LSP"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/customer-support.md",
+      "source_url": "https://claude.com/plugins/customer-support",
+      "title": "Customer Support"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/data.md",
+      "source_url": "https://claude.com/plugins/data",
+      "title": "Data"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/data-engineering.md",
+      "source_url": "https://claude.com/plugins/data-engineering",
+      "title": "Data Engineering"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/deploy-on-aws.md",
+      "source_url": "https://claude.com/plugins/deploy-on-aws",
+      "title": "Deploy on AWS"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/design.md",
+      "source_url": "https://claude.com/plugins/design",
+      "title": "Design"
+    },
+    {
+      "block_count": 17,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/discord.md",
+      "source_url": "https://claude.com/plugins/discord",
+      "title": "discord"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/elixir-ls-lsp.md",
+      "source_url": "https://claude.com/plugins/elixir-ls-lsp",
+      "title": "Elixir LS"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/engineering.md",
+      "source_url": "https://claude.com/plugins/engineering",
+      "title": "Engineering"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/enterprise-search.md",
+      "source_url": "https://claude.com/plugins/enterprise-search",
+      "title": "Enterprise Search"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/equity-research.md",
+      "source_url": "https://claude.com/plugins/equity-research",
+      "title": "Equity Research"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/explanatory-output-style.md",
+      "source_url": "https://claude.com/plugins/explanatory-output-style",
+      "title": "Explanatory Output Style"
+    },
+    {
+      "block_count": 17,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/fakechat.md",
+      "source_url": "https://claude.com/plugins/fakechat",
+      "title": "fakechat"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/fastly-agent-toolkit.md",
+      "source_url": "https://claude.com/plugins/fastly-agent-toolkit",
+      "title": "Fastly Agent Toolkit"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/feature-dev.md",
+      "source_url": "https://claude.com/plugins/feature-dev",
+      "title": "Feature Dev"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/fiftyone.md",
+      "source_url": "https://claude.com/plugins/fiftyone",
+      "title": "Fifty One"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/figma.md",
+      "source_url": "https://claude.com/plugins/figma",
+      "title": "Figma"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/finance.md",
+      "source_url": "https://claude.com/plugins/finance",
+      "title": "Finance"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/financial-analysis.md",
+      "source_url": "https://claude.com/plugins/financial-analysis",
+      "title": "Financial Analysis"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/firebase.md",
+      "source_url": "https://claude.com/plugins/firebase",
+      "title": "Firebase"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/firecrawl.md",
+      "source_url": "https://claude.com/plugins/firecrawl",
+      "title": "Firecrawl"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/firetiger.md",
+      "source_url": "https://claude.com/plugins/firetiger",
+      "title": "Firetiger"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/flint.md",
+      "source_url": "https://claude.com/plugins/flint",
+      "title": "Flint"
+    },
+    {
+      "block_count": 18,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/followrabbit.md",
+      "source_url": "https://claude.com/plugins/followrabbit",
+      "title": "followrabbit"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/frontend-design.md",
+      "source_url": "https://claude.com/plugins/frontend-design",
+      "title": "Frontend Design"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/github.md",
+      "source_url": "https://claude.com/plugins/github",
+      "title": "Git Hub"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/gitlab.md",
+      "source_url": "https://claude.com/plugins/gitlab",
+      "title": "Git Lab"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/goodmem.md",
+      "source_url": "https://claude.com/plugins/goodmem",
+      "title": "Good Mem"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/gopls-lsp.md",
+      "source_url": "https://claude.com/plugins/gopls-lsp",
+      "title": "Go LSP (gopls)"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/greptile.md",
+      "source_url": "https://claude.com/plugins/greptile",
+      "title": "Greptile"
+    },
+    {
+      "block_count": 17,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/helius.md",
+      "source_url": "https://claude.com/plugins/helius",
+      "title": "helius"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/hookify.md",
+      "source_url": "https://claude.com/plugins/hookify",
+      "title": "Hookify"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/huggingface-skills.md",
+      "source_url": "https://claude.com/plugins/huggingface-skills",
+      "title": "Hugging Face Skills"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/human-resources.md",
+      "source_url": "https://claude.com/plugins/human-resources",
+      "title": "Human Resources"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/imessage.md",
+      "source_url": "https://claude.com/plugins/imessage",
+      "title": "i Message"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/intercom.md",
+      "source_url": "https://claude.com/plugins/intercom",
+      "title": "Intercom"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/investment-banking.md",
+      "source_url": "https://claude.com/plugins/investment-banking",
+      "title": "Investment Banking"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/jdtls-lsp.md",
+      "source_url": "https://claude.com/plugins/jdtls-lsp",
+      "title": "Java LSP (Eclipse JDT.LS)"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/kotlin-lsp.md",
+      "source_url": "https://claude.com/plugins/kotlin-lsp",
+      "title": "Kotlin LSP"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/laravel-boost.md",
+      "source_url": "https://claude.com/plugins/laravel-boost",
+      "title": "Laravel Boost"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/learning-output-style.md",
+      "source_url": "https://claude.com/plugins/learning-output-style",
+      "title": "Learning Output Style"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/legal.md",
+      "source_url": "https://claude.com/plugins/legal",
+      "title": "Legal"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/legalzoom.md",
+      "source_url": "https://claude.com/plugins/legalzoom",
+      "title": "Legal Zoom"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/linear.md",
+      "source_url": "https://claude.com/plugins/linear",
+      "title": "Linear"
+    },
+    {
+      "block_count": 29,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/lseg.md",
+      "source_url": "https://claude.com/plugins/lseg",
+      "title": "LSEG"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/lua-lsp.md",
+      "source_url": "https://claude.com/plugins/lua-lsp",
+      "title": "Lua LSP"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/marketing.md",
+      "source_url": "https://claude.com/plugins/marketing",
+      "title": "Marketing"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/mcp-server-dev.md",
+      "source_url": "https://claude.com/plugins/mcp-server-dev",
+      "title": "MCP Server Dev"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/microsoft-docs.md",
+      "source_url": "https://claude.com/plugins/microsoft-docs",
+      "title": "Microsoft Docs"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/migration-to-aws.md",
+      "source_url": "https://claude.com/plugins/migration-to-aws",
+      "title": "Migration to AWS"
+    },
+    {
+      "block_count": 18,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/mintlify.md",
+      "source_url": "https://claude.com/plugins/mintlify",
+      "title": "mintlify"
+    },
+    {
+      "block_count": 17,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/neon.md",
+      "source_url": "https://claude.com/plugins/neon",
+      "title": "neon"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/netlify-skills.md",
+      "source_url": "https://claude.com/plugins/netlify-skills",
+      "title": "Netlify Skills"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/nightvision.md",
+      "source_url": "https://claude.com/plugins/nightvision",
+      "title": "Night Vision"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/nimble.md",
+      "source_url": "https://claude.com/plugins/nimble",
+      "title": "Nimble Web Data"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/notion.md",
+      "source_url": "https://claude.com/plugins/notion",
+      "title": "Notion"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/operations.md",
+      "source_url": "https://claude.com/plugins/operations",
+      "title": "Operations"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/opsera-devsecops.md",
+      "source_url": "https://claude.com/plugins/opsera-devsecops",
+      "title": "Opsera Dev Sec Ops"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/optibot.md",
+      "source_url": "https://claude.com/plugins/optibot",
+      "title": "Optibot Code Review"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/pagerduty.md",
+      "source_url": "https://claude.com/plugins/pagerduty",
+      "title": "Pager Duty Pre-Commit Risk Score"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/php-lsp.md",
+      "source_url": "https://claude.com/plugins/php-lsp",
+      "title": "PHP LSP"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/pinecone.md",
+      "source_url": "https://claude.com/plugins/pinecone",
+      "title": "Pinecone"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/planetscale.md",
+      "source_url": "https://claude.com/plugins/planetscale",
+      "title": "Planet Scale"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/playground.md",
+      "source_url": "https://claude.com/plugins/playground",
+      "title": "Playground"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/playwright.md",
+      "source_url": "https://claude.com/plugins/playwright",
+      "title": "Playwright"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/plugin-dev.md",
+      "source_url": "https://claude.com/plugins/plugin-dev",
+      "title": "Plugin Developer Toolkit"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/posthog.md",
+      "source_url": "https://claude.com/plugins/posthog",
+      "title": "Post Hog"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/postiz.md",
+      "source_url": "https://claude.com/plugins/postiz",
+      "title": "Postiz"
+    },
+    {
+      "block_count": 18,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/postman.md",
+      "source_url": "https://claude.com/plugins/postman",
+      "title": "postman"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/pr-review-toolkit.md",
+      "source_url": "https://claude.com/plugins/pr-review-toolkit",
+      "title": "PR Review Toolkit"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/prisma.md",
+      "source_url": "https://claude.com/plugins/prisma",
+      "title": "Prisma"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/private-equity.md",
+      "source_url": "https://claude.com/plugins/private-equity",
+      "title": "Private Equity"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/product-management.md",
+      "source_url": "https://claude.com/plugins/product-management",
+      "title": "Product Management"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/product-tracking-skills.md",
+      "source_url": "https://claude.com/plugins/product-tracking-skills",
+      "title": "Product Tracking Skills"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/productivity.md",
+      "source_url": "https://claude.com/plugins/productivity",
+      "title": "Productivity"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/pyright-lsp.md",
+      "source_url": "https://claude.com/plugins/pyright-lsp",
+      "title": "Pyright LSP"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/qodo-skills.md",
+      "source_url": "https://claude.com/plugins/qodo-skills",
+      "title": "Qodo Skills"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/railway.md",
+      "source_url": "https://claude.com/plugins/railway",
+      "title": "Railway"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/ralph-loop.md",
+      "source_url": "https://claude.com/plugins/ralph-loop",
+      "title": "Ralph Loop"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/rc.md",
+      "source_url": "https://claude.com/plugins/rc",
+      "title": "Revenue Cat"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/remember.md",
+      "source_url": "https://claude.com/plugins/remember",
+      "title": "Remember"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/revenuecat.md",
+      "source_url": "https://claude.com/plugins/revenuecat",
+      "title": "Revenue Cat"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/ruby-lsp.md",
+      "source_url": "https://claude.com/plugins/ruby-lsp",
+      "title": "Ruby LSP"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/rust-analyzer-lsp.md",
+      "source_url": "https://claude.com/plugins/rust-analyzer-lsp",
+      "title": "Rust Analyzer LSP"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/sales.md",
+      "source_url": "https://claude.com/plugins/sales",
+      "title": "Sales"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/sanity-plugin.md",
+      "source_url": "https://claude.com/plugins/sanity-plugin",
+      "title": "Sanity"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/searchfit-seo.md",
+      "source_url": "https://claude.com/plugins/searchfit-seo",
+      "title": "Search Fit SEO"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/security-guidance.md",
+      "source_url": "https://claude.com/plugins/security-guidance",
+      "title": "Security Guidance"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/semgrep.md",
+      "source_url": "https://claude.com/plugins/semgrep",
+      "title": "Semgrep"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/sentry.md",
+      "source_url": "https://claude.com/plugins/sentry",
+      "title": "Sentry"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/serena.md",
+      "source_url": "https://claude.com/plugins/serena",
+      "title": "Serena"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/slack.md",
+      "source_url": "https://claude.com/plugins/slack",
+      "title": "Slack"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/sonatype-guide.md",
+      "source_url": "https://claude.com/plugins/sonatype-guide",
+      "title": "Sonatype Guide"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/sourcegraph.md",
+      "source_url": "https://claude.com/plugins/sourcegraph",
+      "title": "Sourcegraph"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/sp-global.md",
+      "source_url": "https://claude.com/plugins/sp-global",
+      "title": "S&P Global"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/stagehand.md",
+      "source_url": "https://claude.com/plugins/stagehand",
+      "title": "Stagehand"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/stripe.md",
+      "source_url": "https://claude.com/plugins/stripe",
+      "title": "Stripe"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/sumup.md",
+      "source_url": "https://claude.com/plugins/sumup",
+      "title": "Sum Up"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/supabase.md",
+      "source_url": "https://claude.com/plugins/supabase",
+      "title": "Supabase"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/superpowers.md",
+      "source_url": "https://claude.com/plugins/superpowers",
+      "title": "Superpowers"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/swift-lsp.md",
+      "source_url": "https://claude.com/plugins/swift-lsp",
+      "title": "Swift LSP"
+    },
+    {
+      "block_count": 17,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/telegram.md",
+      "source_url": "https://claude.com/plugins/telegram",
+      "title": "telegram"
+    },
+    {
+      "block_count": 18,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/terraform.md",
+      "source_url": "https://claude.com/plugins/terraform",
+      "title": "terraform"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/typescript-lsp.md",
+      "source_url": "https://claude.com/plugins/typescript-lsp",
+      "title": "Type Script LSP"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/vercel.md",
+      "source_url": "https://claude.com/plugins/vercel",
+      "title": "Vercel"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/voila-api.md",
+      "source_url": "https://claude.com/plugins/voila-api",
+      "title": "Voila API"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/wealth-management.md",
+      "source_url": "https://claude.com/plugins/wealth-management",
+      "title": "Wealth Management"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/wix.md",
+      "source_url": "https://claude.com/plugins/wix",
+      "title": "Wix"
+    },
+    {
+      "block_count": 18,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/wordpress-com.md",
+      "source_url": "https://claude.com/plugins/wordpress-com",
+      "title": "wordpress.com"
+    },
+    {
+      "block_count": 17,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/zapier.md",
+      "source_url": "https://claude.com/plugins/zapier",
+      "title": "zapier"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/plugins/zoominfo.md",
+      "source_url": "https://claude.com/plugins/zoominfo",
+      "title": "Zoom Info"
+    }
+  ]
+}

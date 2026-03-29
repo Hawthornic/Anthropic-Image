@@ -1,0 +1,147 @@
+{
+  "updated_at": "2026-03-28T08:28:16.069Z",
+  "site": "www.anthropic.com",
+  "section": "engineering",
+  "items": [
+    {
+      "block_count": 58,
+      "date": "2025-09-17",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/a-postmortem-of-three-recent-issues.md",
+      "source_url": "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues",
+      "title": "A postmortem of three recent issues"
+    },
+    {
+      "block_count": 120,
+      "date": "2025-11-24",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/advanced-tool-use.md",
+      "source_url": "https://www.anthropic.com/engineering/advanced-tool-use",
+      "title": "Introducing advanced tool use on the Claude Developer Platform"
+    },
+    {
+      "block_count": 69,
+      "date": "2026-01-21",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/AI-resistant-technical-evaluations.md",
+      "source_url": "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
+      "title": "Designing AI-resistant technical evaluations"
+    },
+    {
+      "block_count": 52,
+      "date": "2026-02-05",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/building-c-compiler.md",
+      "source_url": "https://www.anthropic.com/engineering/building-c-compiler",
+      "title": "Building a C compiler with a team of parallel Claudes"
+    },
+    {
+      "block_count": 90,
+      "date": "2024-12-19",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/building-effective-agents.md",
+      "source_url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "title": "Building effective agents"
+    },
+    {
+      "block_count": 68,
+      "date": "2026-03-25",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/claude-code-auto-mode.md",
+      "source_url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "title": "Claude Code auto mode: a safer way to skip permissions"
+    },
+    {
+      "block_count": 34,
+      "date": "2025-10-20",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/claude-code-sandboxing.md",
+      "source_url": "https://www.anthropic.com/engineering/claude-code-sandboxing",
+      "title": "Beyond permission prompts: making Claude Code more secure and autonomous"
+    },
+    {
+      "block_count": 53,
+      "date": "2025-03-20",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/claude-think-tool.md",
+      "source_url": "https://www.anthropic.com/engineering/claude-think-tool",
+      "title": "The \"think\" tool: Enabling Claude to stop and think in complex tool use situations"
+    },
+    {
+      "block_count": 50,
+      "date": "2025-11-04",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/code-execution-with-mcp.md",
+      "source_url": "https://www.anthropic.com/engineering/code-execution-with-mcp",
+      "title": "Code execution with MCP: Building more efficient agents"
+    },
+    {
+      "block_count": 68,
+      "date": "2024-09-19",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/contextual-retrieval.md",
+      "source_url": "https://www.anthropic.com/engineering/contextual-retrieval",
+      "title": "Introducing Contextual Retrieval"
+    },
+    {
+      "block_count": 108,
+      "date": "2026-01-09",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/demystifying-evals-for-ai-agents.md",
+      "source_url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "title": "Demystifying evals for AI agents"
+    },
+    {
+      "block_count": 79,
+      "date": "2025-06-26",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/desktop-extensions.md",
+      "source_url": "https://www.anthropic.com/engineering/desktop-extensions",
+      "title": "Desktop Extensions: One-click MCP server installation for Claude Desktop"
+    },
+    {
+      "block_count": 62,
+      "date": "2025-09-29",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/effective-context-engineering-for-ai-agents.md",
+      "source_url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "title": "Effective context engineering for AI agents"
+    },
+    {
+      "block_count": 42,
+      "date": "2025-11-26",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/effective-harnesses-for-long-running-agents.md",
+      "source_url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+      "title": "Effective harnesses for long-running agents"
+    },
+    {
+      "block_count": 40,
+      "date": "2026-03-06",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/eval-awareness-browsecomp.md",
+      "source_url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+      "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance"
+    },
+    {
+      "block_count": 82,
+      "date": "2026-03-24",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/harness-design-long-running-apps.md",
+      "source_url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "title": "Harness design for long-running application development"
+    },
+    {
+      "block_count": 34,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/infrastructure-noise.md",
+      "source_url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "title": "Quantifying infrastructure noise in agentic coding evals"
+    },
+    {
+      "block_count": 44,
+      "date": "2025-06-13",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/multi-agent-research-system.md",
+      "source_url": "https://www.anthropic.com/engineering/multi-agent-research-system",
+      "title": "How we built our multi-agent research system"
+    },
+    {
+      "block_count": 38,
+      "date": "2025-01-06",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/swe-bench-sonnet.md",
+      "source_url": "https://www.anthropic.com/engineering/swe-bench-sonnet",
+      "title": "Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet"
+    },
+    {
+      "block_count": 96,
+      "date": "2025-09-11",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/writing-tools-for-agents.md",
+      "source_url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+      "title": "Writing effective tools for agents — with agents"
+    }
+  ]
+}

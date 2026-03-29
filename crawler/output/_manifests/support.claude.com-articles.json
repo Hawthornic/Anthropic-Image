@@ -1,0 +1,1988 @@
+{
+  "updated_at": "2026-03-28T08:28:15.748Z",
+  "site": "support.claude.com",
+  "section": "articles",
+  "items": [
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10015870-what-certifications-has-anthropic-obtained.md",
+      "source_url": "https://support.claude.com/en/articles/10015870-what-certifications-has-anthropic-obtained",
+      "title": "What Certifications has Anthropic obtained?"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10023638-why-am-i-receiving-an-output-blocked-by-content-filtering-policy-error.md",
+      "source_url": "https://support.claude.com/en/articles/10023638-why-am-i-receiving-an-output-blocked-by-content-filtering-policy-error",
+      "title": "Why am I receiving an 'Output blocked by content filtering policy' error?"
+    },
+    {
+      "block_count": 8,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10023646-i-think-a-user-is-infringing-my-copyright-or-other-intellectual-property-how-do-i-report-it.md",
+      "source_url": "https://support.claude.com/en/articles/10023646-i-think-a-user-is-infringing-my-copyright-or-other-intellectual-property-how-do-i-report-it",
+      "title": "I think a user is infringing my copyright or other intellectual property. How do I report it?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10035659-where-can-i-learn-more-about-anthropic-s-privacy-practices.md",
+      "source_url": "https://support.claude.com/en/articles/10035659-where-can-i-learn-more-about-anthropic-s-privacy-practices",
+      "title": "Where can I learn more about Anthropic's Privacy practices?"
+    },
+    {
+      "block_count": 9,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10065433-installing-claude-desktop.md",
+      "source_url": "https://support.claude.com/en/articles/10065433-installing-claude-desktop",
+      "title": "Installing Claude Desktop"
+    },
+    {
+      "block_count": 6,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10065434-using-dictation-on-claude-mobile.md",
+      "source_url": "https://support.claude.com/en/articles/10065434-using-dictation-on-claude-mobile",
+      "title": "Using dictation on Claude Mobile"
+    },
+    {
+      "block_count": 26,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10166901-use-google-workspace-connectors.md",
+      "source_url": "https://support.claude.com/en/articles/10166901-use-google-workspace-connectors",
+      "title": "Use Google Workspace connectors"
+    },
+    {
+      "block_count": 11,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10167454-using-the-github-integration.md",
+      "source_url": "https://support.claude.com/en/articles/10167454-using-the-github-integration",
+      "title": "Using the GitHub Integration"
+    },
+    {
+      "block_count": 4,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10181068-configure-and-use-styles.md",
+      "source_url": "https://support.claude.com/en/articles/10181068-configure-and-use-styles",
+      "title": "Configure and use styles"
+    },
+    {
+      "block_count": 12,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features.md",
+      "source_url": "https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features",
+      "title": "Understanding Claude's Personalization Features"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10185996-how-to-change-your-pro-plan-from-monthly-to-annual-billing.md",
+      "source_url": "https://support.claude.com/en/articles/10185996-how-to-change-your-pro-plan-from-monthly-to-annual-billing",
+      "title": "How to change your Pro plan from monthly to annual billing"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10186004-claude-console-roles-and-permissions.md",
+      "source_url": "https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions",
+      "title": "Claude Console Roles and Permissions"
+    },
+    {
+      "block_count": 14,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios.md",
+      "source_url": "https://support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios",
+      "title": "Using Claude App Intents, Shortcuts, and Widgets on iOS"
+    },
+    {
+      "block_count": 15,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning.md",
+      "source_url": "https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning",
+      "title": "Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10280779-how-do-i-learn-more-about-amazon-and-anthropic-s-strategic-collaboration.md",
+      "source_url": "https://support.claude.com/en/articles/10280779-how-do-i-learn-more-about-amazon-and-anthropic-s-strategic-collaboration",
+      "title": "How do I learn more about Amazon and Anthropic’s strategic collaboration?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10280783-where-do-i-find-claude-in-amazon-bedrock-documentation.md",
+      "source_url": "https://support.claude.com/en/articles/10280783-where-do-i-find-claude-in-amazon-bedrock-documentation",
+      "title": "Where do I find Claude in Amazon Bedrock documentation?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10280791-what-aws-regions-are-claude-models-available-in-amazon-bedrock.md",
+      "source_url": "https://support.claude.com/en/articles/10280791-what-aws-regions-are-claude-models-available-in-amazon-bedrock",
+      "title": "What AWS Regions are Claude models available in Amazon Bedrock?"
+    },
+    {
+      "block_count": 4,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10302511-accessing-claude-app-on-ios-lock-screen-control-center-and-action-button.md",
+      "source_url": "https://support.claude.com/en/articles/10302511-accessing-claude-app-on-ios-lock-screen-control-center-and-action-button",
+      "title": "Accessing Claude app on iOS Lock Screen, Control Center, and Action Button"
+    },
+    {
+      "block_count": 6,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10310342-how-do-i-log-out-of-all-active-sessions.md",
+      "source_url": "https://support.claude.com/en/articles/10310342-how-do-i-log-out-of-all-active-sessions",
+      "title": "How do I log out of all active sessions?"
+    },
+    {
+      "block_count": 6,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10366376-how-can-i-delete-my-claude-console-account.md",
+      "source_url": "https://support.claude.com/en/articles/10366376-how-can-i-delete-my-claude-console-account",
+      "title": "How can I delete my Claude Console account?"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10366389-how-can-i-advance-my-claude-api-usage-to-tier-2.md",
+      "source_url": "https://support.claude.com/en/articles/10366389-how-can-i-advance-my-claude-api-usage-to-tier-2",
+      "title": "How can I advance my Claude API usage to Tier 2?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10366421-how-does-claude-handle-mathematical-equations-and-calculations.md",
+      "source_url": "https://support.claude.com/en/articles/10366421-how-does-claude-handle-mathematical-equations-and-calculations",
+      "title": "How does Claude handle mathematical equations and calculations?"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it.md",
+      "source_url": "https://support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it",
+      "title": "I'm getting an API connection error. How can I fix it?"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10366473-where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments.md",
+      "source_url": "https://support.claude.com/en/articles/10366473-where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments",
+      "title": "Where can I find full receipts and invoices for my Claude API and Console payments?"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10416553-official-anthropic-marketing-email-addresses.md",
+      "source_url": "https://support.claude.com/en/articles/10416553-official-anthropic-marketing-email-addresses",
+      "title": "Official Anthropic marketing email addresses"
+    },
+    {
+      "block_count": 7,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10440198-configure-custom-data-retention-controls-for-enterprise-plans.md",
+      "source_url": "https://support.claude.com/en/articles/10440198-configure-custom-data-retention-controls-for-enterprise-plans",
+      "title": "Configure custom data retention controls for Enterprise plans"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10504844-manage-user-feedback-settings-on-team-and-enterprise-plans.md",
+      "source_url": "https://support.claude.com/en/articles/10504844-manage-user-feedback-settings-on-team-and-enterprise-plans",
+      "title": "Manage user feedback settings on Team and Enterprise plans"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10504853-manage-user-feedback-settings-on-claude-console.md",
+      "source_url": "https://support.claude.com/en/articles/10504853-manage-user-feedback-settings-on-claude-console",
+      "title": "Manage user feedback settings on Claude Console"
+    },
+    {
+      "block_count": 6,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10534883-using-the-claude-widget-on-android.md",
+      "source_url": "https://support.claude.com/en/articles/10534883-using-the-claude-widget-on-android",
+      "title": "Using the Claude Widget on Android"
+    },
+    {
+      "block_count": 6,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10574485-using-extended-thinking.md",
+      "source_url": "https://support.claude.com/en/articles/10574485-using-extended-thinking",
+      "title": "Using extended thinking"
+    },
+    {
+      "block_count": 11,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10593882-sharing-and-unsharing-chats.md",
+      "source_url": "https://support.claude.com/en/articles/10593882-sharing-and-unsharing-chats",
+      "title": "Sharing and Unsharing Chats"
+    },
+    {
+      "block_count": 14,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10684626-enabling-and-using-web-search.md",
+      "source_url": "https://support.claude.com/en/articles/10684626-enabling-and-using-web-search",
+      "title": "Enabling and using web search"
+    },
+    {
+      "block_count": 4,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10684638-reporting-blocking-and-removing-content-from-claude.md",
+      "source_url": "https://support.claude.com/en/articles/10684638-reporting-blocking-and-removing-content-from-claude",
+      "title": "Reporting, Blocking, and Removing Content from Claude"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10722177-sharing-prompts-in-the-claude-console.md",
+      "source_url": "https://support.claude.com/en/articles/10722177-sharing-prompts-in-the-claude-console",
+      "title": "Sharing Prompts in the Claude Console"
+    },
+    {
+      "block_count": 0,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language.md",
+      "source_url": "https://support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language",
+      "title": "How to use Claude in your preferred language"
+    },
+    {
+      "block_count": 17,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop.md",
+      "source_url": "https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop",
+      "title": "Getting Started with Local MCP Servers on Claude Desktop"
+    },
+    {
+      "block_count": 10,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11049741-what-is-the-max-plan.md",
+      "source_url": "https://support.claude.com/en/articles/11049741-what-is-the-max-plan",
+      "title": "What is the Max plan?"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan.md",
+      "source_url": "https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan",
+      "title": "How do I sign up for the Max plan?"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11049762-choosing-a-claude-plan.md",
+      "source_url": "https://support.claude.com/en/articles/11049762-choosing-a-claude-plan",
+      "title": "Choosing a Claude plan"
+    },
+    {
+      "block_count": 9,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11088861-using-research-on-claude.md",
+      "source_url": "https://support.claude.com/en/articles/11088861-using-research-on-claude",
+      "title": "Using Research on Claude"
+    },
+    {
+      "block_count": 9,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research.md",
+      "source_url": "https://support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research",
+      "title": "When should I use web search, extended thinking, and Research?"
+    },
+    {
+      "block_count": 17,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11101966-using-voice-mode.md",
+      "source_url": "https://support.claude.com/en/articles/11101966-using-voice-mode",
+      "title": "Using voice mode"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11107691-why-is-a-coupon-or-promotion-not-available-for-my-account.md",
+      "source_url": "https://support.claude.com/en/articles/11107691-why-is-a-coupon-or-promotion-not-available-for-my-account",
+      "title": "Why is a coupon or promotion not available for my account?"
+    },
+    {
+      "block_count": 10,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11139094-getting-started-with-claude-for-education-at-your-university-for-owners-admins.md",
+      "source_url": "https://support.claude.com/en/articles/11139094-getting-started-with-claude-for-education-at-your-university-for-owners-admins",
+      "title": "Getting Started with Claude for Education at Your University (for Owners/Admins)"
+    },
+    {
+      "block_count": 11,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university.md",
+      "source_url": "https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university",
+      "title": "FAQs on Using Claude for Education at Your University"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules.md",
+      "source_url": "https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules",
+      "title": "Claude 4 Invite Sweepstakes Official Rules"
+    },
+    {
+      "block_count": 13,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan.md",
+      "source_url": "https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan",
+      "title": "Using Claude Code with your Pro or Max plan"
+    },
+    {
+      "block_count": 10,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11174108-about-the-development-partner-program.md",
+      "source_url": "https://support.claude.com/en/articles/11174108-about-the-development-partner-program",
+      "title": "About the Development Partner Program"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11174660-online-safety-contacts.md",
+      "source_url": "https://support.claude.com/en/articles/11174660-online-safety-contacts",
+      "title": "Online Safety Contacts"
+    },
+    {
+      "block_count": 26,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp.md",
+      "source_url": "https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp",
+      "title": "Get started with custom connectors using remote MCP"
+    },
+    {
+      "block_count": 22,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities.md",
+      "source_url": "https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities",
+      "title": "Use connectors to extend Claude's capabilities"
+    },
+    {
+      "block_count": 11,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11199177-anthropic-s-ai-for-science-program.md",
+      "source_url": "https://support.claude.com/en/articles/11199177-anthropic-s-ai-for-science-program",
+      "title": "Anthropic's AI for Science Program"
+    },
+    {
+      "block_count": 14,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11408405-claude-4-invite-contest.md",
+      "source_url": "https://support.claude.com/en/articles/11408405-claude-4-invite-contest",
+      "title": "Claude 4 Invite Contest"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11427875-public-vulnerability-reporting.md",
+      "source_url": "https://support.claude.com/en/articles/11427875-public-vulnerability-reporting",
+      "title": "Public Vulnerability Reporting"
+    },
+    {
+      "block_count": 19,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects.md",
+      "source_url": "https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects",
+      "title": "Retrieval augmented generation (RAG) for projects"
+    },
+    {
+      "block_count": 9,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11503834-building-custom-connectors-via-remote-mcp-servers.md",
+      "source_url": "https://support.claude.com/en/articles/11503834-building-custom-connectors-via-remote-mcp-servers",
+      "title": "Building custom connectors via remote MCP servers"
+    },
+    {
+      "block_count": 17,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack.md",
+      "source_url": "https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack",
+      "title": "Getting started with Claude in Slack"
+    },
+    {
+      "block_count": 31,
+      "date": "2026-03-27",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan.md",
+      "source_url": "https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan",
+      "title": "How am I billed for my Enterprise plan?"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11595103-designated-point-of-contact-for-users-in-the-eu.md",
+      "source_url": "https://support.claude.com/en/articles/11595103-designated-point-of-contact-for-users-in-the-eu",
+      "title": "Designated Point of Contact for Users in the EU"
+    },
+    {
+      "block_count": 65,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11596036-anthropic-connectors-directory-faq.md",
+      "source_url": "https://support.claude.com/en/articles/11596036-anthropic-connectors-directory-faq",
+      "title": "Anthropic Connectors Directory FAQ"
+    },
+    {
+      "block_count": 12,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work.md",
+      "source_url": "https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work",
+      "title": "How do usage and length limits work?"
+    },
+    {
+      "block_count": 13,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11725091-when-to-use-desktop-and-web-connectors.md",
+      "source_url": "https://support.claude.com/en/articles/11725091-when-to-use-desktop-and-web-connectors",
+      "title": "When to use desktop and web connectors"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11725453-set-up-the-claude-lti-in-canvas-by-instructure.md",
+      "source_url": "https://support.claude.com/en/articles/11725453-set-up-the-claude-lti-in-canvas-by-instructure",
+      "title": "Set up the Claude LTI in Canvas by Instructure"
+    },
+    {
+      "block_count": 11,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account.md",
+      "source_url": "https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account",
+      "title": "Who owns and manages the data of my Claude for Education account?"
+    },
+    {
+      "block_count": 26,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context.md",
+      "source_url": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context",
+      "title": "Use Claude’s chat search and memory to build on previous context"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11818288-why-am-i-being-asked-to-verify-my-payment-method.md",
+      "source_url": "https://support.claude.com/en/articles/11818288-why-am-i-being-asked-to-verify-my-payment-method",
+      "title": "Why am I being asked to verify my payment method?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11825384-how-to-update-claude-for-ios.md",
+      "source_url": "https://support.claude.com/en/articles/11825384-how-to-update-claude-for-ios",
+      "title": "How to update Claude for iOS"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11825394-how-to-update-claude-for-android.md",
+      "source_url": "https://support.claude.com/en/articles/11825394-how-to-update-claude-for-android",
+      "title": "How to update Claude for Android"
+    },
+    {
+      "block_count": 9,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan.md",
+      "source_url": "https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan",
+      "title": "Use Claude Code with your Team or Enterprise plan"
+    },
+    {
+      "block_count": 22,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11869619-using-claude-with-ios-apps.md",
+      "source_url": "https://support.claude.com/en/articles/11869619-using-claude-with-ios-apps",
+      "title": "Using Claude with iOS Apps"
+    },
+    {
+      "block_count": 22,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11869629-using-claude-with-android-apps.md",
+      "source_url": "https://support.claude.com/en/articles/11869629-using-claude-with-android-apps",
+      "title": "Using Claude with Android Apps"
+    },
+    {
+      "block_count": 16,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code.md",
+      "source_url": "https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code",
+      "title": "Automated Security Reviews in Claude Code"
+    },
+    {
+      "block_count": 9,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/11940350-claude-code-model-configuration.md",
+      "source_url": "https://support.claude.com/en/articles/11940350-claude-code-model-configuration",
+      "title": "Claude Code model configuration"
+    },
+    {
+      "block_count": 23,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12004354-purchase-and-manage-seats-on-team-plans.md",
+      "source_url": "https://support.claude.com/en/articles/12004354-purchase-and-manage-seats-on-team-plans",
+      "title": "Purchase and manage seats on Team plans"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12005017-using-agents-according-to-our-usage-policy.md",
+      "source_url": "https://support.claude.com/en/articles/12005017-using-agents-according-to-our-usage-policy",
+      "title": "Using Agents According to Our Usage Policy"
+    },
+    {
+      "block_count": 25,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12005970-manage-extra-usage-for-team-and-seat-based-enterprise-plans.md",
+      "source_url": "https://support.claude.com/en/articles/12005970-manage-extra-usage-for-team-and-seat-based-enterprise-plans",
+      "title": "Manage extra usage for Team and seat-based Enterprise plans"
+    },
+    {
+      "block_count": 26,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome.md",
+      "source_url": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome",
+      "title": "Get started with Claude in Chrome"
+    },
+    {
+      "block_count": 10,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12053672-what-happens-to-a-user-s-data-when-they-are-removed-from-a-team-or-enterprise-organization.md",
+      "source_url": "https://support.claude.com/en/articles/12053672-what-happens-to-a-user-s-data-when-they-are-removed-from-a-team-or-enterprise-organization",
+      "title": "What happens to a user's data when they are removed from a Team or Enterprise organization?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12083917-change-your-team-plan-from-monthly-to-annual-billing.md",
+      "source_url": "https://support.claude.com/en/articles/12083917-change-your-team-plan-from-monthly-to-annual-billing",
+      "title": "Change your Team plan from monthly to annual billing"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12109679-creating-a-new-account-after-deletion.md",
+      "source_url": "https://support.claude.com/en/articles/12109679-creating-a-new-account-after-deletion",
+      "title": "Creating a new account after deletion"
+    },
+    {
+      "block_count": 53,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12111783-create-and-edit-files-with-claude.md",
+      "source_url": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude",
+      "title": "Create and edit files with Claude"
+    },
+    {
+      "block_count": 12,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12119250-model-safety-bug-bounty-program.md",
+      "source_url": "https://support.claude.com/en/articles/12119250-model-safety-bug-bounty-program",
+      "title": "Model Safety Bug Bounty Program"
+    },
+    {
+      "block_count": 11,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude.md",
+      "source_url": "https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude",
+      "title": "Import and export your memory from Claude"
+    },
+    {
+      "block_count": 102,
+      "date": "2026-03-25",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12138966-release-notes.md",
+      "source_url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "title": "Release notes"
+    },
+    {
+      "block_count": 20,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12157520-claude-code-usage-analytics.md",
+      "source_url": "https://support.claude.com/en/articles/12157520-claude-code-usage-analytics",
+      "title": "Claude Code usage analytics"
+    },
+    {
+      "block_count": 7,
+      "date": "2026-03-27",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12260368-using-incognito-chats.md",
+      "source_url": "https://support.claude.com/en/articles/12260368-using-incognito-chats",
+      "title": "Using incognito chats"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12293051-using-claude-in-xcode.md",
+      "source_url": "https://support.claude.com/en/articles/12293051-using-claude-in-xcode",
+      "title": "Using Claude in Xcode"
+    },
+    {
+      "block_count": 21,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12304248-managing-api-key-environment-variables-in-claude-code.md",
+      "source_url": "https://support.claude.com/en/articles/12304248-managing-api-key-environment-variables-in-claude-code",
+      "title": "Managing API key environment variables in Claude Code"
+    },
+    {
+      "block_count": 7,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model.md",
+      "source_url": "https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model",
+      "title": "Can I use my Outputs to train an AI model?"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12335811-report-a-concern-australian-dis-standard-compliance.md",
+      "source_url": "https://support.claude.com/en/articles/12335811-report-a-concern-australian-dis-standard-compliance",
+      "title": "Report a Concern: Australian DIS Standard compliance"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12386328-requesting-a-refund-for-a-paid-claude-plan.md",
+      "source_url": "https://support.claude.com/en/articles/12386328-requesting-a-refund-for-a-paid-claude-plan",
+      "title": "Requesting a refund for a paid Claude plan"
+    },
+    {
+      "block_count": 21,
+      "date": "2026-03-24",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12386420-claude-code-faq.md",
+      "source_url": "https://support.claude.com/en/articles/12386420-claude-code-faq",
+      "title": "Claude Code FAQ"
+    },
+    {
+      "block_count": 19,
+      "date": "2026-03-26",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans.md",
+      "source_url": "https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans",
+      "title": "Manage extra usage for paid Claude plans"
+    },
+    {
+      "block_count": 25,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12461605-using-claude-in-slack.md",
+      "source_url": "https://support.claude.com/en/articles/12461605-using-claude-in-slack",
+      "title": "Using Claude in Slack"
+    },
+    {
+      "block_count": 13,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12466728-troubleshoot-claude-error-messages.md",
+      "source_url": "https://support.claude.com/en/articles/12466728-troubleshoot-claude-error-messages",
+      "title": "Troubleshoot Claude error messages"
+    },
+    {
+      "block_count": 37,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12489464-use-enterprise-search.md",
+      "source_url": "https://support.claude.com/en/articles/12489464-use-enterprise-search",
+      "title": "Use enterprise search"
+    },
+    {
+      "block_count": 17,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12512176-what-are-skills.md",
+      "source_url": "https://support.claude.com/en/articles/12512176-what-are-skills",
+      "title": "What are Skills?"
+    },
+    {
+      "block_count": 34,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12512180-use-skills-in-claude.md",
+      "source_url": "https://support.claude.com/en/articles/12512180-use-skills-in-claude",
+      "title": "Use Skills in Claude"
+    },
+    {
+      "block_count": 37,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12512198-how-to-create-custom-skills.md",
+      "source_url": "https://support.claude.com/en/articles/12512198-how-to-create-custom-skills",
+      "title": "How to create custom Skills"
+    },
+    {
+      "block_count": 70,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector.md",
+      "source_url": "https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector",
+      "title": "Enabling and using the Microsoft 365 connector"
+    },
+    {
+      "block_count": 12,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12592343-enabling-and-using-the-desktop-extension-allowlist.md",
+      "source_url": "https://support.claude.com/en/articles/12592343-enabling-and-using-the-desktop-extension-allowlist",
+      "title": "Enabling and using the desktop extension allowlist"
+    },
+    {
+      "block_count": 8,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos.md",
+      "source_url": "https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos",
+      "title": "Deploy Claude Desktop for macOS"
+    },
+    {
+      "block_count": 23,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12618689-claude-code-on-the-web.md",
+      "source_url": "https://support.claude.com/en/articles/12618689-claude-code-on-the-web",
+      "title": "Claude Code on the web"
+    },
+    {
+      "block_count": 4,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12622667-enterprise-configuration.md",
+      "source_url": "https://support.claude.com/en/articles/12622667-enterprise-configuration",
+      "title": "Enterprise configuration"
+    },
+    {
+      "block_count": 8,
+      "date": "2026-03-25",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows.md",
+      "source_url": "https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows",
+      "title": "Deploy Claude Desktop for Windows"
+    },
+    {
+      "block_count": 16,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac.md",
+      "source_url": "https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac",
+      "title": "Use quick entry with Claude Desktop on Mac"
+    },
+    {
+      "block_count": 70,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12650343-use-claude-for-excel.md",
+      "source_url": "https://support.claude.com/en/articles/12650343-use-claude-for-excel",
+      "title": "Use Claude for Excel"
+    },
+    {
+      "block_count": 31,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide.md",
+      "source_url": "https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide",
+      "title": "Microsoft 365 Connector: Security Guide"
+    },
+    {
+      "block_count": 9,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md",
+      "source_url": "https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions",
+      "title": "Deploying enterprise-grade MCP servers with desktop extensions"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12738598-adapting-to-new-model-personas-after-deprecations.md",
+      "source_url": "https://support.claude.com/en/articles/12738598-adapting-to-new-model-personas-after-deprecations",
+      "title": "Adapting to new model personas after deprecations"
+    },
+    {
+      "block_count": 4,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12864745-using-claude-in-microsoft-foundry.md",
+      "source_url": "https://support.claude.com/en/articles/12864745-using-claude-in-microsoft-foundry",
+      "title": "Using Claude in Microsoft Foundry"
+    },
+    {
+      "block_count": 11,
+      "date": "2026-03-27",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans.md",
+      "source_url": "https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans",
+      "title": "View usage analytics for Team and Enterprise plans"
+    },
+    {
+      "block_count": 38,
+      "date": "2026-03-20",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12893767-getting-started-with-claude-for-nonprofits.md",
+      "source_url": "https://support.claude.com/en/articles/12893767-getting-started-with-claude-for-nonprofits",
+      "title": "Getting started with Claude for Nonprofits"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting.md",
+      "source_url": "https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting",
+      "title": "Claude in Chrome Troubleshooting"
+    },
+    {
+      "block_count": 24,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12902428-using-claude-in-chrome-safely.md",
+      "source_url": "https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely",
+      "title": "Using Claude in Chrome Safely"
+    },
+    {
+      "block_count": 19,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide.md",
+      "source_url": "https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide",
+      "title": "Claude in Chrome Permissions Guide"
+    },
+    {
+      "block_count": 68,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12922490-remote-mcp-server-submission-guide.md",
+      "source_url": "https://support.claude.com/en/articles/12922490-remote-mcp-server-submission-guide",
+      "title": "Remote MCP Server Submission Guide"
+    },
+    {
+      "block_count": 78,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12922832-local-mcp-server-submission-guide.md",
+      "source_url": "https://support.claude.com/en/articles/12922832-local-mcp-server-submission-guide",
+      "title": "Local MCP Server Submission Guide"
+    },
+    {
+      "block_count": 45,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12922929-building-desktop-extensions-with-mcpb.md",
+      "source_url": "https://support.claude.com/en/articles/12922929-building-desktop-extensions-with-mcpb",
+      "title": "Building Desktop Extensions with MCPB"
+    },
+    {
+      "block_count": 21,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12923221-using-the-blackbaud-connector-in-claude.md",
+      "source_url": "https://support.claude.com/en/articles/12923221-using-the-blackbaud-connector-in-claude",
+      "title": "Using the Blackbaud Connector in Claude"
+    },
+    {
+      "block_count": 18,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12923227-using-the-benevity-connector-in-claude.md",
+      "source_url": "https://support.claude.com/en/articles/12923227-using-the-benevity-connector-in-claude",
+      "title": "Using the Benevity Connector in Claude"
+    },
+    {
+      "block_count": 65,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12923235-using-the-candid-connector-in-claude.md",
+      "source_url": "https://support.claude.com/en/articles/12923235-using-the-candid-connector-in-claude",
+      "title": "Using the Candid Connector in Claude"
+    },
+    {
+      "block_count": 7,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12923668-claude-for-nonprofits-partnership-success-guide-for-admins.md",
+      "source_url": "https://support.claude.com/en/articles/12923668-claude-for-nonprofits-partnership-success-guide-for-admins",
+      "title": "Claude for Nonprofits Partnership Success Guide for Admins"
+    },
+    {
+      "block_count": 6,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12923901-claude-for-nonprofits-partnership-guide-for-all-users.md",
+      "source_url": "https://support.claude.com/en/articles/12923901-claude-for-nonprofits-partnership-guide-for-all-users",
+      "title": "Claude for Nonprofits Partnership Guide for All Users"
+    },
+    {
+      "block_count": 6,
+      "date": "2026-03-27",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription.md",
+      "source_url": "https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription",
+      "title": "How to gift a Claude subscription"
+    },
+    {
+      "block_count": 12,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12938695-how-to-redeem-a-claude-gift-subscription.md",
+      "source_url": "https://support.claude.com/en/articles/12938695-how-to-redeem-a-claude-gift-subscription",
+      "title": "How to redeem a Claude gift subscription"
+    },
+    {
+      "block_count": 7,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation.md",
+      "source_url": "https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation",
+      "title": "Understanding your billing address and tax calculation"
+    },
+    {
+      "block_count": 10,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/12997503-team-plan-billing-faqs.md",
+      "source_url": "https://support.claude.com/en/articles/12997503-team-plan-billing-faqs",
+      "title": "Team plan billing FAQs"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13015708-access-the-compliance-api.md",
+      "source_url": "https://support.claude.com/en/articles/13015708-access-the-compliance-api",
+      "title": "Access the Compliance API"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13047024-how-to-get-support-for-claude-for-government.md",
+      "source_url": "https://support.claude.com/en/articles/13047024-how-to-get-support-for-claude-for-government",
+      "title": "How to get support for Claude for Government"
+    },
+    {
+      "block_count": 16,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls.md",
+      "source_url": "https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls",
+      "title": "Claude in Chrome admin controls"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13117299-minimum-age-requirement-access-restriction.md",
+      "source_url": "https://support.claude.com/en/articles/13117299-minimum-age-requirement-access-restriction",
+      "title": "Minimum age requirement access restriction"
+    },
+    {
+      "block_count": 10,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization.md",
+      "source_url": "https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization",
+      "title": "Provision and manage Skills for your organization"
+    },
+    {
+      "block_count": 7,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13124001-managing-your-active-sessions.md",
+      "source_url": "https://support.claude.com/en/articles/13124001-managing-your-active-sessions",
+      "title": "Managing your active sessions"
+    },
+    {
+      "block_count": 19,
+      "date": "2026-03-18",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13132885-set-up-single-sign-on-sso.md",
+      "source_url": "https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso",
+      "title": "Set up single sign-on (SSO)"
+    },
+    {
+      "block_count": 18,
+      "date": "2026-03-27",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning.md",
+      "source_url": "https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning",
+      "title": "Set up JIT or SCIM provisioning"
+    },
+    {
+      "block_count": 29,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans.md",
+      "source_url": "https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans",
+      "title": "Manage members on Team and Enterprise plans"
+    },
+    {
+      "block_count": 6,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13145338-anthropic-software-directory-terms.md",
+      "source_url": "https://support.claude.com/en/articles/13145338-anthropic-software-directory-terms",
+      "title": "Anthropic Software Directory Terms"
+    },
+    {
+      "block_count": 34,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13145358-anthropic-software-directory-policy.md",
+      "source_url": "https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy",
+      "title": "Anthropic Software Directory Policy"
+    },
+    {
+      "block_count": 29,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13162029-google-sheets-add-on.md",
+      "source_url": "https://support.claude.com/en/articles/13162029-google-sheets-add-on",
+      "title": "Google Sheets add-on"
+    },
+    {
+      "block_count": 4,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13163631-configuring-session-security-settings.md",
+      "source_url": "https://support.claude.com/en/articles/13163631-configuring-session-security-settings",
+      "title": "Configuring session security settings"
+    },
+    {
+      "block_count": 8,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13163666-holiday-2025-usage-promotion.md",
+      "source_url": "https://support.claude.com/en/articles/13163666-holiday-2025-usage-promotion",
+      "title": "Holiday 2025 Usage Promotion"
+    },
+    {
+      "block_count": 25,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13171706-crisis-helpline-support-in-claude.md",
+      "source_url": "https://support.claude.com/en/articles/13171706-crisis-helpline-support-in-claude",
+      "title": "Crisis Helpline Support in Claude"
+    },
+    {
+      "block_count": 15,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13189465-logging-in-to-your-claude-account.md",
+      "source_url": "https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account",
+      "title": "Logging in to your Claude account"
+    },
+    {
+      "block_count": 9,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions.md",
+      "source_url": "https://support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions",
+      "title": "Enforce network-level access control with Tenant Restrictions"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13200993-restrict-access-to-claude-with-ip-allowlisting.md",
+      "source_url": "https://support.claude.com/en/articles/13200993-restrict-access-to-claude-with-ip-allowlisting",
+      "title": "Restrict access to Claude with IP allowlisting"
+    },
+    {
+      "block_count": 9,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans.md",
+      "source_url": "https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans",
+      "title": "HIPAA-ready Enterprise plans"
+    },
+    {
+      "block_count": 10,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13325567-account-management-faqs.md",
+      "source_url": "https://support.claude.com/en/articles/13325567-account-management-faqs",
+      "title": "Account management FAQs"
+    },
+    {
+      "block_count": 31,
+      "date": "2026-03-25",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13345190-get-started-with-cowork.md",
+      "source_url": "https://support.claude.com/en/articles/13345190-get-started-with-cowork",
+      "title": "Get started with Cowork"
+    },
+    {
+      "block_count": 0,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13346458-customizing-your-console-appearance-settings.md",
+      "source_url": "https://support.claude.com/en/articles/13346458-customizing-your-console-appearance-settings",
+      "title": "Customizing your Console appearance settings"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13346720-export-your-organization-s-data.md",
+      "source_url": "https://support.claude.com/en/articles/13346720-export-your-organization-s-data",
+      "title": "Export your organization's data"
+    },
+    {
+      "block_count": 32,
+      "date": "2026-03-25",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13364135-use-cowork-safely.md",
+      "source_url": "https://support.claude.com/en/articles/13364135-use-cowork-safely",
+      "title": "Use Cowork safely"
+    },
+    {
+      "block_count": 12,
+      "date": "2026-03-18",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13371040-logging-in-to-your-console-account.md",
+      "source_url": "https://support.claude.com/en/articles/13371040-logging-in-to-your-console-account",
+      "title": "Logging in to your Console account"
+    },
+    {
+      "block_count": 35,
+      "date": "2026-03-27",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13393991-purchase-and-manage-seats-on-enterprise-plans.md",
+      "source_url": "https://support.claude.com/en/articles/13393991-purchase-and-manage-seats-on-enterprise-plans",
+      "title": "Purchase and manage seats on Enterprise plans"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api.md",
+      "source_url": "https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api",
+      "title": "How can I check connectivity to the Claude API?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13443687-switching-to-a-different-identity-provider-idp.md",
+      "source_url": "https://support.claude.com/en/articles/13443687-switching-to-a-different-identity-provider-idp",
+      "title": "Switching to a different Identity Provider (IdP)"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13443764-inviting-members-to-the-claude-console.md",
+      "source_url": "https://support.claude.com/en/articles/13443764-inviting-members-to-the-claude-console",
+      "title": "Inviting members to the Claude Console"
+    },
+    {
+      "block_count": 16,
+      "date": "2026-03-25",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude.md",
+      "source_url": "https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude",
+      "title": "Use interactive connectors in Claude"
+    },
+    {
+      "block_count": 25,
+      "date": "2026-03-25",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13455879-use-cowork-on-team-and-enterprise-plans.md",
+      "source_url": "https://support.claude.com/en/articles/13455879-use-cowork-on-team-and-enterprise-plans",
+      "title": "Use Cowork on Team and Enterprise plans"
+    },
+    {
+      "block_count": 41,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13521390-use-claude-for-powerpoint.md",
+      "source_url": "https://support.claude.com/en/articles/13521390-use-claude-for-powerpoint",
+      "title": "Use Claude for PowerPoint"
+    },
+    {
+      "block_count": 13,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization.md",
+      "source_url": "https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization",
+      "title": "Find and join a Team or Enterprise organization"
+    },
+    {
+      "block_count": 15,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13641943-visual-and-interactive-content.md",
+      "source_url": "https://support.claude.com/en/articles/13641943-visual-and-interactive-content",
+      "title": "Visual and interactive content"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13663666-use-visual-and-interactive-content-on-team-and-enterprise-plans.md",
+      "source_url": "https://support.claude.com/en/articles/13663666-use-visual-and-interactive-content-on-team-and-enterprise-plans",
+      "title": "Use visual and interactive content on Team and Enterprise plans"
+    },
+    {
+      "block_count": 11,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13694757-access-engagement-and-adoption-data-with-the-analytics-api.md",
+      "source_url": "https://support.claude.com/en/articles/13694757-access-engagement-and-adoption-data-with-the-analytics-api",
+      "title": "Access engagement and adoption data with the Analytics API"
+    },
+    {
+      "block_count": 41,
+      "date": "2026-03-18",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide.md",
+      "source_url": "https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide",
+      "title": "Claude Enterprise Analytics API reference guide"
+    },
+    {
+      "block_count": 10,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams.md",
+      "source_url": "https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams",
+      "title": "Unauthorized Anthropic stock sales and investment scams"
+    },
+    {
+      "block_count": 9,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13730515-manage-claude-s-tool-access.md",
+      "source_url": "https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access",
+      "title": "Manage Claude’s tool access"
+    },
+    {
+      "block_count": 32,
+      "date": "2026-03-25",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13756069-public-sector-faqs.md",
+      "source_url": "https://support.claude.com/en/articles/13756069-public-sector-faqs",
+      "title": "Public Sector FAQs"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13776697-join-an-organization-via-invite-link.md",
+      "source_url": "https://support.claude.com/en/articles/13776697-join-an-organization-via-invite-link",
+      "title": "Join an organization via invite link"
+    },
+    {
+      "block_count": 8,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise.md",
+      "source_url": "https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise",
+      "title": "Migrate your organization from Team to Enterprise"
+    },
+    {
+      "block_count": 29,
+      "date": "2026-03-23",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13837433-manage-cowork-plugins-for-your-organization.md",
+      "source_url": "https://support.claude.com/en/articles/13837433-manage-cowork-plugins-for-your-organization",
+      "title": "Manage Cowork plugins for your organization"
+    },
+    {
+      "block_count": 12,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13837440-use-plugins-in-cowork.md",
+      "source_url": "https://support.claude.com/en/articles/13837440-use-plugins-in-cowork",
+      "title": "Use plugins in Cowork"
+    },
+    {
+      "block_count": 10,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13851150-install-financial-services-plugins-for-cowork.md",
+      "source_url": "https://support.claude.com/en/articles/13851150-install-financial-services-plugins-for-cowork",
+      "title": "Install financial services plugins for Cowork"
+    },
+    {
+      "block_count": 7,
+      "date": "2026-03-27",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-cowork.md",
+      "source_url": "https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-cowork",
+      "title": "Schedule recurring tasks in Cowork"
+    },
+    {
+      "block_count": 15,
+      "date": "2026-03-20",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13892150-work-across-excel-and-powerpoint.md",
+      "source_url": "https://support.claude.com/en/articles/13892150-work-across-excel-and-powerpoint",
+      "title": "Work across Excel and PowerPoint"
+    },
+    {
+      "block_count": 55,
+      "date": "2026-03-24",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13945233-use-claude-for-excel-and-powerpoint-with-third-party-platforms.md",
+      "source_url": "https://support.claude.com/en/articles/13945233-use-claude-for-excel-and-powerpoint-with-third-party-platforms",
+      "title": "Use Claude for Excel and PowerPoint with third-party platforms"
+    },
+    {
+      "block_count": 23,
+      "date": "2026-03-23",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13947068-assign-tasks-to-claude-from-anywhere-in-cowork.md",
+      "source_url": "https://support.claude.com/en/articles/13947068-assign-tasks-to-claude-from-anywhere-in-cowork",
+      "title": "Assign tasks to Claude from anywhere in Cowork"
+    },
+    {
+      "block_count": 8,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/13979539-custom-visuals-in-chat.md",
+      "source_url": "https://support.claude.com/en/articles/13979539-custom-visuals-in-chat",
+      "title": "Custom visuals in chat"
+    },
+    {
+      "block_count": 9,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/14051822-notice-regarding-consumption-tax-jct-for-japanese-customers.md",
+      "source_url": "https://support.claude.com/en/articles/14051822-notice-regarding-consumption-tax-jct-for-japanese-customers",
+      "title": "Notice regarding consumption tax (JCT) for Japanese customers"
+    },
+    {
+      "block_count": 9,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/14063676-claude-march-2026-usage-promotion.md",
+      "source_url": "https://support.claude.com/en/articles/14063676-claude-march-2026-usage-promotion",
+      "title": "Claude March 2026 usage promotion"
+    },
+    {
+      "block_count": 13,
+      "date": "2026-03-25",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-cowork.md",
+      "source_url": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-cowork",
+      "title": "Organize your tasks with projects in Cowork"
+    },
+    {
+      "block_count": 18,
+      "date": "2026-03-23",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork.md",
+      "source_url": "https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork",
+      "title": "Let Claude use your computer in Cowork"
+    },
+    {
+      "block_count": 30,
+      "date": "2026-03-25",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/14233555-set-up-code-review-for-claude-code.md",
+      "source_url": "https://support.claude.com/en/articles/14233555-set-up-code-review-for-claude-code",
+      "title": "Set up Code Review for Claude Code"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for.md",
+      "source_url": "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for",
+      "title": "What are some things I can use Claude for?"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/7996853-introduction-to-prompt-design.md",
+      "source_url": "https://support.claude.com/en/articles/7996853-introduction-to-prompt-design",
+      "title": "Introduction to prompt design"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer.md",
+      "source_url": "https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer",
+      "title": "My prompt isn’t giving me a helpful answer."
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/7996862-how-do-i-view-and-sign-your-data-processing-addendum-dpa.md",
+      "source_url": "https://support.claude.com/en/articles/7996862-how-do-i-view-and-sign-your-data-processing-addendum-dpa",
+      "title": "How do I view and sign your Data Processing Addendum (DPA)?"
+    },
+    {
+      "block_count": 4,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude.md",
+      "source_url": "https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude",
+      "title": "Reporting, Blocking, and Removing Content from Claude"
+    },
+    {
+      "block_count": 9,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/7996918-what-is-amazon-bedrock.md",
+      "source_url": "https://support.claude.com/en/articles/7996918-what-is-amazon-bedrock",
+      "title": "What is Amazon Bedrock?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/7996920-how-do-i-get-access-to-claude-in-amazon-bedrock.md",
+      "source_url": "https://support.claude.com/en/articles/7996920-how-do-i-get-access-to-claude-in-amazon-bedrock",
+      "title": "How do I get access to Claude in Amazon Bedrock?"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/7996921-i-use-claude-in-amazon-bedrock-who-do-i-contact-for-customer-support-inquiries.md",
+      "source_url": "https://support.claude.com/en/articles/7996921-i-use-claude-in-amazon-bedrock-who-do-i-contact-for-customer-support-inquiries",
+      "title": "I use Claude in Amazon Bedrock. Who do I contact for customer support inquiries?"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8106465-our-approach-to-user-safety.md",
+      "source_url": "https://support.claude.com/en/articles/8106465-our-approach-to-user-safety",
+      "title": "Our Approach to User Safety"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8114487-what-interfaces-can-i-use-to-access-claude.md",
+      "source_url": "https://support.claude.com/en/articles/8114487-what-interfaces-can-i-use-to-access-claude",
+      "title": "What interfaces can I use to access Claude?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8114490-where-can-i-find-your-api-documentation.md",
+      "source_url": "https://support.claude.com/en/articles/8114490-where-can-i-find-your-api-documentation",
+      "title": "Where can I find your API documentation?"
+    },
+    {
+      "block_count": 13,
+      "date": "2026-03-25",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8114491-get-started-with-claude.md",
+      "source_url": "https://support.claude.com/en/articles/8114491-get-started-with-claude",
+      "title": "Get started with Claude"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data.md",
+      "source_url": "https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data",
+      "title": "How up-to-date is Claude's training data?"
+    },
+    {
+      "block_count": 7,
+      "date": "2026-03-20",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers.md",
+      "source_url": "https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers",
+      "title": "Business Associate Agreements (BAA) for Commercial Customers"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8114518-claude-s-response-to-my-prompt-is-too-brief.md",
+      "source_url": "https://support.claude.com/en/articles/8114518-claude-s-response-to-my-prompt-is-too-brief",
+      "title": "Claude’s response to my prompt is too brief."
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api.md",
+      "source_url": "https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api",
+      "title": "How can I access the Claude API?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8114523-how-can-i-learn-more-about-claude-api-pricing.md",
+      "source_url": "https://support.claude.com/en/articles/8114523-how-can-i-learn-more-about-claude-api-pricing",
+      "title": "How can I learn more about Claude API pricing?"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8114526-how-will-i-be-billed-for-claude-api-use.md",
+      "source_url": "https://support.claude.com/en/articles/8114526-how-will-i-be-billed-for-claude-api-use",
+      "title": "How will I be billed for Claude API use?"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8114527-i-m-encountering-429-errors-and-i-m-worried-my-rate-limit-is-too-low-what-should-i-do.md",
+      "source_url": "https://support.claude.com/en/articles/8114527-i-m-encountering-429-errors-and-i-m-worried-my-rate-limit-is-too-low-what-should-i-do",
+      "title": "I’m encountering 429 errors, and I’m worried my rate limit is too low. What should I do?"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8114531-i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api.md",
+      "source_url": "https://support.claude.com/en/articles/8114531-i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api",
+      "title": "I created a Claude Console organization - how do I start using the Claude API?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8114533-i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude.md",
+      "source_url": "https://support.claude.com/en/articles/8114533-i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude",
+      "title": "I’ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8114535-where-can-i-go-for-claude-api-support-and-assistance.md",
+      "source_url": "https://support.claude.com/en/articles/8114535-where-can-i-go-for-claude-api-support-and-assistance",
+      "title": "Where can I go for Claude API support and assistance?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8116515-where-is-the-claude-api-supported.md",
+      "source_url": "https://support.claude.com/en/articles/8116515-where-is-the-claude-api-supported",
+      "title": "Where is the Claude API supported?"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8230524-how-can-i-delete-or-rename-a-conversation.md",
+      "source_url": "https://support.claude.com/en/articles/8230524-how-can-i-delete-or-rename-a-conversation",
+      "title": "How can I delete or rename a conversation?"
+    },
+    {
+      "block_count": 10,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8241126-uploading-files-to-claude.md",
+      "source_url": "https://support.claude.com/en/articles/8241126-uploading-files-to-claude",
+      "title": "Uploading files to Claude"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8241188-claude-is-producing-links-that-don-t-work-and-falsely-claiming-that-it-has-sent-emails-or-produced-external-documents-what-s-going-on.md",
+      "source_url": "https://support.claude.com/en/articles/8241188-claude-is-producing-links-that-don-t-work-and-falsely-claiming-that-it-has-sent-emails-or-produced-external-documents-what-s-going-on",
+      "title": "Claude is producing links that don’t work and falsely claiming that it has sent emails or produced external documents. What’s going on?"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8241216-i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy.md",
+      "source_url": "https://support.claude.com/en/articles/8241216-i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy",
+      "title": "I’m planning to launch a product using the Claude API. What steps should I take to ensure I’m not violating Anthropic’s Usage Policy?"
+    },
+    {
+      "block_count": 10,
+      "date": "2026-03-18",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8241253-safeguards-warnings-and-appeals.md",
+      "source_url": "https://support.claude.com/en/articles/8241253-safeguards-warnings-and-appeals",
+      "title": "Safeguards Warnings and Appeals"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api.md",
+      "source_url": "https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api",
+      "title": "Our approach to rate limits for the Claude API"
+    },
+    {
+      "block_count": 13,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8287232-verifying-your-phone-number.md",
+      "source_url": "https://support.claude.com/en/articles/8287232-verifying-your-phone-number",
+      "title": "Verifying your phone number"
+    },
+    {
+      "block_count": 14,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8325606-what-is-the-pro-plan.md",
+      "source_url": "https://support.claude.com/en/articles/8325606-what-is-the-pro-plan",
+      "title": "What is the Pro plan?"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8325609-how-do-i-sign-up-for-the-pro-plan.md",
+      "source_url": "https://support.claude.com/en/articles/8325609-how-do-i-sign-up-for-the-pro-plan",
+      "title": "How do I sign up for the Pro plan?"
+    },
+    {
+      "block_count": 4,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription.md",
+      "source_url": "https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription",
+      "title": "How do I cancel my paid Claude subscription?"
+    },
+    {
+      "block_count": 7,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8325618-paid-plan-billing-faqs.md",
+      "source_url": "https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs",
+      "title": "Paid Plan Billing FAQs"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations.md",
+      "source_url": "https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations",
+      "title": "I would like to input sensitive data into my chats with Claude. Who can view my conversations?"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8384961-what-should-i-do-if-i-suspect-my-api-key-has-been-compromised.md",
+      "source_url": "https://support.claude.com/en/articles/8384961-what-should-i-do-if-i-suspect-my-api-key-has-been-compromised",
+      "title": "What should I do if I suspect my API key has been compromised?"
+    },
+    {
+      "block_count": 7,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8452276-how-do-i-change-the-email-address-associated-with-my-account.md",
+      "source_url": "https://support.claude.com/en/articles/8452276-how-do-i-change-the-email-address-associated-with-my-account",
+      "title": "How do I change the email address associated with my account?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8461763-where-can-i-access-claude.md",
+      "source_url": "https://support.claude.com/en/articles/8461763-where-can-i-access-claude",
+      "title": "Where can I access Claude?"
+    },
+    {
+      "block_count": 6,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on.md",
+      "source_url": "https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on",
+      "title": "Claude is providing incorrect or misleading responses. What’s going on?"
+    },
+    {
+      "block_count": 10,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8606378-how-do-i-use-the-workbench.md",
+      "source_url": "https://support.claude.com/en/articles/8606378-how-do-i-use-the-workbench",
+      "title": "How do I use the Workbench?"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-25",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans.md",
+      "source_url": "https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans",
+      "title": "How large is the context window on paid Claude plans?"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-24",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8606395-how-large-is-the-claude-api-s-context-window.md",
+      "source_url": "https://support.claude.com/en/articles/8606395-how-large-is-the-claude-api-s-context-window",
+      "title": "How large is the Claude API’s context window?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8664678-how-can-i-change-the-model-version-that-i-m-chatting-with.md",
+      "source_url": "https://support.claude.com/en/articles/8664678-how-can-i-change-the-model-version-that-i-m-chatting-with",
+      "title": "How can I change the model version that I’m chatting with?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8887527-customizing-your-appearance-settings.md",
+      "source_url": "https://support.claude.com/en/articles/8887527-customizing-your-appearance-settings",
+      "title": "Customizing your appearance settings"
+    },
+    {
+      "block_count": 10,
+      "date": "2026-03-27",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler.md",
+      "source_url": "https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler",
+      "title": "Does Anthropic crawl data from the web, and how can site owners block the crawler?"
+    },
+    {
+      "block_count": 7,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage.md",
+      "source_url": "https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage",
+      "title": "How do I pay for my Claude API usage?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8987200-can-i-use-the-claude-api-for-individual-use.md",
+      "source_url": "https://support.claude.com/en/articles/8987200-can-i-use-the-claude-api-for-individual-use",
+      "title": "Can I use the Claude API for individual use?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/8987223-can-i-have-a-claude-account-and-a-console-account.md",
+      "source_url": "https://support.claude.com/en/articles/8987223-can-i-have-a-claude-account-and-a-console-account",
+      "title": "Can I have a Claude account and a Console account?"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9002504-can-claude-produce-images.md",
+      "source_url": "https://support.claude.com/en/articles/9002504-can-claude-produce-images",
+      "title": "Can Claude produce images?"
+    },
+    {
+      "block_count": 11,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9015913-how-to-get-support.md",
+      "source_url": "https://support.claude.com/en/articles/9015913-how-to-get-support",
+      "title": "How to get support"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9020328-csam-detection-and-reporting.md",
+      "source_url": "https://support.claude.com/en/articles/9020328-csam-detection-and-reporting",
+      "title": "CSAM Detection and Reporting"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9028421-how-can-i-delete-my-claude-account.md",
+      "source_url": "https://support.claude.com/en/articles/9028421-how-can-i-delete-my-claude-account",
+      "title": "How can I delete my Claude account?"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9035075-law-enforcement-requests.md",
+      "source_url": "https://support.claude.com/en/articles/9035075-law-enforcement-requests",
+      "title": "Law Enforcement Requests"
+    },
+    {
+      "block_count": 17,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program.md",
+      "source_url": "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program",
+      "title": "What is the External Researcher Access Program?"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9190861-terms-of-service-updates.md",
+      "source_url": "https://support.claude.com/en/articles/9190861-terms-of-service-updates",
+      "title": "Terms of Service Updates"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9199617-api-safeguards-tools.md",
+      "source_url": "https://support.claude.com/en/articles/9199617-api-safeguards-tools",
+      "title": "API Safeguards Tools"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9205721-why-am-i-receiving-an-output-blocked-by-content-filtering-policy-error.md",
+      "source_url": "https://support.claude.com/en/articles/9205721-why-am-i-receiving-an-output-blocked-by-content-filtering-policy-error",
+      "title": "Why am I receiving an 'Output blocked by content filtering policy' error?"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9264804-how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios.md",
+      "source_url": "https://support.claude.com/en/articles/9264804-how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios",
+      "title": "How can I cancel my Claude Pro subscription on the Claude app for iOS?"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9264813-consumer-terms-of-service-updates.md",
+      "source_url": "https://support.claude.com/en/articles/9264813-consumer-terms-of-service-updates",
+      "title": "Consumer Terms of Service Updates"
+    },
+    {
+      "block_count": 7,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team.md",
+      "source_url": "https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team",
+      "title": "Who owns and manages the data of my team?"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9266462-installing-claude-for-ios.md",
+      "source_url": "https://support.claude.com/en/articles/9266462-installing-claude-for-ios",
+      "title": "Installing Claude for iOS"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9266495-how-do-i-sign-up-for-claude-pro-on-the-claude-app-for-ios.md",
+      "source_url": "https://support.claude.com/en/articles/9266495-how-do-i-sign-up-for-claude-pro-on-the-claude-app-for-ios",
+      "title": "How do I sign up for Claude Pro on the Claude app for iOS?"
+    },
+    {
+      "block_count": 17,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9266767-what-is-the-team-plan.md",
+      "source_url": "https://support.claude.com/en/articles/9266767-what-is-the-team-plan",
+      "title": "What is the Team plan?"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9267247-get-started-with-the-team-plan.md",
+      "source_url": "https://support.claude.com/en/articles/9267247-get-started-with-the-team-plan",
+      "title": "Get started with the Team plan"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9267276-roles-and-permissions.md",
+      "source_url": "https://support.claude.com/en/articles/9267276-roles-and-permissions",
+      "title": "Roles and permissions"
+    },
+    {
+      "block_count": 15,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9267289-how-is-my-team-plan-bill-calculated.md",
+      "source_url": "https://support.claude.com/en/articles/9267289-how-is-my-team-plan-bill-calculated",
+      "title": "How is my Team plan bill calculated?"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9267323-cancel-your-organization-s-team-plan-subscription.md",
+      "source_url": "https://support.claude.com/en/articles/9267323-cancel-your-organization-s-team-plan-subscription",
+      "title": "Cancel your organization's Team plan subscription"
+    },
+    {
+      "block_count": 4,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9267385-does-anthropic-act-as-a-data-processor-or-controller.md",
+      "source_url": "https://support.claude.com/en/articles/9267385-does-anthropic-act-as-a-data-processor-or-controller",
+      "title": "Does Anthropic Act as a Data Processor or Controller?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9267387-how-can-i-access-the-personal-information-that-anthropic-has-on-my-account.md",
+      "source_url": "https://support.claude.com/en/articles/9267387-how-can-i-access-the-personal-information-that-anthropic-has-on-my-account",
+      "title": "How can I access the personal information that Anthropic has on my account?"
+    },
+    {
+      "block_count": 7,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9267400-can-individuals-with-pro-or-max-plan-accounts-migrate-them-to-team-or-enterprise-plan-organizations.md",
+      "source_url": "https://support.claude.com/en/articles/9267400-can-individuals-with-pro-or-max-plan-accounts-migrate-them-to-team-or-enterprise-plan-organizations",
+      "title": "Can individuals with Pro or Max plan accounts migrate them to Team or Enterprise plan organizations?"
+    },
+    {
+      "block_count": 8,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9301722-updates-to-our-acceptable-use-policy-now-usage-policy-consumer-terms-of-service-and-privacy-policy.md",
+      "source_url": "https://support.claude.com/en/articles/9301722-updates-to-our-acceptable-use-policy-now-usage-policy-consumer-terms-of-service-and-privacy-policy",
+      "title": "Updates to our Acceptable Use Policy (now “Usage Policy”), Consumer Terms of Service, and Privacy Policy"
+    },
+    {
+      "block_count": 9,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors.md",
+      "source_url": "https://support.claude.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors",
+      "title": "Responsible Use of Anthropic's Models: Guidelines for Organizations Serving Minors"
+    },
+    {
+      "block_count": 10,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9402418-why-was-my-card-declined.md",
+      "source_url": "https://support.claude.com/en/articles/9402418-why-was-my-card-declined",
+      "title": "Why was my card declined?"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data.md",
+      "source_url": "https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data",
+      "title": "How can I export my Claude data?"
+    },
+    {
+      "block_count": 18,
+      "date": "2026-03-24",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them.md",
+      "source_url": "https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them",
+      "title": "What are artifacts and how do I use them?"
+    },
+    {
+      "block_count": 12,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9517075-what-are-projects.md",
+      "source_url": "https://support.claude.com/en/articles/9517075-what-are-projects",
+      "title": "What are projects?"
+    },
+    {
+      "block_count": 16,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects.md",
+      "source_url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects",
+      "title": "How can I create and manage projects?"
+    },
+    {
+      "block_count": 14,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing.md",
+      "source_url": "https://support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing",
+      "title": "Manage project visibility and sharing"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9519291-what-is-anthropic-s-policy-for-handling-governmental-requests-for-user-information.md",
+      "source_url": "https://support.claude.com/en/articles/9519291-what-is-anthropic-s-policy-for-handling-governmental-requests-for-user-information",
+      "title": "What is Anthropic’s policy for handling governmental requests for user information?"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9528712-exceptions-to-our-usage-policy.md",
+      "source_url": "https://support.claude.com/en/articles/9528712-exceptions-to-our-usage-policy",
+      "title": "Exceptions to our Usage Policy"
+    },
+    {
+      "block_count": 26,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9529781-examples-of-projects-you-can-create.md",
+      "source_url": "https://support.claude.com/en/articles/9529781-examples-of-projects-you-can-create",
+      "title": "Examples of projects you can create"
+    },
+    {
+      "block_count": 7,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9534590-cost-and-usage-reporting-in-the-claude-console.md",
+      "source_url": "https://support.claude.com/en/articles/9534590-cost-and-usage-reporting-in-the-claude-console",
+      "title": "Cost and Usage Reporting in the Claude Console"
+    },
+    {
+      "block_count": 18,
+      "date": "2026-03-26",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9547008-publishing-and-sharing-artifacts.md",
+      "source_url": "https://support.claude.com/en/articles/9547008-publishing-and-sharing-artifacts",
+      "title": "Publishing and sharing artifacts"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9612887-how-do-i-install-claude-for-android.md",
+      "source_url": "https://support.claude.com/en/articles/9612887-how-do-i-install-claude-for-android",
+      "title": "How do I install Claude for Android?"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9612889-how-can-i-uninstall-claude-for-android.md",
+      "source_url": "https://support.claude.com/en/articles/9612889-how-can-i-uninstall-claude-for-android",
+      "title": "How can I uninstall Claude for Android?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9612892-how-do-i-sign-up-for-claude-pro-on-claude-for-android.md",
+      "source_url": "https://support.claude.com/en/articles/9612892-how-do-i-sign-up-for-claude-pro-on-claude-for-android",
+      "title": "How do I sign up for Claude Pro on Claude for Android?"
+    },
+    {
+      "block_count": 3,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android.md",
+      "source_url": "https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android",
+      "title": "How can I cancel my Claude Pro subscription on Claude for Android?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9612901-why-can-t-i-find-claude-for-android-in-the-play-store.md",
+      "source_url": "https://support.claude.com/en/articles/9612901-why-can-t-i-find-claude-for-android-in-the-play-store",
+      "title": "Why can’t I find Claude for Android in the Play Store?"
+    },
+    {
+      "block_count": 1,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9612904-what-versions-of-android-are-supported.md",
+      "source_url": "https://support.claude.com/en/articles/9612904-what-versions-of-android-are-supported",
+      "title": "What versions of Android are supported?"
+    },
+    {
+      "block_count": 20,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure.md",
+      "source_url": "https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure",
+      "title": "API Key Best Practices: Keeping Your Keys Safe and Secure"
+    },
+    {
+      "block_count": 5,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9796617-can-you-delete-data-that-i-sent-via-team-and-enterprise-plans.md",
+      "source_url": "https://support.claude.com/en/articles/9796617-can-you-delete-data-that-i-sent-via-team-and-enterprise-plans",
+      "title": "Can you delete data that I sent via Team and Enterprise plans?"
+    },
+    {
+      "block_count": 6,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console.md",
+      "source_url": "https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console",
+      "title": "Creating and managing Workspaces in the Claude Console"
+    },
+    {
+      "block_count": 24,
+      "date": "2026-03-24",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9797531-what-is-the-enterprise-plan.md",
+      "source_url": "https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan",
+      "title": "What is the Enterprise plan?"
+    },
+    {
+      "block_count": 9,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9797557-usage-limit-best-practices.md",
+      "source_url": "https://support.claude.com/en/articles/9797557-usage-limit-best-practices",
+      "title": "Usage limit best practices"
+    },
+    {
+      "block_count": 4,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9876003-i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-do-i-have-to-pay-separately-to-use-the-claude-api-and-console.md",
+      "source_url": "https://support.claude.com/en/articles/9876003-i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-do-i-have-to-pay-separately-to-use-the-claude-api-and-console",
+      "title": "I have a paid Claude subscription (Pro, Max, Team, or Enterprise plans). Why do I have to pay separately to use the Claude API and Console?"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9889408-add-or-update-your-paid-claude-account-s-tax-or-vat-id.md",
+      "source_url": "https://support.claude.com/en/articles/9889408-add-or-update-your-paid-claude-account-s-tax-or-vat-id",
+      "title": "Add or update your paid Claude account’s tax or VAT ID"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9889428-add-or-update-your-claude-console-organization-s-tax-or-vat-id.md",
+      "source_url": "https://support.claude.com/en/articles/9889428-add-or-update-your-claude-console-organization-s-tax-or-vat-id",
+      "title": "Add or update your Claude Console organization's tax or VAT ID"
+    },
+    {
+      "block_count": 6,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9927533-disable-public-projects-for-your-organization.md",
+      "source_url": "https://support.claude.com/en/articles/9927533-disable-public-projects-for-your-organization",
+      "title": "Disable public projects for your organization"
+    },
+    {
+      "block_count": 2,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9927624-add-or-update-your-team-plan-s-tax-or-vat-id.md",
+      "source_url": "https://support.claude.com/en/articles/9927624-add-or-update-your-team-plan-s-tax-or-vat-id",
+      "title": "Add or update your Team plan's tax or VAT ID"
+    },
+    {
+      "block_count": 4,
+      "date": "2026-03-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/support.claude.com/en/articles/9970975-access-audit-logs.md",
+      "source_url": "https://support.claude.com/en/articles/9970975-access-audit-logs",
+      "title": "Access audit logs"
+    }
+  ]
+}

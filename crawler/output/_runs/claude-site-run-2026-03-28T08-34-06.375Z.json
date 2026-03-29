@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-03-28T08:34:06.375Z",
+  "crawler": "claude-site",
+  "site": "claude.com",
+  "concurrency": 3,
+  "failureCount": 0,
+  "failures": [],
+  "retries": 2,
+  "savedPaths": [
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/index.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/app-unavailable-in-region.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog-category/agents.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog-category/claude-code.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog-category/announcements.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog-category/enterprise-ai.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/1m-context.md"
+  ],
+  "successCount": 8,
+  "urlsDiscovered": 8
+}

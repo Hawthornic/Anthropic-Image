@@ -1,0 +1,119 @@
+{
+  "updated_at": "2026-03-29T00:56:02.975Z",
+  "site": "red.anthropic.com",
+  "section": "blog",
+  "items": [
+    {
+      "block_count": 44,
+      "date": "2025-09-29",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/ai-for-cyber-defenders.md",
+      "source_url": "https://red.anthropic.com/2025/ai-for-cyber-defenders/",
+      "title": "Building AI for cyber defenders"
+    },
+    {
+      "block_count": 48,
+      "date": "2025-09-05",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/biorisk.md",
+      "source_url": "https://red.anthropic.com/2025/biorisk/",
+      "title": "Why do we take LLMs seriously as a potential source of biorisk?"
+    },
+    {
+      "block_count": 4,
+      "date": "2025-07-15",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/claude-4-cyber.md",
+      "source_url": "https://red.anthropic.com/2025/claude-4-cyber/",
+      "title": "Detailed cyber evaluations of Claude 4"
+    },
+    {
+      "block_count": 40,
+      "date": "2025-08-09",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/cyber-competitions.md",
+      "source_url": "https://red.anthropic.com/2025/cyber-competitions/",
+      "title": "Claude is competitive with humans in (some) cyber competitions"
+    },
+    {
+      "block_count": 16,
+      "date": "2025-06-13",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/cyber-toolkits/index.html.md",
+      "source_url": "https://red.anthropic.com/2025/cyber-toolkits/index.html",
+      "title": "LLMs with cyber toolkits can conduct multistage cyber operations on business-sized computer networks"
+    },
+    {
+      "block_count": 31,
+      "date": "2025-08-21",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/nuclear-safeguards.md",
+      "source_url": "https://red.anthropic.com/2025/nuclear-safeguards/",
+      "title": "Developing nuclear safeguards for AI through public-private partnership"
+    },
+    {
+      "block_count": 74,
+      "date": "2025-11-12",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/project-fetch.md",
+      "source_url": "https://red.anthropic.com/2025/project-fetch/",
+      "title": "Project Fetch: Can Claude train a robot dog?"
+    },
+    {
+      "block_count": 103,
+      "date": "2025-12-18",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/project-vend-2.md",
+      "source_url": "https://red.anthropic.com/2025/project-vend-2/",
+      "title": "Project Vend: Phase two"
+    },
+    {
+      "block_count": 48,
+      "date": "2025-06-27",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/project-vend/index.html.md",
+      "source_url": "https://red.anthropic.com/2025/project-vend/index.html",
+      "title": "Project Vend: Can Claude run a small shop? (And why does that matter?)"
+    },
+    {
+      "block_count": 91,
+      "date": "2025-12-01",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2025/smart-contracts.md",
+      "source_url": "https://red.anthropic.com/2025/smart-contracts/",
+      "title": "AI agents find $4.6M in blockchain smart contract exploits"
+    },
+    {
+      "block_count": 14,
+      "date": "2026-01-08",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2026/critical-infrastructure-defense.md",
+      "source_url": "https://red.anthropic.com/2026/critical-infrastructure-defense/",
+      "title": "Experimenting with AI to defend critical infrastructure"
+    },
+    {
+      "block_count": 13,
+      "date": "2026-01-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2026/cyber-toolkits-update.md",
+      "source_url": "https://red.anthropic.com/2026/cyber-toolkits-update/",
+      "title": "AI models are showing a greater ability to find and exploit vulnerabilities on realistic cyber ranges"
+    },
+    {
+      "block_count": 47,
+      "date": "2026-03-06",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2026/exploit.md",
+      "source_url": "https://red.anthropic.com/2026/exploit/",
+      "title": "Reverse engineering Claude's CVE-2026-2796 exploit"
+    },
+    {
+      "block_count": 38,
+      "date": "2026-03-06",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2026/firefox.md",
+      "source_url": "https://red.anthropic.com/2026/firefox/",
+      "title": "Partnering with Mozilla to improve Firefox’s security"
+    },
+    {
+      "block_count": 52,
+      "date": "2026-01-14",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2026/property-based-testing.md",
+      "source_url": "https://red.anthropic.com/2026/property-based-testing/",
+      "title": "Finding bugs across the Python ecosystem with Claude and property-based testing"
+    },
+    {
+      "block_count": 49,
+      "date": "2026-02-05",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/red.anthropic.com/2026/zero-days.md",
+      "source_url": "https://red.anthropic.com/2026/zero-days/",
+      "title": "Evaluating and mitigating the growing risk of LLM-discovered 0-days"
+    }
+  ]
+}

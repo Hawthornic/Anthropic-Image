@@ -1,6 +1,6 @@
 node_modules/
 dist/
-output/
+site/dist/
 .cache/
 storage/
 *.log

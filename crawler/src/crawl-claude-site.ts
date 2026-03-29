@@ -22,7 +22,7 @@ type ManifestItem = {
 
 async function main(): Promise<void> {
   const options = parseArgs(process.argv.slice(2));
-  const urls = await discoverClaudeUrls(options.limit);
+  const urls = await discoverClaudeUrls(options.limit, options.sections);
   console.log(`Discovered ${urls.length} claude.com URLs`);
 
   let successCount = 0;
@@ -91,6 +91,7 @@ type CrawlOptions = {
   concurrency: number;
   limit?: number;
   retries: number;
+  sections?: string[];
 };
 
 function parseArgs(args: string[]): CrawlOptions {
@@ -121,6 +122,12 @@ function parseArgs(args: string[]): CrawlOptions {
       continue;
     }
 
+    if (arg === "--sections") {
+      options.sections = parseListArg(arg, args[index + 1]);
+      index += 1;
+      continue;
+    }
+
     if (arg.startsWith("--")) {
       throw new Error(`Unknown argument: ${arg}`);
     }
@@ -146,6 +153,23 @@ function parseNumberArg(flag: string, value: string | undefined): number {
   }
 
   return parsed;
+}
+
+function parseListArg(flag: string, value: string | undefined): string[] {
+  if (!value) {
+    throw new Error(`Missing value for ${flag}`);
+  }
+
+  const items = value
+    .split(",")
+    .map((item) => item.trim())
+    .filter(Boolean);
+
+  if (items.length === 0) {
+    throw new Error(`Invalid value for ${flag}: ${value}`);
+  }
+
+  return items;
 }
 
 async function writeRunArtifacts(payload: {

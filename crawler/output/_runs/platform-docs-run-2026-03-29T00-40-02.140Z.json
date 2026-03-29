@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-03-29T00:40:02.140Z",
+  "crawler": "platform-docs",
+  "site": "platform.claude.com",
+  "section": "docs",
+  "concurrency": 3,
+  "failureCount": 0,
+  "failures": [],
+  "retries": 2,
+  "savedPaths": [
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/platform.claude.com/docs/en/about-claude/model-deprecations.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/platform.claude.com/docs/en/about-claude/glossary.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/platform.claude.com/docs/en/about-claude/models/choosing-a-model.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/platform.claude.com/docs/en/about-claude/models/overview.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/platform.claude.com/docs/en/about-claude/models/migration-guide.md"
+  ],
+  "successCount": 5,
+  "urlsDiscovered": 5
+}

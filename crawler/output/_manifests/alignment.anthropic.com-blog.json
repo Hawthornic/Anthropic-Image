@@ -1,0 +1,315 @@
+{
+  "updated_at": "2026-03-29T00:56:54.676Z",
+  "site": "alignment.anthropic.com",
+  "section": "blog",
+  "items": [
+    {
+      "block_count": 35,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2024/anthropic-fellows-program/index.html.md",
+      "source_url": "https://alignment.anthropic.com/2024/anthropic-fellows-program/index.html",
+      "title": "Introducing the Anthropic Fellows Program for AI Safety Research"
+    },
+    {
+      "block_count": 19,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2024/how-to-alignment-faking/index.html.md",
+      "source_url": "https://alignment.anthropic.com/2024/how-to-alignment-faking/index.html",
+      "title": "How to replicate and extend our alignment faking demo"
+    },
+    {
+      "block_count": 203,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2024/rogue-eval/index.html.md",
+      "source_url": "https://alignment.anthropic.com/2024/rogue-eval/index.html",
+      "title": "A Toy Evaluation of Inference Code Tampering"
+    },
+    {
+      "block_count": 153,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2024/safety-cases/index.html.md",
+      "source_url": "https://alignment.anthropic.com/2024/safety-cases/index.html",
+      "title": "Three Sketches of ASL-4 Safety Case Components"
+    },
+    {
+      "block_count": 44,
+      "date": "2025-12-19",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/activation-oracles.md",
+      "source_url": "https://alignment.anthropic.com/2025/activation-oracles/",
+      "title": "Activation Oracles: Training and Evaluating LLMs as General-Purpose Activation Explainers"
+    },
+    {
+      "block_count": 916,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/alignment-faking-mitigations.md",
+      "source_url": "https://alignment.anthropic.com/2025/alignment-faking-mitigations/",
+      "title": "Towards training-time mitigations for alignment faking in RL"
+    },
+    {
+      "block_count": 185,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/alignment-faking-revisited.md",
+      "source_url": "https://alignment.anthropic.com/2025/alignment-faking-revisited/",
+      "title": "Alignment Faking Revisited: Improved Classifiers and Open Source Extensions"
+    },
+    {
+      "block_count": 32,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/anthropic-fellows-program-2026.md",
+      "source_url": "https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/",
+      "title": "Anthropic Fellows Program for AI safety research: applications open for May & July 2026"
+    },
+    {
+      "block_count": 105,
+      "date": "2025-12-12",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/auditing-mo-replication.md",
+      "source_url": "https://alignment.anthropic.com/2025/auditing-mo-replication/",
+      "title": "Open Source Replication of the Auditing Game Model Organism"
+    },
+    {
+      "block_count": 284,
+      "date": "2025-07-24",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/automated-auditing.md",
+      "source_url": "https://alignment.anthropic.com/2025/automated-auditing/",
+      "title": "Building and evaluating alignment auditing agents"
+    },
+    {
+      "block_count": 176,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/automated-researchers-sandbag.md",
+      "source_url": "https://alignment.anthropic.com/2025/automated-researchers-sandbag/",
+      "title": "Automated Researchers Can Subtly Sandbag"
+    },
+    {
+      "block_count": 38,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/believe-it-or-not.md",
+      "source_url": "https://alignment.anthropic.com/2025/believe-it-or-not/",
+      "title": "Believe It or Not: How Deeply do LLMs Believe Implanted Facts?"
+    },
+    {
+      "block_count": 183,
+      "date": "2025-12-19",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/bloom-auto-evals.md",
+      "source_url": "https://alignment.anthropic.com/2025/bloom-auto-evals/",
+      "title": "Bloom: an open source tool for automated behavioral evaluations"
+    },
+    {
+      "block_count": 85,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/bumpers.md",
+      "source_url": "https://alignment.anthropic.com/2025/bumpers/",
+      "title": "Putting up Bumpers"
+    },
+    {
+      "block_count": 113,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/cheap-monitors.md",
+      "source_url": "https://alignment.anthropic.com/2025/cheap-monitors/",
+      "title": "Cost-Effective Constitutional Classifiers via Representation Re-use"
+    },
+    {
+      "block_count": 265,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/distill-paraphrases.md",
+      "source_url": "https://alignment.anthropic.com/2025/distill-paraphrases/",
+      "title": "Do reasoning models use their scratchpad like we do? Evidence from distilling paraphrases"
+    },
+    {
+      "block_count": 298,
+      "date": "2025-11-25",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/honesty-elicitation.md",
+      "source_url": "https://alignment.anthropic.com/2025/honesty-elicitation/",
+      "title": "Evaluating honesty and lie detection techniques on a diverse suite of dishonest models"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/inoculation-prompting.md",
+      "source_url": "https://alignment.anthropic.com/2025/inoculation-prompting/",
+      "title": "Inoculation Prompting: Instructing LLMs to misbehave at train-time improves test-time alignment"
+    },
+    {
+      "block_count": 6,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/introducing-safeguards-research-team/index.html.md",
+      "source_url": "https://alignment.anthropic.com/2025/introducing-safeguards-research-team/index.html",
+      "title": "Introducing Anthropic's Safeguards Research Team"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/inverse-scaling.md",
+      "source_url": "https://alignment.anthropic.com/2025/inverse-scaling/",
+      "title": "Inverse Scaling in Test-Time Compute"
+    },
+    {
+      "block_count": 149,
+      "date": "2025-04-24",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/modifying-beliefs-via-sdf.md",
+      "source_url": "https://alignment.anthropic.com/2025/modifying-beliefs-via-sdf/",
+      "title": "Modifying LLM Beliefs with Synthetic Document Finetuning"
+    },
+    {
+      "block_count": 156,
+      "date": "2025-08-27",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/openai-findings.md",
+      "source_url": "https://alignment.anthropic.com/2025/openai-findings/",
+      "title": "Findings from a Pilot Anthropic—OpenAI Alignment Evaluation Exercise"
+    },
+    {
+      "block_count": 133,
+      "date": "2025-10-06",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/petri.md",
+      "source_url": "https://alignment.anthropic.com/2025/petri/",
+      "title": "Petri: An open-source auditing tool to accelerate AI safety research"
+    },
+    {
+      "block_count": 53,
+      "date": "2025-08-19",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/pretraining-data-filtering.md",
+      "source_url": "https://alignment.anthropic.com/2025/pretraining-data-filtering/",
+      "title": "Enhancing Model Safety through Pretraining Data Filtering"
+    },
+    {
+      "block_count": 136,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/recommended-directions/index.html.md",
+      "source_url": "https://alignment.anthropic.com/2025/recommended-directions/index.html",
+      "title": "Recommendations for Technical AI Safety Research Directions"
+    },
+    {
+      "block_count": 131,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/reward-hacking-ooc/index.html.md",
+      "source_url": "https://alignment.anthropic.com/2025/reward-hacking-ooc/index.html",
+      "title": "Training on Documents About Reward Hacking Induces Reward Hacking"
+    },
+    {
+      "block_count": 15,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/sabotage-risk-report.md",
+      "source_url": "https://alignment.anthropic.com/2025/sabotage-risk-report/",
+      "title": "Anthropic's Pilot Sabotage Risk Report"
+    },
+    {
+      "block_count": 41,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/selective-gradient-masking.md",
+      "source_url": "https://alignment.anthropic.com/2025/selective-gradient-masking",
+      "title": "Beyond Data Filtering: Knowledge Localization for Capability Removal in LLMs"
+    },
+    {
+      "block_count": 70,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/strengthening-red-teams.md",
+      "source_url": "https://alignment.anthropic.com/2025/strengthening-red-teams/",
+      "title": "Strengthening Red Teams: A Modular Scaffold for Control Evaluations"
+    },
+    {
+      "block_count": 79,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/stress-testing-model-specs.md",
+      "source_url": "https://alignment.anthropic.com/2025/stress-testing-model-specs/",
+      "title": "Stress-testing model specs reveals character differences among language models"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/subliminal-learning.md",
+      "source_url": "https://alignment.anthropic.com/2025/subliminal-learning/",
+      "title": "Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data"
+    },
+    {
+      "block_count": 1617,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/subtle-reasoning.md",
+      "source_url": "https://alignment.anthropic.com/2025/subtle-reasoning/",
+      "title": "Training fails to elicit subtle reasoning in current language models"
+    },
+    {
+      "block_count": 38,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/summarization-for-monitoring/index.html.md",
+      "source_url": "https://alignment.anthropic.com/2025/summarization-for-monitoring/index.html",
+      "title": "Monitoring computer use via hierarchical summarization"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/unsupervised-elicitation.md",
+      "source_url": "https://alignment.anthropic.com/2025/unsupervised-elicitation/",
+      "title": "Unsupervised Elicitation"
+    },
+    {
+      "block_count": 178,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2025/wont-vs-cant.md",
+      "source_url": "https://alignment.anthropic.com/2025/wont-vs-cant/",
+      "title": "Won't vs. Can't: Sandbagging-like Behavior from Claude Models"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2026/abstractive-red-teaming.md",
+      "source_url": "https://alignment.anthropic.com/2026/abstractive-red-teaming/",
+      "title": "Abstractive Red-Teaming of Language Model Character"
+    },
+    {
+      "block_count": 65,
+      "date": "2026-03-10",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2026/auditbench.md",
+      "source_url": "https://alignment.anthropic.com/2026/auditbench/",
+      "title": "AuditBench: Evaluating Alignment Auditing Techniques on Models with Hidden Behaviors"
+    },
+    {
+      "block_count": 151,
+      "date": "2026-01-28",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2026/auditing-overt-saboteur.md",
+      "source_url": "https://alignment.anthropic.com/2026/auditing-overt-saboteur/",
+      "title": "Pre-deployment auditing can catch an overt saboteur"
+    },
+    {
+      "block_count": 80,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2026/automated-alignment-agent.md",
+      "source_url": "https://alignment.anthropic.com/2026/automated-alignment-agent/",
+      "title": "A3: An Automated Alignment Agent for Safety Finetuning"
+    },
+    {
+      "block_count": 84,
+      "date": "2026-03-05",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2026/challenges-hopes.md",
+      "source_url": "https://alignment.anthropic.com/2026/challenges-hopes/",
+      "title": "3 Challenges and 2 Hopes for the Safety of Unsupervised Elicitation"
+    },
+    {
+      "block_count": 144,
+      "date": "2026-03-10",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2026/coding-audit-realism.md",
+      "source_url": "https://alignment.anthropic.com/2026/coding-audit-realism/",
+      "title": "Measuring and improving coding audit realism with deployment resources"
+    },
+    {
+      "block_count": 39,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2026/hot-mess-of-ai.md",
+      "source_url": "https://alignment.anthropic.com/2026/hot-mess-of-ai/",
+      "title": "The Hot Mess of AI: How Does Misalignment Scale with Model Intelligence and Task Complexity?"
+    },
+    {
+      "block_count": 47,
+      "date": "2026-01-22",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2026/petri-v2.md",
+      "source_url": "https://alignment.anthropic.com/2026/petri-v2/",
+      "title": "Petri 2.0: New Scenarios, New Model Comparisons, and Improved Eval-Awareness Mitigations"
+    },
+    {
+      "block_count": 283,
+      "date": "2026-02-23",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/alignment.anthropic.com/2026/psm.md",
+      "source_url": "https://alignment.anthropic.com/2026/psm/",
+      "title": "The Persona Selection Model: Why AI Assistants might Behave like Humans"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "updated_at": "2026-03-28T08:34:06.152Z",
+  "site": "claude.com",
+  "section": "app-unavailable-in-region",
+  "items": [
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/app-unavailable-in-region.md",
+      "source_url": "https://claude.com/app-unavailable-in-region",
+      "title": "App unavailable"
+    }
+  ]
+}

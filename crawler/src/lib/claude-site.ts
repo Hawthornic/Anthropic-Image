@@ -14,7 +14,7 @@ type HtmlNode = {
   type?: string;
 };
 
-export async function discoverClaudeUrls(limit?: number): Promise<string[]> {
+export async function discoverClaudeUrls(limit?: number, sections?: string[]): Promise<string[]> {
   const response = await fetch(SITEMAP_URL, {
     headers: {
       "user-agent":
@@ -27,15 +27,27 @@ export async function discoverClaudeUrls(limit?: number): Promise<string[]> {
   }
 
   const xml = await response.text();
+  const sectionFilter = new Set((sections ?? []).map((section) => section.trim()).filter(Boolean));
   const urls = Array.from(
     new Set(
       Array.from(xml.matchAll(/<loc>(.*?)<\/loc>/g))
         .map((match) => match[1].trim())
-        .filter((url) => isEnglishClaudeUrl(url)),
+        .filter((url) => isEnglishClaudeUrl(url))
+        .filter((url) => matchesSectionFilter(url, sectionFilter)),
     ),
   ).sort();
 
   return typeof limit === "number" ? urls.slice(0, limit) : urls;
+}
+
+function matchesSectionFilter(value: string, sections: Set<string>): boolean {
+  if (sections.size === 0) {
+    return true;
+  }
+
+  const pathname = new URL(value).pathname;
+  const section = deriveSection(pathname);
+  return sections.has(section);
 }
 
 export function extractClaudePage(sourceUrl: string, html: string): ExtractedDocument {

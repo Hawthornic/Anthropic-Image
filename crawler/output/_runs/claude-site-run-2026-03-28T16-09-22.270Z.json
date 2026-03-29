@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-03-28T16:09:22.271Z",
+  "crawler": "claude-site",
+  "site": "claude.com",
+  "concurrency": 3,
+  "failureCount": 1,
+  "failures": [
+    {
+      "url": "https://claude.com/app-unavailable-in-region",
+      "error": "claude.com page is unavailable"
+    }
+  ],
+  "retries": 2,
+  "savedPaths": [
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/index.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog-category/claude-code.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog-category/agents.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog-category/announcements.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog-category/enterprise-ai.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/agent-capabilities-api.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/1m-context.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/amazon-bedrock-general-availability.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/analysis-tool.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/android-app.md"
+  ],
+  "successCount": 11,
+  "urlsDiscovered": 12
+}

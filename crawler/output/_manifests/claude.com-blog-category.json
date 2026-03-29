@@ -1,0 +1,35 @@
+{
+  "updated_at": "2026-03-29T00:36:47.493Z",
+  "site": "claude.com",
+  "section": "blog-category",
+  "items": [
+    {
+      "block_count": 3,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog-category/agents.md",
+      "source_url": "https://claude.com/blog-category/agents",
+      "title": "Agents"
+    },
+    {
+      "block_count": 3,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog-category/announcements.md",
+      "source_url": "https://claude.com/blog-category/announcements",
+      "title": "Product announcements"
+    },
+    {
+      "block_count": 3,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog-category/claude-code.md",
+      "source_url": "https://claude.com/blog-category/claude-code",
+      "title": "Claude Code"
+    },
+    {
+      "block_count": 3,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog-category/enterprise-ai.md",
+      "source_url": "https://claude.com/blog-category/enterprise-ai",
+      "title": "Enterprise AI"
+    }
+  ]
+}

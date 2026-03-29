@@ -1,0 +1,385 @@
+{
+  "updated_at": "2026-03-29T00:36:47.491Z",
+  "site": "claude.com",
+  "section": "blog",
+  "items": [
+    {
+      "block_count": 17,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog.md",
+      "source_url": "https://claude.com/blog",
+      "title": "Blog"
+    },
+    {
+      "block_count": 18,
+      "date": "2025-08-12",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/1m-context.md",
+      "source_url": "https://claude.com/blog/1m-context",
+      "title": "Claude Sonnet 4 now supports 1M tokens of context"
+    },
+    {
+      "block_count": 26,
+      "date": "2025-05-22",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/agent-capabilities-api.md",
+      "source_url": "https://claude.com/blog/agent-capabilities-api",
+      "title": "New capabilities for building agents on the Anthropic API"
+    },
+    {
+      "block_count": 2,
+      "date": "2023-09-28",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/amazon-bedrock-general-availability.md",
+      "source_url": "https://claude.com/blog/amazon-bedrock-general-availability",
+      "title": "Claude on Amazon Bedrock now available to every AWS customer"
+    },
+    {
+      "block_count": 12,
+      "date": "2024-10-24",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/analysis-tool.md",
+      "source_url": "https://claude.com/blog/analysis-tool",
+      "title": "Introducing the analysis tool in Claude.ai"
+    },
+    {
+      "block_count": 8,
+      "date": "2024-07-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/android-app.md",
+      "source_url": "https://claude.com/blog/android-app",
+      "title": "Claude Android app"
+    },
+    {
+      "block_count": 12,
+      "date": "2026-03-24",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/auto-mode.md",
+      "source_url": "https://claude.com/blog/auto-mode",
+      "title": "Auto mode for Claude Code"
+    },
+    {
+      "block_count": 21,
+      "date": "2025-08-06",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/automate-security-reviews-with-claude-code.md",
+      "source_url": "https://claude.com/blog/automate-security-reviews-with-claude-code",
+      "title": "Automate security reviews with Claude Code"
+    },
+    {
+      "block_count": 31,
+      "date": "2026-02-09",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early.md",
+      "source_url": "https://claude.com/blog/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early",
+      "title": "Behind the model launch: What customers discovered testing Claude Opus 4.6 early"
+    },
+    {
+      "block_count": 149,
+      "date": "2025-11-10",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/best-practices-for-prompt-engineering.md",
+      "source_url": "https://claude.com/blog/best-practices-for-prompt-engineering",
+      "title": "Best practices for prompt engineering"
+    },
+    {
+      "block_count": 29,
+      "date": "2025-10-08",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous.md",
+      "source_url": "https://claude.com/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous",
+      "title": "Beyond permission prompts: making Claude Code more secure and autonomous"
+    },
+    {
+      "block_count": 64,
+      "date": "2025-10-10",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/build-responsive-web-layouts.md",
+      "source_url": "https://claude.com/blog/build-responsive-web-layouts",
+      "title": "Build responsive web layouts"
+    },
+    {
+      "block_count": 69,
+      "date": "2026-01-22",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work.md",
+      "source_url": "https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work",
+      "title": "Building agents with Skills: Equipping agents for specialized work"
+    },
+    {
+      "block_count": 76,
+      "date": "2025-09-29",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/building-agents-with-the-claude-agent-sdk.md",
+      "source_url": "https://claude.com/blog/building-agents-with-the-claude-agent-sdk",
+      "title": "Building agents with the Claude Agent SDK"
+    },
+    {
+      "block_count": 50,
+      "date": "2025-11-03",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/building-ai-agents-for-startups.md",
+      "source_url": "https://claude.com/blog/building-ai-agents-for-startups",
+      "title": "Building AI agents for startups"
+    },
+    {
+      "block_count": 70,
+      "date": "2025-10-30",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/building-ai-agents-in-financial-services.md",
+      "source_url": "https://claude.com/blog/building-ai-agents-in-financial-services",
+      "title": "Building AI agents for financial services"
+    },
+    {
+      "block_count": 67,
+      "date": "2025-10-30",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences.md",
+      "source_url": "https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences",
+      "title": "Building AI agents for healthcare and life sciences"
+    },
+    {
+      "block_count": 71,
+      "date": "2025-11-17",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/building-companies-with-claude-code.md",
+      "source_url": "https://claude.com/blog/building-companies-with-claude-code",
+      "title": "How three YC startups built their companies with Claude Code"
+    },
+    {
+      "block_count": 78,
+      "date": "2026-01-23",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them.md",
+      "source_url": "https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them",
+      "title": "Building multi-agent systems: When and how to use them"
+    },
+    {
+      "block_count": 19,
+      "date": "2023-12-06",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/claude-2-1-prompting.md",
+      "source_url": "https://claude.com/blog/claude-2-1-prompting",
+      "title": "Long context prompting for Claude 2.1"
+    },
+    {
+      "block_count": 12,
+      "date": "2023-08-23",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/claude-2-amazon-bedrock.md",
+      "source_url": "https://claude.com/blog/claude-2-amazon-bedrock",
+      "title": "Claude 2 on Amazon Bedrock"
+    },
+    {
+      "block_count": 20,
+      "date": "2025-10-01",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/claude-and-slack.md",
+      "source_url": "https://claude.com/blog/claude-and-slack",
+      "title": "Claude and Slack"
+    },
+    {
+      "block_count": 7,
+      "date": "2026-03-12",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/claude-builds-visuals.md",
+      "source_url": "https://claude.com/blog/claude-builds-visuals",
+      "title": "Claude now creates interactive charts, diagrams and visualizations"
+    },
+    {
+      "block_count": 19,
+      "date": "2025-08-20",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/claude-code-and-new-admin-controls-for-business-plans.md",
+      "source_url": "https://claude.com/blog/claude-code-and-new-admin-controls-for-business-plans",
+      "title": "Claude Code and new admin controls for business plans"
+    },
+    {
+      "block_count": 12,
+      "date": "2025-12-08",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/claude-code-and-slack.md",
+      "source_url": "https://claude.com/blog/claude-code-and-slack",
+      "title": "Claude Code and Slack"
+    },
+    {
+      "block_count": 18,
+      "date": "2025-10-20",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/claude-code-on-the-web.md",
+      "source_url": "https://claude.com/blog/claude-code-on-the-web",
+      "title": "Claude Code on the web"
+    },
+    {
+      "block_count": 24,
+      "date": "2025-10-09",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/claude-code-plugins.md",
+      "source_url": "https://claude.com/blog/claude-code-plugins",
+      "title": "Customize Claude Code with plugins"
+    },
+    {
+      "block_count": 12,
+      "date": "2025-06-18",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/claude-code-remote-mcp.md",
+      "source_url": "https://claude.com/blog/claude-code-remote-mcp",
+      "title": "Remote MCP support in Claude Code"
+    },
+    {
+      "block_count": 22,
+      "date": "2026-03-11",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/claude-excel-powerpoint-updates.md",
+      "source_url": "https://claude.com/blog/claude-excel-powerpoint-updates",
+      "title": "Advancing Claude for Excel and Power Point"
+    },
+    {
+      "block_count": 37,
+      "date": "2025-08-25",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/claude-for-chrome.md",
+      "source_url": "https://claude.com/blog/claude-for-chrome",
+      "title": "Piloting Claude in Chrome"
+    },
+    {
+      "block_count": 22,
+      "date": "2024-09-10",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/claude-for-enterprise.md",
+      "source_url": "https://claude.com/blog/claude-for-enterprise",
+      "title": "Claude for Enterprise"
+    },
+    {
+      "block_count": 10,
+      "date": "2025-09-24",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/claude-now-available-in-microsoft-365-copilot.md",
+      "source_url": "https://claude.com/blog/claude-now-available-in-microsoft-365-copilot",
+      "title": "Claude is now available in Microsoft 365 Copilot"
+    },
+    {
+      "block_count": 15,
+      "date": "2025-04-02",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/claude-on-google-cloud-fedramp-high.md",
+      "source_url": "https://claude.com/blog/claude-on-google-cloud-fedramp-high",
+      "title": "Claude on Google Cloud’s Vertex AI: FedRAMP High and IL2 Authorized"
+    },
+    {
+      "block_count": 20,
+      "date": "2025-07-25",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/claude-powered-artifacts.md",
+      "source_url": "https://claude.com/blog/claude-powered-artifacts",
+      "title": "Build and share AI-powered apps with Claude"
+    },
+    {
+      "block_count": 9,
+      "date": "2026-01-28",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/claude-team-updates.md",
+      "source_url": "https://claude.com/blog/claude-team-updates",
+      "title": "Updates to Claude Team"
+    },
+    {
+      "block_count": 20,
+      "date": "2026-03-09",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/code-review.md",
+      "source_url": "https://claude.com/blog/code-review",
+      "title": "Bringing Code Review to Claude Code"
+    },
+    {
+      "block_count": 7,
+      "date": "2026-03-18",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/code-with-claude-san-francisco-london-tokyo.md",
+      "source_url": "https://claude.com/blog/code-with-claude-san-francisco-london-tokyo",
+      "title": "Code with Claude comes to San Francisco, London, and Tokyo"
+    },
+    {
+      "block_count": 69,
+      "date": "2026-03-05",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them.md",
+      "source_url": "https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them",
+      "title": "Common workflow patterns for AI agents—and when to use them"
+    },
+    {
+      "block_count": 9,
+      "date": "2026-01-29",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/complete-guide-to-building-skills-for-claude.md",
+      "source_url": "https://claude.com/blog/complete-guide-to-building-skills-for-claude",
+      "title": "A complete guide to building skills for Claude"
+    },
+    {
+      "block_count": 11,
+      "date": "2025-07-14",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/connectors-directory.md",
+      "source_url": "https://claude.com/blog/connectors-directory",
+      "title": "Discover tools that work with Claude"
+    },
+    {
+      "block_count": 20,
+      "date": "2025-09-29",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/context-management.md",
+      "source_url": "https://claude.com/blog/context-management",
+      "title": "Managing context on the Claude Developer Platform"
+    },
+    {
+      "block_count": 17,
+      "date": "2026-01-29",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/contribution-metrics.md",
+      "source_url": "https://claude.com/blog/contribution-metrics",
+      "title": "Understand Claude Code’s impact with contribution metrics"
+    },
+    {
+      "block_count": 15,
+      "date": "2026-01-30",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/cowork-plugins.md",
+      "source_url": "https://claude.com/blog/cowork-plugins",
+      "title": "Customize Cowork with plugins"
+    },
+    {
+      "block_count": 26,
+      "date": "2026-02-24",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/cowork-plugins-across-enterprise.md",
+      "source_url": "https://claude.com/blog/cowork-plugins-across-enterprise",
+      "title": "Cowork and plugins for teams across the enterprise"
+    },
+    {
+      "block_count": 25,
+      "date": "2026-02-24",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/cowork-plugins-finance.md",
+      "source_url": "https://claude.com/blog/cowork-plugins-finance",
+      "title": "Cowork and plugins for finance"
+    },
+    {
+      "block_count": 18,
+      "date": "2025-09-09",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/create-files.md",
+      "source_url": "https://claude.com/blog/create-files",
+      "title": "Claude can now create and edit files"
+    },
+    {
+      "block_count": 15,
+      "date": "2026-03-23",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/dispatch-and-computer-use.md",
+      "source_url": "https://claude.com/blog/dispatch-and-computer-use",
+      "title": "Put Claude to work on your computer"
+    },
+    {
+      "block_count": 37,
+      "date": "2025-10-01",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/driving-ai-transformation-with-claude.md",
+      "source_url": "https://claude.com/blog/driving-ai-transformation-with-claude",
+      "title": "How enterprises are driving AI transformation with Claude"
+    },
+    {
+      "block_count": 17,
+      "date": "2026-01-21",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026.md",
+      "source_url": "https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026",
+      "title": "Eight trends defining how software gets built in 2026"
+    },
+    {
+      "block_count": 40,
+      "date": "2025-10-16",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/equipping-agents-for-the-real-world-with-agent-skills.md",
+      "source_url": "https://claude.com/blog/equipping-agents-for-the-real-world-with-agent-skills",
+      "title": "Equipping agents for the real world with Agent Skills"
+    },
+    {
+      "block_count": 16,
+      "date": "2024-07-09",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/evaluate-prompts.md",
+      "source_url": "https://claude.com/blog/evaluate-prompts",
+      "title": "Evaluate prompts in the developer console"
+    },
+    {
+      "block_count": 66,
+      "date": "2025-12-19",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers.md",
+      "source_url": "https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers",
+      "title": "Extending Claude’s capabilities with skills and MCP servers"
+    },
+    {
+      "block_count": 19,
+      "date": "2024-07-10",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/fine-tune-claude-3-haiku.md",
+      "source_url": "https://claude.com/blog/fine-tune-claude-3-haiku",
+      "title": "Fine-tune Claude 3 Haiku in Amazon Bedrock"
+    },
+    {
+      "block_count": 68,
+      "date": "2025-10-28",
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/blog/fix-software-bugs-faster-with-claude.md",
+      "source_url": "https://claude.com/blog/fix-software-bugs-faster-with-claude",
+      "title": "Fix software bugs faster with Claude"
+    }
+  ]
+}

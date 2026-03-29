@@ -1,0 +1,1400 @@
+{
+  "updated_at": "2026-03-29T14:32:41.073Z",
+  "site": "claude.com",
+  "section": "customers",
+  "items": [
+    {
+      "block_count": 8,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers.md",
+      "source_url": "https://claude.com/customers",
+      "title": "Customer Stories | Claude by Anthropic"
+    },
+    {
+      "block_count": 30,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/adalat-ai.md",
+      "source_url": "https://claude.com/customers/adalat-ai",
+      "title": "Adalat AI makes India’s court system accessible to millions with Claude"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/advolve.md",
+      "source_url": "https://claude.com/customers/advolve",
+      "title": "Advolve automates digital marketing with Claude"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/aes.md",
+      "source_url": "https://claude.com/customers/aes",
+      "title": "AES accelerates renewable energy adoption with Claude on Google Cloud’s Vertex AI"
+    },
+    {
+      "block_count": 5,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/alexa-plus.md",
+      "source_url": "https://claude.com/customers/alexa-plus",
+      "title": "Claude and Alexa+"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/amazon-q-in-connect.md",
+      "source_url": "https://claude.com/customers/amazon-q-in-connect",
+      "title": "Amazon Q in Connect transforms customer service for agents and customers with Claude"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/amira.md",
+      "source_url": "https://claude.com/customers/amira",
+      "title": "Amira helps millions of students master reading with the Science of Reading and Claude"
+    },
+    {
+      "block_count": 26,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/anything.md",
+      "source_url": "https://claude.com/customers/anything",
+      "title": "Anything builds coding agent for 1.5 million users with Claude Agent SDK"
+    },
+    {
+      "block_count": 26,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/apollo.md",
+      "source_url": "https://claude.com/customers/apollo",
+      "title": "Apollo accelerates outbound sales at scale with Claude"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/appfolio.md",
+      "source_url": "https://claude.com/customers/appfolio",
+      "title": "App Folio streamlines property management communication with Claude in Amazon Bedrock"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/armanino.md",
+      "source_url": "https://claude.com/customers/armanino",
+      "title": "Armanino builds AI-powered accounting tools with Claude"
+    },
+    {
+      "block_count": 29,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/asana.md",
+      "source_url": "https://claude.com/customers/asana",
+      "title": "Asana supercharges work management with Claude"
+    },
+    {
+      "block_count": 29,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/asana-qa.md",
+      "source_url": "https://claude.com/customers/asana-qa",
+      "title": "How Asana built AI Teammates on Claude Opus 4.6"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/asapp.md",
+      "source_url": "https://claude.com/customers/asapp",
+      "title": "ASAPP brings human-level AI to customer service with Claude"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/assembled.md",
+      "source_url": "https://claude.com/customers/assembled",
+      "title": "Assembled transforms support operations with Claude"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/athena.md",
+      "source_url": "https://claude.com/customers/athena",
+      "title": "Athena Intelligence compresses weeks of enterprise knowledge work into hours with Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/attention.md",
+      "source_url": "https://claude.com/customers/attention",
+      "title": "Attention automates sales operations and accelerates revenue with Claude"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/audience-strategies.md",
+      "source_url": "https://claude.com/customers/audience-strategies",
+      "title": "Audience Strategies expands the electronic music industry's policy influence with Claude"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/augment-code.md",
+      "source_url": "https://claude.com/customers/augment-code",
+      "title": "Augment unlocks complex codebases with Claude on Google Cloud's Vertex AI"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/aura.md",
+      "source_url": "https://claude.com/customers/aura",
+      "title": "Aura Intelligence enhances decision intelligence with Claude in Amazon Bedrock"
+    },
+    {
+      "block_count": 30,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/banner-health.md",
+      "source_url": "https://claude.com/customers/banner-health",
+      "title": "Banner Health battles physician burnout with Claude-powered AI platform"
+    },
+    {
+      "block_count": 30,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/base44.md",
+      "source_url": "https://claude.com/customers/base44",
+      "title": "Base44 uses Claude to transform app creation from weeks to hours for non-technical builders"
+    },
+    {
+      "block_count": 26,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/benchling.md",
+      "source_url": "https://claude.com/customers/benchling",
+      "title": "Benchling accelerates scientific discovery with Claude in Amazon Bedrock"
+    },
+    {
+      "block_count": 26,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/binti.md",
+      "source_url": "https://claude.com/customers/binti",
+      "title": "Binti modernizes child welfare systems with Claude"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/biomni.md",
+      "source_url": "https://claude.com/customers/biomni",
+      "title": "Biomni accelerates biomedical discoveries by 100x with Claude"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/bito.md",
+      "source_url": "https://claude.com/customers/bito",
+      "title": "Bito powers agentic AI tools for software development with Claude"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/block.md",
+      "source_url": "https://claude.com/customers/block",
+      "title": "Block improves employee productivity and data access with Claude in Databricks"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/blueflame.md",
+      "source_url": "https://claude.com/customers/blueflame",
+      "title": "Blue Flame AI empowers lean investment teams to achieve institutional-scale analysis with Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/bluenote.md",
+      "source_url": "https://claude.com/customers/bluenote",
+      "title": "Bluenote powers intelligent agents for life sciences with Claude"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/braintrust.md",
+      "source_url": "https://claude.com/customers/braintrust",
+      "title": "Braintrust revolutionizes talent acquisition and career growth with Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/brand-ai.md",
+      "source_url": "https://claude.com/customers/brand-ai",
+      "title": "Brand.ai uses AI to make brands more human with Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/brex.md",
+      "source_url": "https://claude.com/customers/brex",
+      "title": "Brex reimagines spend management with Claude in Amazon Bedrock"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/brian-impact-foundation.md",
+      "source_url": "https://claude.com/customers/brian-impact-foundation",
+      "title": "Brian Impact Foundation powers their search for the next generation of social innovators with Claude"
+    },
+    {
+      "block_count": 19,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/bunq.md",
+      "source_url": "https://claude.com/customers/bunq",
+      "title": "bunq builds intelligent banking assistant Finn with Claude"
+    },
+    {
+      "block_count": 19,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/campfire.md",
+      "source_url": "https://claude.com/customers/campfire",
+      "title": "Campfire accelerates accounting with Claude"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/canva.md",
+      "source_url": "https://claude.com/customers/canva",
+      "title": "Canva empowers employees across teams with Claude"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/carta-healthcare.md",
+      "source_url": "https://claude.com/customers/carta-healthcare",
+      "title": "Carta Healthcare cuts clinical data processing time by 66% with Claude"
+    },
+    {
+      "block_count": 29,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/charm-industrial.md",
+      "source_url": "https://claude.com/customers/charm-industrial",
+      "title": "Charm Industrial accelerates carbon removal operations with Claude"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/chatandbuild.md",
+      "source_url": "https://claude.com/customers/chatandbuild",
+      "title": "Chat And Build democratizes AI development globally with Claude"
+    },
+    {
+      "block_count": 19,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/chatbase.md",
+      "source_url": "https://claude.com/customers/chatbase",
+      "title": "Chatbase helps companies deliver instant, personalized customer support with Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/chronograph.md",
+      "source_url": "https://claude.com/customers/chronograph",
+      "title": "Chronograph scales operations and accelerates decision-making with Claude"
+    },
+    {
+      "block_count": 19,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/circleback.md",
+      "source_url": "https://claude.com/customers/circleback",
+      "title": "Circleback transforms meetings into structured insights with Claude"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/circleci.md",
+      "source_url": "https://claude.com/customers/circleci",
+      "title": "How CircleCI built a code validation agent with Claude"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/classdojo.md",
+      "source_url": "https://claude.com/customers/classdojo",
+      "title": "Class Dojo saves teachers time with Claude"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/classmethod.md",
+      "source_url": "https://claude.com/customers/classmethod",
+      "title": "Classmethod accelerates development velocity with Claude Code"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/clay.md",
+      "source_url": "https://claude.com/customers/clay",
+      "title": "Clay generates personalized sales outreach at scale with Claude"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/coderabbit.md",
+      "source_url": "https://claude.com/customers/coderabbit",
+      "title": "Code Rabbit revolutionizes code review with Claude"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/codewords.md",
+      "source_url": "https://claude.com/customers/codewords",
+      "title": "Code Words enables non-technical users to build workflow automations with Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/cogent.md",
+      "source_url": "https://claude.com/customers/cogent",
+      "title": "Cogent resolves security threats 97% faster with Claude"
+    },
+    {
+      "block_count": 26,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/coinbase.md",
+      "source_url": "https://claude.com/customers/coinbase",
+      "title": "Coinbase enhances customer support and operational efficiency with Claude"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/copy-ai.md",
+      "source_url": "https://claude.com/customers/copy-ai",
+      "title": "Copy.ai accelerates content creation and reduces costs with Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/cove.md",
+      "source_url": "https://claude.com/customers/cove",
+      "title": "Cove creates the future of visual AI collaboration with Claude"
+    },
+    {
+      "block_count": 19,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/cox-automotive.md",
+      "source_url": "https://claude.com/customers/cox-automotive",
+      "title": "Cox Automotive transforms car sales with Claude in Amazon Bedrock"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/cred.md",
+      "source_url": "https://claude.com/customers/cred",
+      "title": "CRED accelerates fintech development workflows with Claude"
+    },
+    {
+      "block_count": 26,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/crunched.md",
+      "source_url": "https://claude.com/customers/crunched",
+      "title": "Crunched transforms Excel modeling for investors and advisors with Claude"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/cubic.md",
+      "source_url": "https://claude.com/customers/cubic",
+      "title": "cubic ships code 60x faster with Claude"
+    },
+    {
+      "block_count": 15,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/decagon.md",
+      "source_url": "https://claude.com/customers/decagon",
+      "title": "Decagon delivers white-glove customer service at scale with Claude"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/descript.md",
+      "source_url": "https://claude.com/customers/descript",
+      "title": "Descript brings creative taste to agentic video editing with Claude"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/doctolib.md",
+      "source_url": "https://claude.com/customers/doctolib",
+      "title": "Doctolib accelerates developer productivity with Claude Code"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/dolly.md",
+      "source_url": "https://claude.com/customers/dolly",
+      "title": "Dolly helps teachers reclaim their work-life balance with Claude in Amazon Bedrock"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/dust.md",
+      "source_url": "https://claude.com/customers/dust",
+      "title": "Dust helps enterprises create actionable AI agents with MCP and Claude"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/elation-health.md",
+      "source_url": "https://claude.com/customers/elation-health",
+      "title": "Elation Health delivers faster clinical insights with Claude"
+    },
+    {
+      "block_count": 26,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/emergent.md",
+      "source_url": "https://claude.com/customers/emergent",
+      "title": "Emergent builds autonomous coding agents with Claude"
+    },
+    {
+      "block_count": 32,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/epic-systems.md",
+      "source_url": "https://claude.com/customers/epic-systems",
+      "title": "A conversation with Seth Hain about Epic’s internal AI adoption"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/esentire.md",
+      "source_url": "https://claude.com/customers/esentire",
+      "title": "How e Sentire runs expert-level threat investigations at scale with Claude"
+    },
+    {
+      "block_count": 26,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/factory.md",
+      "source_url": "https://claude.com/customers/factory",
+      "title": "Factory is building Droids for software engineering with Claude"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/fountain.md",
+      "source_url": "https://claude.com/customers/fountain",
+      "title": "Fountain accelerates frontline workforce hiring and management with Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/freedom-forever.md",
+      "source_url": "https://claude.com/customers/freedom-forever",
+      "title": "Freedom Forever automates permit workflows with Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/futurehouse.md",
+      "source_url": "https://claude.com/customers/futurehouse",
+      "title": "Future House powers scientific discovery agents with Claude"
+    },
+    {
+      "block_count": 29,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/gambit.md",
+      "source_url": "https://claude.com/customers/gambit",
+      "title": "Gambit Robotics builds a real-time sous-chef with Claude"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/gamma.md",
+      "source_url": "https://claude.com/customers/gamma",
+      "title": "Gamma helps teams create polished presentations with Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/genspark.md",
+      "source_url": "https://claude.com/customers/genspark",
+      "title": "Genspark builds the future of AI agents with Claude"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/gitlab.md",
+      "source_url": "https://claude.com/customers/gitlab",
+      "title": "Git Lab powers stable, secure software development with Claude"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/gitlab-enterprise.md",
+      "source_url": "https://claude.com/customers/gitlab-enterprise",
+      "title": "Git Lab enhances productivity with Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/grab.md",
+      "source_url": "https://claude.com/customers/grab",
+      "title": "Grab scales personalized merchant support across Southeast Asia with Claude"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/gradient-labs.md",
+      "source_url": "https://claude.com/customers/gradient-labs",
+      "title": "Gradient Labs transforms financial services customer support with Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/grafana.md",
+      "source_url": "https://claude.com/customers/grafana",
+      "title": "Grafana transforms observability workflows with Claude-powered multi-agent assistant"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/graph.md",
+      "source_url": "https://claude.com/customers/graph",
+      "title": "Launch Notes pioneers next-gen engineering team productivity with Claude in Amazon Bedrock"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/greptile.md",
+      "source_url": "https://claude.com/customers/greptile",
+      "title": "Greptile builds truly agentic code review with Claude Agent SDK"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/gumroad.md",
+      "source_url": "https://claude.com/customers/gumroad",
+      "title": "Gumroad’s customer support team ships code with Claude"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/harvey.md",
+      "source_url": "https://claude.com/customers/harvey",
+      "title": "Harvey transforms legal work with Claude"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/headstart.md",
+      "source_url": "https://claude.com/customers/headstart",
+      "title": "Headstart accelerates software development by up to 100x with Claude"
+    },
+    {
+      "block_count": 19,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/hebbia.md",
+      "source_url": "https://claude.com/customers/hebbia",
+      "title": "Hebbia helps knowledge workers save thousands of hours with Claude"
+    },
+    {
+      "block_count": 18,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/hostinger.md",
+      "source_url": "https://claude.com/customers/hostinger",
+      "title": "Hostinger Helps Non-Technical Users Build a Website in Minutes with Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/hubspot.md",
+      "source_url": "https://claude.com/customers/hubspot",
+      "title": "Hub Spot reclaims time for creativity with Claude"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/humach.md",
+      "source_url": "https://claude.com/customers/humach",
+      "title": "Humach enhances AI-powered customer experience solutions with Claude"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/hume.md",
+      "source_url": "https://claude.com/customers/hume",
+      "title": "Hume AI creates emotionally intelligent voice interactions with Claude"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/ifs.md",
+      "source_url": "https://claude.com/customers/ifs",
+      "title": "IFS Nexus Black builds industrial AI with Claude"
+    },
+    {
+      "block_count": 30,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/ig-group.md",
+      "source_url": "https://claude.com/customers/ig-group",
+      "title": "IG Group boosts productivity and saves operational costs with Claude for Work"
+    },
+    {
+      "block_count": 26,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/inscribe.md",
+      "source_url": "https://claude.com/customers/inscribe",
+      "title": "Inscribe cut time spent on fraud review 20x with Claude"
+    },
+    {
+      "block_count": 29,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/intercom.md",
+      "source_url": "https://claude.com/customers/intercom",
+      "title": "Intercom provides customer service tech that delivers up to 86% resolution rates with Claude"
+    },
+    {
+      "block_count": 16,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/intuit.md",
+      "source_url": "https://claude.com/customers/intuit",
+      "title": "Intuit helps millions of customers confidently file taxes with federal tax explainers powered by Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/jetbrains.md",
+      "source_url": "https://claude.com/customers/jetbrains",
+      "title": "Jet Brains builds developer tools with Claude in Amazon Bedrock"
+    },
+    {
+      "block_count": 19,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/jetbrains-2.md",
+      "source_url": "https://claude.com/customers/jetbrains-2",
+      "title": "Jet Brains Pioneers Multi-Agent IDE Experience with Claude Agent"
+    },
+    {
+      "block_count": 19,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/jumpcut.md",
+      "source_url": "https://claude.com/customers/jumpcut",
+      "title": "Jumpcut helps Hollywood find the next big script with Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/kodif.md",
+      "source_url": "https://claude.com/customers/kodif",
+      "title": "Kodif transforms customer support into a revenue center with Claude in Amazon Bedrock"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/law-and-company.md",
+      "source_url": "https://claude.com/customers/law-and-company",
+      "title": "Law&Company transforms legal services in South Korea with Claude"
+    },
+    {
+      "block_count": 19,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/lazy-ai.md",
+      "source_url": "https://claude.com/customers/lazy-ai",
+      "title": "Lazy AI speeds up internal software development for businesses who are adopting AI software with Claude"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/legora.md",
+      "source_url": "https://claude.com/customers/legora",
+      "title": "Legora helps lawyers work more efficiently with Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/lex.md",
+      "source_url": "https://claude.com/customers/lex",
+      "title": "Lex streamlines the writing process with Claude"
+    },
+    {
+      "block_count": 30,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/lindy.md",
+      "source_url": "https://claude.com/customers/lindy",
+      "title": "Lindy empowers teams to scale with AI Agents powered by Claude"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/local-falcon.md",
+      "source_url": "https://claude.com/customers/local-falcon",
+      "title": "Local Falcon helps 95,000 businesses boost search rankings with Claude"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/lokalise.md",
+      "source_url": "https://claude.com/customers/lokalise",
+      "title": "Lokalise improves translation quality with Claude"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/loreal.md",
+      "source_url": "https://claude.com/customers/loreal",
+      "title": "L'Oréal advances conversational analytics with Claude"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/lotte-homeshopping.md",
+      "source_url": "https://claude.com/customers/lotte-homeshopping",
+      "title": "Lotte Homeshopping improves QA efficiency and partner satisfaction with Claude and Sendbird"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/lovable.md",
+      "source_url": "https://claude.com/customers/lovable",
+      "title": "Lovable helps anyone create software 20x faster with Claude"
+    },
+    {
+      "block_count": 29,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/lyft.md",
+      "source_url": "https://claude.com/customers/lyft",
+      "title": "Lyft reduces customer support time by 87% with Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/magicschool.md",
+      "source_url": "https://claude.com/customers/magicschool",
+      "title": "Magic School transforms K-12 education for 7 million educators and their students with Claude"
+    },
+    {
+      "block_count": 19,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/matillion.md",
+      "source_url": "https://claude.com/customers/matillion",
+      "title": "Matillion reduces data pipeline creation from 40 hours to 1 with Claude-powered AI assistant"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/medgate.md",
+      "source_url": "https://claude.com/customers/medgate",
+      "title": "Medgate accelerates healthcare innovation with Claude Code"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/micro1.md",
+      "source_url": "https://claude.com/customers/micro1",
+      "title": "micro1 transforms technical recruiting with Claude"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/mintlify.md",
+      "source_url": "https://claude.com/customers/mintlify",
+      "title": "Mintlify ships 3x faster automating developer documentation with Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/money-forward.md",
+      "source_url": "https://claude.com/customers/money-forward",
+      "title": "Money Forward builds an AI-native engineering organization with Claude Code"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/n26.md",
+      "source_url": "https://claude.com/customers/n26",
+      "title": "N26 automates customer operations with Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/n8n.md",
+      "source_url": "https://claude.com/customers/n8n",
+      "title": "n8n turns natural language into workflow automations with Claude"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/nbim.md",
+      "source_url": "https://claude.com/customers/nbim",
+      "title": "NBIM accelerates sovereign wealth management with enterprise-wide AI transformation"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/nevis.md",
+      "source_url": "https://claude.com/customers/nevis",
+      "title": "Nevis accelerates advisor productivity with Claude"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/newfront.md",
+      "source_url": "https://claude.com/customers/newfront",
+      "title": "Newfront modernizes insurance experiences with Claude"
+    },
+    {
+      "block_count": 34,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/notion.md",
+      "source_url": "https://claude.com/customers/notion",
+      "title": "Notion creates more intelligent workspaces with Claude"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/novo-nordisk.md",
+      "source_url": "https://claude.com/customers/novo-nordisk",
+      "title": "Novo Nordisk accelerates clinical documentation and drug development with Claude"
+    },
+    {
+      "block_count": 26,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/nri.md",
+      "source_url": "https://claude.com/customers/nri",
+      "title": "NRI cuts document review time in half with Claude in Amazon Bedrock"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/orange.md",
+      "source_url": "https://claude.com/customers/orange",
+      "title": "Orange localizes manga at an unprecedented scale with Claude"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/otter.md",
+      "source_url": "https://claude.com/customers/otter",
+      "title": "Otter transforms meetings into lasting organizational knowledge with Claude"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/palo-alto-networks.md",
+      "source_url": "https://claude.com/customers/palo-alto-networks",
+      "title": "Palo Alto Networks accelerates secure software development with Claude and Google Cloud"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/panorama.md",
+      "source_url": "https://claude.com/customers/panorama",
+      "title": "Panorama unlocks student success with Claude in Amazon Bedrock"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/parcha.md",
+      "source_url": "https://claude.com/customers/parcha",
+      "title": "How Parcha built a universal customer diligence agent in two weeks with Claude Agent SDK"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/pelanor.md",
+      "source_url": "https://claude.com/customers/pelanor",
+      "title": "Pelanor delivers instant cloud cost insights with Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/pensive.md",
+      "source_url": "https://claude.com/customers/pensive",
+      "title": "Pensive offers personalized AI teaching assistants for higher ed with Claude"
+    },
+    {
+      "block_count": 17,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/perplexity.md",
+      "source_url": "https://claude.com/customers/perplexity",
+      "title": "Perplexity delivers factual and relevant answers with Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/pjmf.md",
+      "source_url": "https://claude.com/customers/pjmf",
+      "title": "The Patrick J. Mc Govern Foundation standardizes grant evaluation with Claude"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/postman.md",
+      "source_url": "https://claude.com/customers/postman",
+      "title": "Postman automates the API development lifecycle with Claude for 40 million developers"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/pratham-international.md",
+      "source_url": "https://claude.com/customers/pratham-international",
+      "title": "How Pratham delivers personalized assessment feedback to thousands of students across India with Claude"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/praxis.md",
+      "source_url": "https://claude.com/customers/praxis",
+      "title": "Praxis AI pioneers AI-driven education with Claude in Amazon Bedrock"
+    },
+    {
+      "block_count": 29,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/pressmaster.md",
+      "source_url": "https://claude.com/customers/pressmaster",
+      "title": "How Pressmaster turns a 10-minute conversation into a content strategy"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/pulpit-ai.md",
+      "source_url": "https://claude.com/customers/pulpit-ai",
+      "title": "Pulpit AI turns sermons into multiple pieces of content with Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/qodo.md",
+      "source_url": "https://claude.com/customers/qodo",
+      "title": "Qodo helps developers ship quality code faster with Claude"
+    },
+    {
+      "block_count": 35,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/qualified-health.md",
+      "source_url": "https://claude.com/customers/qualified-health",
+      "title": "Qualified Health and the University of Texas System use Claude to identify patients who need life-saving care"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/quantium.md",
+      "source_url": "https://claude.com/customers/quantium",
+      "title": "Quantium drives company-wide AI adoption with Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/quillit.md",
+      "source_url": "https://claude.com/customers/quillit",
+      "title": "Quillit eliminates 80% of the time-consuming tasks of qualitative research using Claude"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/rakuten.md",
+      "source_url": "https://claude.com/customers/rakuten",
+      "title": "Rakuten accelerates development with Claude Code"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/ramp.md",
+      "source_url": "https://claude.com/customers/ramp",
+      "title": "How Ramp's engineering operates at hyperspeed with Claude Code"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/replit.md",
+      "source_url": "https://claude.com/customers/replit",
+      "title": "Replit democratizes software development with Claude on Google Cloud's Vertex AI"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/rileybot.md",
+      "source_url": "https://claude.com/customers/rileybot",
+      "title": "Riley Bot creates safe AI learning experiences for students with Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/rising-academies.md",
+      "source_url": "https://claude.com/customers/rising-academies",
+      "title": "Rising Academies’ chatbot tutors reach 150,000+ students across Sub-Saharan Africa with Claude"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/rocket.md",
+      "source_url": "https://claude.com/customers/rocket",
+      "title": "Rocket generates agency-grade websites from a single prompt with Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/scribd.md",
+      "source_url": "https://claude.com/customers/scribd",
+      "title": "Scribd, Inc. boosts content discovery and engagement with Claude"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/section.md",
+      "source_url": "https://claude.com/customers/section",
+      "title": "Section helps companies navigate AI transformation with Claude"
+    },
+    {
+      "block_count": 34,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/semgrep.md",
+      "source_url": "https://claude.com/customers/semgrep",
+      "title": "How Semgrep delivers AI-powered code security with Claude in Amazon Bedrock"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/sendbird.md",
+      "source_url": "https://claude.com/customers/sendbird",
+      "title": "Sendbird delivers reliable, enterprise-grade AI customer service with Claude"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/sentry.md",
+      "source_url": "https://claude.com/customers/sentry",
+      "title": "Sentry helps developers accelerate debugging and ship fixes faster with Claude"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/sett.md",
+      "source_url": "https://claude.com/customers/sett",
+      "title": "Sett scales gaming ad production with Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/shopify.md",
+      "source_url": "https://claude.com/customers/shopify",
+      "title": "How Shopify uses Anthropic’s Claude on Google Cloud’s Vertex AI to supercharge Sidekick"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/shortcut.md",
+      "source_url": "https://claude.com/customers/shortcut",
+      "title": "How Shortcut uses Opus 4.6 to tackle complex spreadsheet work for enterprises"
+    },
+    {
+      "block_count": 18,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/skillfully.md",
+      "source_url": "https://claude.com/customers/skillfully",
+      "title": "Skillfully transforms hiring through AI-powered skill simulations with Claude"
+    },
+    {
+      "block_count": 26,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/skt.md",
+      "source_url": "https://claude.com/customers/skt",
+      "title": "SK Telecom enhances customer support for millions of Koreans with Claude in Amazon Bedrock"
+    },
+    {
+      "block_count": 19,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/slack.md",
+      "source_url": "https://claude.com/customers/slack",
+      "title": "How Slack, a Salesforce company, unlocks organizational knowledge with Claude"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/snowflake.md",
+      "source_url": "https://claude.com/customers/snowflake",
+      "title": "Snowflake powers enterprise data intelligence with Claude"
+    },
+    {
+      "block_count": 32,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/solvely.md",
+      "source_url": "https://claude.com/customers/solvely",
+      "title": "Solvely.ai transforms global learning with Claude"
+    },
+    {
+      "block_count": 19,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/sourcegraph.md",
+      "source_url": "https://claude.com/customers/sourcegraph",
+      "title": "Sourcegraph enhances the intelligence and speed of their AI-powered coding assistant with Claude"
+    },
+    {
+      "block_count": 19,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/sourcegraph-claude-for-work.md",
+      "source_url": "https://claude.com/customers/sourcegraph-claude-for-work",
+      "title": "Sourcegraph streamlines product and community insights with Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/spotify.md",
+      "source_url": "https://claude.com/customers/spotify",
+      "title": "Spotify cuts migration time by 90% with Claude Agent SDK"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/spring-new.md",
+      "source_url": "https://claude.com/customers/spring-new",
+      "title": "Spring.new empowers business application development with Claude on Google Cloud's Vertex AI"
+    },
+    {
+      "block_count": 26,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/stackblitz.md",
+      "source_url": "https://claude.com/customers/stackblitz",
+      "title": "Stack Blitz achieves $4M ARR in 4 weeks for their AI web development platform with Claude"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/stairwell.md",
+      "source_url": "https://claude.com/customers/stairwell",
+      "title": "Stairwell protects companies from sophisticated cybersecurity threats with Claude"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/steno.md",
+      "source_url": "https://claude.com/customers/steno",
+      "title": "Steno helps attorneys find the critical insights in legal transcripts with Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/stripe.md",
+      "source_url": "https://claude.com/customers/stripe",
+      "title": "Stripe deploys Claude Code to 1,370 engineers with zero-configuration enterprise rollout"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/stubhub.md",
+      "source_url": "https://claude.com/customers/stubhub",
+      "title": "Stub Hub transforms live event ticketing with Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/studyfetch.md",
+      "source_url": "https://claude.com/customers/studyfetch",
+      "title": "Study Fetch powers AI-driven personalized learning for millions of students with Claude"
+    },
+    {
+      "block_count": 17,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/super-teacher.md",
+      "source_url": "https://claude.com/customers/super-teacher",
+      "title": "Super Teacher offers elementary schools a personalized AI Tutor with Claude"
+    },
+    {
+      "block_count": 16,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/tabnine.md",
+      "source_url": "https://claude.com/customers/tabnine",
+      "title": "Tabnine solves developers' pain points and enhances productivity with Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/tahoe-lead-removal-project.md",
+      "source_url": "https://claude.com/customers/tahoe-lead-removal-project",
+      "title": "Tahoe Lead Removal Project cleans up Lake Tahoe with Claude"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/tasklet.md",
+      "source_url": "https://claude.com/customers/tasklet",
+      "title": "How Tasklet built 24/7 business automation with Claude"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/telus.md",
+      "source_url": "https://claude.com/customers/telus",
+      "title": "TELUS boosts workplace innovation with Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/thomson-reuters.md",
+      "source_url": "https://claude.com/customers/thomson-reuters",
+      "title": "Thomson Reuters enhances tax guidance with Claude in Amazon Bedrock"
+    },
+    {
+      "block_count": 41,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/thomson-reuters-qa.md",
+      "source_url": "https://claude.com/customers/thomson-reuters-qa",
+      "title": "Thomson Reuters CTO on piloting Cowork with Claude Enterprise"
+    },
+    {
+      "block_count": 29,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/tidio.md",
+      "source_url": "https://claude.com/customers/tidio",
+      "title": "Tidio automates customer support at scale with Claude"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/tines.md",
+      "source_url": "https://claude.com/customers/tines",
+      "title": "Tines transforms workflow automation with Claude in Amazon Bedrock"
+    },
+    {
+      "block_count": 31,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/tldv.md",
+      "source_url": "https://claude.com/customers/tldv",
+      "title": "tl;dv boosts revenue 500% from AI-powered meeting intelligence with Claude"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/tome.md",
+      "source_url": "https://claude.com/customers/tome",
+      "title": "Tome uncovers strategic insights for sales teams with Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/trellix.md",
+      "source_url": "https://claude.com/customers/trellix",
+      "title": "Trellix deploys autonomous security agents with Claude in Amazon Bedrock"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/triple-whale.md",
+      "source_url": "https://claude.com/customers/triple-whale",
+      "title": "Triple Whale drives business growth with Claude"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/try.md",
+      "source_url": "https://claude.com/customers/try",
+      "title": "TRY accelerates creative excellence with Claude"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/university-of-sydney.md",
+      "source_url": "https://claude.com/customers/university-of-sydney",
+      "title": "The University of Sydney and Accenture accelerate whale conservation with Claude"
+    },
+    {
+      "block_count": 31,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/vambe.md",
+      "source_url": "https://claude.com/customers/vambe",
+      "title": "Vambe powers conversational commerce across Latin America with Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/vanta.md",
+      "source_url": "https://claude.com/customers/vanta",
+      "title": "Vanta streamlines compliance remediation with Claude"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/vibecode.md",
+      "source_url": "https://claude.com/customers/vibecode",
+      "title": "Vibecode accelerates mobile app development with Claude"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/wedia-group.md",
+      "source_url": "https://claude.com/customers/wedia-group",
+      "title": "Wedia Group advances digital asset management with Claude"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/windsurf.md",
+      "source_url": "https://claude.com/customers/windsurf",
+      "title": "Windsurf enables collaborative software development agents with Claude"
+    },
+    {
+      "block_count": 26,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/wiz.md",
+      "source_url": "https://claude.com/customers/wiz",
+      "title": "Wiz migrates a 50,000-line codebase with Claude Code, achieving 2x performance gains"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/wordsmith.md",
+      "source_url": "https://claude.com/customers/wordsmith",
+      "title": "Wordsmith uses Claude to transform legal operations from 4-day bottlenecks to 4-minute workflows"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/workato.md",
+      "source_url": "https://claude.com/customers/workato",
+      "title": "Workato connects enterprise AI agents to business systems with Claude"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/wrtn.md",
+      "source_url": "https://claude.com/customers/wrtn",
+      "title": "WRTN pioneers AI entertainment and storytelling across Asia with Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/yoodli.md",
+      "source_url": "https://claude.com/customers/yoodli",
+      "title": "Yoodli turns high-stakes sales conversations into repeatable practice with Claude"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/you-dot-com.md",
+      "source_url": "https://claude.com/customers/you-dot-com",
+      "title": "You.com enhances search and productivity with Claude"
+    },
+    {
+      "block_count": 26,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/zapia.md",
+      "source_url": "https://claude.com/customers/zapia",
+      "title": "Zapia powers local commerce for millions across Latin America with Claude and Google Cloud’s Vertex AI"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/zapier.md",
+      "source_url": "https://claude.com/customers/zapier",
+      "title": "Zapier builds an AI-first remote culture with Claude Enterprise"
+    },
+    {
+      "block_count": 17,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/zencoder.md",
+      "source_url": "https://claude.com/customers/zencoder",
+      "title": "Zencoder unlocks double-digit productivity gains with Claude Code SDK"
+    },
+    {
+      "block_count": 33,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/zingage.md",
+      "source_url": "https://claude.com/customers/zingage",
+      "title": "How Zingage automates care coordination for 400+ home care agencies with Claude"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/customers/zoom.md",
+      "source_url": "https://claude.com/customers/zoom",
+      "title": "Zoom AI Companion boosts user engagement and satisfaction with Claude"
+    }
+  ]
+}

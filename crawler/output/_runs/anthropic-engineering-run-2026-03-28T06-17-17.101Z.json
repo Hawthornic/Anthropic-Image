@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-03-28T06:17:17.101Z",
+  "crawler": "anthropic-engineering",
+  "section": "engineering",
+  "urlsDiscovered": 21,
+  "successCount": 20,
+  "failureCount": 1,
+  "concurrency": 4,
+  "retries": 2,
+  "failures": [
+    {
+      "url": "https://www.anthropic.com/engineering/claude-code-best-practices",
+      "error": "Unable to locate Anthropic article body"
+    }
+  ],
+  "savedPaths": [
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/a-postmortem-of-three-recent-issues.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/AI-resistant-technical-evaluations.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/building-c-compiler.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/advanced-tool-use.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/building-effective-agents.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/claude-code-auto-mode.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/claude-think-tool.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/contextual-retrieval.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/demystifying-evals-for-ai-agents.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/effective-context-engineering-for-ai-agents.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/effective-harnesses-for-long-running-agents.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/eval-awareness-browsecomp.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/claude-code-sandboxing.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/infrastructure-noise.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/code-execution-with-mcp.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/multi-agent-research-system.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/swe-bench-sonnet.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/desktop-extensions.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/harness-design-long-running-apps.md",
+    "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/www.anthropic.com/engineering/writing-tools-for-agents.md"
+  ]
+}

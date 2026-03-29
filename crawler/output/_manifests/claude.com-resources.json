@@ -1,0 +1,1484 @@
+{
+  "updated_at": "2026-03-29T14:32:41.078Z",
+  "site": "claude.com",
+  "section": "resources",
+  "items": [
+    {
+      "block_count": 3,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/courses.md",
+      "source_url": "https://claude.com/resources/courses",
+      "title": "Courses"
+    },
+    {
+      "block_count": 3,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials.md",
+      "source_url": "https://claude.com/resources/tutorials",
+      "title": "Tutorials"
+    },
+    {
+      "block_count": 3,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials-category/ai-fluency.md",
+      "source_url": "https://claude.com/resources/tutorials-category/ai-fluency",
+      "title": "AI Fluency"
+    },
+    {
+      "block_count": 3,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials-category/education.md",
+      "source_url": "https://claude.com/resources/tutorials-category/education",
+      "title": "Education"
+    },
+    {
+      "block_count": 3,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials-category/engineering.md",
+      "source_url": "https://claude.com/resources/tutorials-category/engineering",
+      "title": "Engineering"
+    },
+    {
+      "block_count": 3,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials-category/finance.md",
+      "source_url": "https://claude.com/resources/tutorials-category/finance",
+      "title": "Finance"
+    },
+    {
+      "block_count": 3,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials-category/healthcare.md",
+      "source_url": "https://claude.com/resources/tutorials-category/healthcare",
+      "title": "Healthcare"
+    },
+    {
+      "block_count": 3,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials-category/hr.md",
+      "source_url": "https://claude.com/resources/tutorials-category/hr",
+      "title": "HR"
+    },
+    {
+      "block_count": 3,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials-category/life-sciences.md",
+      "source_url": "https://claude.com/resources/tutorials-category/life-sciences",
+      "title": "Life Sciences"
+    },
+    {
+      "block_count": 3,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials-category/marketing.md",
+      "source_url": "https://claude.com/resources/tutorials-category/marketing",
+      "title": "Marketing"
+    },
+    {
+      "block_count": 3,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials-category/nonprofits.md",
+      "source_url": "https://claude.com/resources/tutorials-category/nonprofits",
+      "title": "Nonprofits"
+    },
+    {
+      "block_count": 3,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials-category/professional.md",
+      "source_url": "https://claude.com/resources/tutorials-category/professional",
+      "title": "Professional"
+    },
+    {
+      "block_count": 3,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials-category/sales.md",
+      "source_url": "https://claude.com/resources/tutorials-category/sales",
+      "title": "Sales"
+    },
+    {
+      "block_count": 43,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/a-discussion-guide-for-the-ai-fluency-index.md",
+      "source_url": "https://claude.com/resources/tutorials/a-discussion-guide-for-the-ai-fluency-index",
+      "title": "A discussion guide for the AI Fluency Index"
+    },
+    {
+      "block_count": 34,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/applying-claude-opus-4-5s-strengths-to-your-everyday-work.md",
+      "source_url": "https://claude.com/resources/tutorials/applying-claude-opus-4-5s-strengths-to-your-everyday-work",
+      "title": "Applying Claude Opus 4.5's strengths to your everyday work"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/choosing-the-right-claude-model.md",
+      "source_url": "https://claude.com/resources/tutorials/choosing-the-right-claude-model",
+      "title": "Choosing the right Claude model: Haiku, Sonnet, and Opus"
+    },
+    {
+      "block_count": 67,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/claude-cowork-a-research-preview.md",
+      "source_url": "https://claude.com/resources/tutorials/claude-cowork-a-research-preview",
+      "title": "Cowork, a research preview"
+    },
+    {
+      "block_count": 161,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/claude-enterprise-administrator-guide.md",
+      "source_url": "https://claude.com/resources/tutorials/claude-enterprise-administrator-guide",
+      "title": "Claude Enterprise Administrator Guide"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/claude-for-engineering.md",
+      "source_url": "https://claude.com/resources/tutorials/claude-for-engineering",
+      "title": "Claude for Engineering"
+    },
+    {
+      "block_count": 41,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/claude-for-financial-services-overview.md",
+      "source_url": "https://claude.com/resources/tutorials/claude-for-financial-services-overview",
+      "title": "Claude for financial services overview"
+    },
+    {
+      "block_count": 50,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/claude-for-financial-services-skills.md",
+      "source_url": "https://claude.com/resources/tutorials/claude-for-financial-services-skills",
+      "title": "Six skills for financial service professionals"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/claude-for-human-resources.md",
+      "source_url": "https://claude.com/resources/tutorials/claude-for-human-resources",
+      "title": "Claude for Human Resources"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/claude-for-marketing.md",
+      "source_url": "https://claude.com/resources/tutorials/claude-for-marketing",
+      "title": "Claude for Marketing"
+    },
+    {
+      "block_count": 20,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/claude-for-nonprofits-partnership-guide-for-all-users.md",
+      "source_url": "https://claude.com/resources/tutorials/claude-for-nonprofits-partnership-guide-for-all-users",
+      "title": "Claude for nonprofits partnership guide for all users"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/claude-for-nonprofits-partnership-success-guide-for-admins.md",
+      "source_url": "https://claude.com/resources/tutorials/claude-for-nonprofits-partnership-success-guide-for-admins",
+      "title": "Claude for nonprofits partnership success guide for admins"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/claude-for-product-management.md",
+      "source_url": "https://claude.com/resources/tutorials/claude-for-product-management",
+      "title": "Claude for Product Management"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/claude-for-sales.md",
+      "source_url": "https://claude.com/resources/tutorials/claude-for-sales",
+      "title": "Claude for Sales"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/configuration-and-multi-file-skills.md",
+      "source_url": "https://claude.com/resources/tutorials/configuration-and-multi-file-skills",
+      "title": "Configuration and multi-file skills"
+    },
+    {
+      "block_count": 34,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/connect-your-tools-to-unlock-a-smarter-more-capable-ai-companion.md",
+      "source_url": "https://claude.com/resources/tutorials/connect-your-tools-to-unlock-a-smarter-more-capable-ai-companion",
+      "title": "Connect your tools to unlock a smarter, more capable AI companion"
+    },
+    {
+      "block_count": 63,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/cowork-onboarding-guide.md",
+      "source_url": "https://claude.com/resources/tutorials/cowork-onboarding-guide",
+      "title": "Set up Cowork to work the way you do"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/create-and-edit-files-with-claude-to-eliminate-hours-of-busy-work.md",
+      "source_url": "https://claude.com/resources/tutorials/create-and-edit-files-with-claude-to-eliminate-hours-of-busy-work",
+      "title": "Create and edit files with Claude to eliminate hours of busy work"
+    },
+    {
+      "block_count": 36,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/create-professional-results-across-tools-with-claude-sonnet-4-5.md",
+      "source_url": "https://claude.com/resources/tutorials/create-professional-results-across-tools-with-claude-sonnet-4-5",
+      "title": "Create professional results across tools with Claude Sonnet 4.5"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/creating-your-first-skill.md",
+      "source_url": "https://claude.com/resources/tutorials/creating-your-first-skill",
+      "title": "Creating your first skill"
+    },
+    {
+      "block_count": 55,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/financial-analysis-workflows-with-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/financial-analysis-workflows-with-claude",
+      "title": "Financial analysis workflows with Claude"
+    },
+    {
+      "block_count": 37,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/get-the-most-from-claude-opus-4-6.md",
+      "source_url": "https://claude.com/resources/tutorials/get-the-most-from-claude-opus-4-6",
+      "title": "Get the most from Claude Opus 4.6"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/getting-started-with-claude-ai.md",
+      "source_url": "https://claude.com/resources/tutorials/getting-started-with-claude-ai",
+      "title": "Getting started with Claude.ai"
+    },
+    {
+      "block_count": 27,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/getting-started-with-claude-for-financial-services.md",
+      "source_url": "https://claude.com/resources/tutorials/getting-started-with-claude-for-financial-services",
+      "title": "Getting Started with Claude for Financial Services"
+    },
+    {
+      "block_count": 17,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/getting-started-with-claude-for-life-sciences.md",
+      "source_url": "https://claude.com/resources/tutorials/getting-started-with-claude-for-life-sciences",
+      "title": "Getting Started with Claude for Life Sciences"
+    },
+    {
+      "block_count": 38,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/getting-started-with-claude-for-nonprofits.md",
+      "source_url": "https://claude.com/resources/tutorials/getting-started-with-claude-for-nonprofits",
+      "title": "Getting started with Claude for nonprofits"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/getting-started-with-claude-in-excel.md",
+      "source_url": "https://claude.com/resources/tutorials/getting-started-with-claude-in-excel",
+      "title": "Getting started with Claude in Excel"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/getting-started-with-connectors.md",
+      "source_url": "https://claude.com/resources/tutorials/getting-started-with-connectors",
+      "title": "Getting started with connectors"
+    },
+    {
+      "block_count": 26,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/getting-the-most-out-of-sonnet-4-5-in-claude-ai.md",
+      "source_url": "https://claude.com/resources/tutorials/getting-the-most-out-of-sonnet-4-5-in-claude-ai",
+      "title": "Getting the most out of Sonnet 4.5 in Claude.ai"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/how-skills-compare-to-other-claude-code-features.md",
+      "source_url": "https://claude.com/resources/tutorials/how-skills-compare-to-other-claude-code-features",
+      "title": "How skills compare to other Claude Code features"
+    },
+    {
+      "block_count": 47,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/how-to-build-a-plugin-from-scratch-in-cowork.md",
+      "source_url": "https://claude.com/resources/tutorials/how-to-build-a-plugin-from-scratch-in-cowork",
+      "title": "How to build a plugin from scratch in Cowork"
+    },
+    {
+      "block_count": 38,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/how-to-create-a-skill-with-claude-through-conversation.md",
+      "source_url": "https://claude.com/resources/tutorials/how-to-create-a-skill-with-claude-through-conversation",
+      "title": "How to create a skill with Claude through conversation"
+    },
+    {
+      "block_count": 30,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/how-to-enable-claude-code-for-your-enterprise-team.md",
+      "source_url": "https://claude.com/resources/tutorials/how-to-enable-claude-code-for-your-enterprise-team",
+      "title": "How to enable Claude Code for your Enterprise team"
+    },
+    {
+      "block_count": 42,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/how-to-use-claude-in-excel-for-accounting-revenue-model-validation.md",
+      "source_url": "https://claude.com/resources/tutorials/how-to-use-claude-in-excel-for-accounting-revenue-model-validation",
+      "title": "How to use Claude in Excel for accounting: Revenue model validation"
+    },
+    {
+      "block_count": 50,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/how-to-use-claude-in-excel-for-hr-headcount-planning.md",
+      "source_url": "https://claude.com/resources/tutorials/how-to-use-claude-in-excel-for-hr-headcount-planning",
+      "title": "How to use Claude in Excel for HR: Headcount planning"
+    },
+    {
+      "block_count": 19,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/how-to-use-the-clinical-trial-protocol-draft-generation-sample-skill-with-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/how-to-use-the-clinical-trial-protocol-draft-generation-sample-skill-with-claude",
+      "title": "How to use the Clinical Trial Protocol Draft Generation sample skill with Claude"
+    },
+    {
+      "block_count": 11,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/how-to-use-the-fhir-developer-agent-skill-with-claude-code.md",
+      "source_url": "https://claude.com/resources/tutorials/how-to-use-the-fhir-developer-agent-skill-with-claude-code",
+      "title": "How to use the FHIR Developer agent skill with Claude Code"
+    },
+    {
+      "block_count": 17,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/how-to-use-the-instrument-data-to-allotrope-skill-with-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/how-to-use-the-instrument-data-to-allotrope-skill-with-claude",
+      "title": "How to use the Instrument Data to Allotrope Skill with Claude"
+    },
+    {
+      "block_count": 12,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/how-to-use-the-nextflow-deployment-agent-skill-with-claude-code.md",
+      "source_url": "https://claude.com/resources/tutorials/how-to-use-the-nextflow-deployment-agent-skill-with-claude-code",
+      "title": "How to use the Nextflow Deployment agent skill with Claude Code"
+    },
+    {
+      "block_count": 19,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/how-to-use-the-prior-auth-review-sample-skill-with-claude-2ggy8.md",
+      "source_url": "https://claude.com/resources/tutorials/how-to-use-the-prior-auth-review-sample-skill-with-claude-2ggy8",
+      "title": "How to use the Prior Auth Review sample skill with Claude"
+    },
+    {
+      "block_count": 17,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/how-to-use-the-scientific-problem-selection-skill-with-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/how-to-use-the-scientific-problem-selection-skill-with-claude",
+      "title": "How to use the Scientific Problem Selection Skill with Claude"
+    },
+    {
+      "block_count": 17,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/how-to-use-the-scvi-tools-bioinformatics-skill-bundle-with-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/how-to-use-the-scvi-tools-bioinformatics-skill-bundle-with-claude",
+      "title": "How to use the scVI-Tools bioinformatics skill bundle with Claude"
+    },
+    {
+      "block_count": 17,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/how-to-use-the-single-cell-rna-qc-skill-with-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/how-to-use-the-single-cell-rna-qc-skill-with-claude",
+      "title": "How to use the single-cell-rna-qc skill with Claude"
+    },
+    {
+      "block_count": 66,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/imagine-with-claude-student-guide.md",
+      "source_url": "https://claude.com/resources/tutorials/imagine-with-claude-student-guide",
+      "title": "Visuals that appear as you study with Claude"
+    },
+    {
+      "block_count": 26,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/install-financial-services-plugins-for-cowork.md",
+      "source_url": "https://claude.com/resources/tutorials/install-financial-services-plugins-for-cowork",
+      "title": "Install financial services plugins for Cowork"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/intro-to-artifacts.md",
+      "source_url": "https://claude.com/resources/tutorials/intro-to-artifacts",
+      "title": "Intro to Artifacts"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/intro-to-projects.md",
+      "source_url": "https://claude.com/resources/tutorials/intro-to-projects",
+      "title": "Intro to Projects"
+    },
+    {
+      "block_count": 34,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/navigating-the-claude-desktop-app.md",
+      "source_url": "https://claude.com/resources/tutorials/navigating-the-claude-desktop-app",
+      "title": "Navigating the Claude desktop app: Chat, Cowork, Code"
+    },
+    {
+      "block_count": 70,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/prompting-strategies-for-financial-analysis.md",
+      "source_url": "https://claude.com/resources/tutorials/prompting-strategies-for-financial-analysis",
+      "title": "Prompting strategies for financial analysis"
+    },
+    {
+      "block_count": 53,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/prototype-ai-powered-apps-with-claude-artifacts.md",
+      "source_url": "https://claude.com/resources/tutorials/prototype-ai-powered-apps-with-claude-artifacts",
+      "title": "Prototype AI-Powered Apps with Claude artifacts"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/sharing-skills.md",
+      "source_url": "https://claude.com/resources/tutorials/sharing-skills",
+      "title": "Sharing skills"
+    },
+    {
+      "block_count": 46,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/simplify-your-browsing-experience-with-claude-for-chrome.md",
+      "source_url": "https://claude.com/resources/tutorials/simplify-your-browsing-experience-with-claude-for-chrome",
+      "title": "Simplify your browsing experience with Claude in Chrome"
+    },
+    {
+      "block_count": 40,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/teach-claude-your-way-of-working-using-skills.md",
+      "source_url": "https://claude.com/resources/tutorials/teach-claude-your-way-of-working-using-skills",
+      "title": "Teach Claude your way of working using skills"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/troubleshooting-skills.md",
+      "source_url": "https://claude.com/resources/tutorials/troubleshooting-skills",
+      "title": "Troubleshooting skills"
+    },
+    {
+      "block_count": 37,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/use-artifacts-to-visualize-and-create-ai-apps-without-ever-writing-a-line-of-code.md",
+      "source_url": "https://claude.com/resources/tutorials/use-artifacts-to-visualize-and-create-ai-apps-without-ever-writing-a-line-of-code",
+      "title": "Use artifacts to visualize and create AI apps without ever writing a line of code"
+    },
+    {
+      "block_count": 50,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-aiera-for-earnings-intelligence-and-market-analysis.md",
+      "source_url": "https://claude.com/resources/tutorials/using-aiera-for-earnings-intelligence-and-market-analysis",
+      "title": "Using Aiera for earnings intelligence and market analysis"
+    },
+    {
+      "block_count": 60,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-chronograph-for-portfolio-monitoring.md",
+      "source_url": "https://claude.com/resources/tutorials/using-chronograph-for-portfolio-monitoring",
+      "title": "Using Chronograph for portfolio monitoring"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-claude-code-remote-control.md",
+      "source_url": "https://claude.com/resources/tutorials/using-claude-code-remote-control",
+      "title": "Using Claude Code Remote Control"
+    },
+    {
+      "block_count": 46,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-daloopa-for-financial-analysis.md",
+      "source_url": "https://claude.com/resources/tutorials/using-daloopa-for-financial-analysis",
+      "title": "Using Daloopa for financial analysis"
+    },
+    {
+      "block_count": 50,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-databricks-for-data-analysis.md",
+      "source_url": "https://claude.com/resources/tutorials/using-databricks-for-data-analysis",
+      "title": "Using Databricks for Data Analysis"
+    },
+    {
+      "block_count": 46,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-egnyte-for-data-room-management-with-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-egnyte-for-data-room-management-with-claude",
+      "title": "Using Egnyte for data room management with Claude"
+    },
+    {
+      "block_count": 49,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-factset-for-comprehensive-financial-research.md",
+      "source_url": "https://claude.com/resources/tutorials/using-factset-for-comprehensive-financial-research",
+      "title": "Using Fact Set for comprehensive financial research"
+    },
+    {
+      "block_count": 44,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-lseg-for-financial-market-data-analysis.md",
+      "source_url": "https://claude.com/resources/tutorials/using-lseg-for-financial-market-data-analysis",
+      "title": "Using LSEG for financial market data analysis"
+    },
+    {
+      "block_count": 80,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-moodys-for-financial-analysis.md",
+      "source_url": "https://claude.com/resources/tutorials/using-moodys-for-financial-analysis",
+      "title": "Using Moody's for financial analysis"
+    },
+    {
+      "block_count": 44,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-morningstar-for-investment-research.md",
+      "source_url": "https://claude.com/resources/tutorials/using-morningstar-for-investment-research",
+      "title": "Using Morningstar for investment research"
+    },
+    {
+      "block_count": 58,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-mt-newswires-for-real-time-financial-news.md",
+      "source_url": "https://claude.com/resources/tutorials/using-mt-newswires-for-real-time-financial-news",
+      "title": "Using MT Newswires for real-Time financial news"
+    },
+    {
+      "block_count": 53,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-pitchbook-for-investment-research.md",
+      "source_url": "https://claude.com/resources/tutorials/using-pitchbook-for-investment-research",
+      "title": "Using Pitch Book for investment research"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-research.md",
+      "source_url": "https://claude.com/resources/tutorials/using-research",
+      "title": "Using Research"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-research-and-google-workspace.md",
+      "source_url": "https://claude.com/resources/tutorials/using-research-and-google-workspace",
+      "title": "Using Research and Google Workspace"
+    },
+    {
+      "block_count": 72,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-s-p-global-data-for-financial-analysis.md",
+      "source_url": "https://claude.com/resources/tutorials/using-s-p-global-data-for-financial-analysis",
+      "title": "Using S&P global data for financial analysis"
+    },
+    {
+      "block_count": 44,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-10x-genomics-extension-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-10x-genomics-extension-in-claude",
+      "title": "Using the 10x Genomics Extension in Claude"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-benchling-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-benchling-connector-in-claude",
+      "title": "Using the Benchling connector in Claude"
+    },
+    {
+      "block_count": 24,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-benevity-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-benevity-connector-in-claude",
+      "title": "Using the Benevity connector in Claude"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-biorender-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-biorender-connector-in-claude",
+      "title": "Using the Bio Render Connector in Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-biorxiv-and-medrxiv-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-biorxiv-and-medrxiv-connector-in-claude",
+      "title": "Using the bio Rxiv and med Rxiv Connector in Claude"
+    },
+    {
+      "block_count": 31,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-blackbaud-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-blackbaud-connector-in-claude",
+      "title": "Using the Blackbaud connector in Claude"
+    },
+    {
+      "block_count": 50,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-candid-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-candid-connector-in-claude",
+      "title": "Using the Candid connector in Claude"
+    },
+    {
+      "block_count": 29,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-chembl-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-chembl-connector-in-claude",
+      "title": "Using the ChEMBL Connector in Claude"
+    },
+    {
+      "block_count": 29,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-clinicaltrials-gov-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-clinicaltrials-gov-connector-in-claude",
+      "title": "Using the Clinical Trials.gov Connector in Claude"
+    },
+    {
+      "block_count": 30,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-cms-coverage-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-cms-coverage-connector-in-claude",
+      "title": "Using the CMS Coverage Connector in Claude"
+    },
+    {
+      "block_count": 38,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-function-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-function-connector-in-claude",
+      "title": "Using the Function Connector in Claude"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-github-integration.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-github-integration",
+      "title": "Using the Git Hub integration"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-google-docs-integration.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-google-docs-integration",
+      "title": "Using the Google Docs integration"
+    },
+    {
+      "block_count": 37,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-healthex-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-healthex-connector-in-claude",
+      "title": "Using the Health Ex Connector in Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-icd-10-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-icd-10-connector-in-claude",
+      "title": "Using the ICD-10 Connector in Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-medidata-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-medidata-connector-in-claude",
+      "title": "Using the Medidata Connector in Claude"
+    },
+    {
+      "block_count": 26,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-npi-registry-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-npi-registry-connector-in-claude",
+      "title": "Using the NPI Registry Connector in Claude"
+    },
+    {
+      "block_count": 28,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-open-targets-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-open-targets-connector-in-claude",
+      "title": "Using the Open Targets Connector in Claude"
+    },
+    {
+      "block_count": 44,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-owkin-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-owkin-connector-in-claude",
+      "title": "Using the Owkin Connector in Claude"
+    },
+    {
+      "block_count": 62,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-pubmed-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-pubmed-connector-in-claude",
+      "title": "Using the Pub Med Connector in Claude"
+    },
+    {
+      "block_count": 25,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-scholar-gateway-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-scholar-gateway-connector-in-claude",
+      "title": "Using the Scholar Gateway Connector in Claude"
+    },
+    {
+      "block_count": 21,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-synapse-org-connector-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-synapse-org-connector-in-claude",
+      "title": "Using the Synapse.org Connector in Claude"
+    },
+    {
+      "block_count": 68,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/using-the-tooluniverse-extension-in-claude.md",
+      "source_url": "https://claude.com/resources/tutorials/using-the-tooluniverse-extension-in-claude",
+      "title": "Using the Tool Universe Extension in Claude"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/what-are-skills.md",
+      "source_url": "https://claude.com/resources/tutorials/what-are-skills",
+      "title": "What are skills?"
+    },
+    {
+      "block_count": 48,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/tutorials/writing-an-ai-diligence-statement.md",
+      "source_url": "https://claude.com/resources/tutorials/writing-an-ai-diligence-statement",
+      "title": "Writing an AI diligence statement"
+    },
+    {
+      "block_count": 34,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases.md",
+      "source_url": "https://claude.com/resources/use-cases",
+      "title": "Use Cases"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases-category/claude-in-chrome.md",
+      "source_url": "https://claude.com/resources/use-cases-category/claude-in-chrome",
+      "title": "Claude in Chrome"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases-category/cowork.md",
+      "source_url": "https://claude.com/resources/use-cases-category/cowork",
+      "title": "Cowork"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases-category/custom-visuals.md",
+      "source_url": "https://claude.com/resources/use-cases-category/custom-visuals",
+      "title": "Custom visuals"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases-category/education.md",
+      "source_url": "https://claude.com/resources/use-cases-category/education",
+      "title": "Education"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases-category/finance.md",
+      "source_url": "https://claude.com/resources/use-cases-category/finance",
+      "title": "Finance"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases-category/hr.md",
+      "source_url": "https://claude.com/resources/use-cases-category/hr",
+      "title": "HR"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases-category/legal.md",
+      "source_url": "https://claude.com/resources/use-cases-category/legal",
+      "title": "Legal"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases-category/life-sciences.md",
+      "source_url": "https://claude.com/resources/use-cases-category/life-sciences",
+      "title": "Life Sciences"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases-category/marketing.md",
+      "source_url": "https://claude.com/resources/use-cases-category/marketing",
+      "title": "Marketing"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases-category/nonprofits.md",
+      "source_url": "https://claude.com/resources/use-cases-category/nonprofits",
+      "title": "Nonprofits"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases-category/personal.md",
+      "source_url": "https://claude.com/resources/use-cases-category/personal",
+      "title": "Personal"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases-category/professional.md",
+      "source_url": "https://claude.com/resources/use-cases-category/professional",
+      "title": "Professional"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases-category/research.md",
+      "source_url": "https://claude.com/resources/use-cases-category/research",
+      "title": "Research"
+    },
+    {
+      "block_count": 2,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases-category/sales.md",
+      "source_url": "https://claude.com/resources/use-cases-category/sales",
+      "title": "Sales"
+    },
+    {
+      "block_count": 39,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/adapt-content-across-platforms.md",
+      "source_url": "https://claude.com/resources/use-cases/adapt-content-across-platforms",
+      "title": "Adapt content across platforms"
+    },
+    {
+      "block_count": 38,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/analyze-campaign-performance.md",
+      "source_url": "https://claude.com/resources/use-cases/analyze-campaign-performance",
+      "title": "Analyze campaign performance"
+    },
+    {
+      "block_count": 43,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/analyze-fundraising-performance.md",
+      "source_url": "https://claude.com/resources/use-cases/analyze-fundraising-performance",
+      "title": "Analyze fundraising performance"
+    },
+    {
+      "block_count": 38,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/analyze-patterns-in-user-feedback.md",
+      "source_url": "https://claude.com/resources/use-cases/analyze-patterns-in-user-feedback",
+      "title": "Analyze patterns in user feedback"
+    },
+    {
+      "block_count": 33,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/apply-a-formula-as-you-learn-it-in-chat-with-claude.md",
+      "source_url": "https://claude.com/resources/use-cases/apply-a-formula-as-you-learn-it-in-chat-with-claude",
+      "title": "Apply a formula as you learn it, in chat with Claude"
+    },
+    {
+      "block_count": 33,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/bring-your-whiteboard-lesson-to-life.md",
+      "source_url": "https://claude.com/resources/use-cases/bring-your-whiteboard-lesson-to-life",
+      "title": "Bring your whiteboard lesson to life in conversation with Claude"
+    },
+    {
+      "block_count": 37,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/build-a-battle-card-library.md",
+      "source_url": "https://claude.com/resources/use-cases/build-a-battle-card-library",
+      "title": "Build a battle card library"
+    },
+    {
+      "block_count": 41,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/build-a-custom-bucket-list-app.md",
+      "source_url": "https://claude.com/resources/use-cases/build-a-custom-bucket-list-app",
+      "title": "Build a custom bucket list"
+    },
+    {
+      "block_count": 44,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/build-a-daily-briefing-across-your-tools.md",
+      "source_url": "https://claude.com/resources/use-cases/build-a-daily-briefing-across-your-tools",
+      "title": "Build a daily briefing across your tools"
+    },
+    {
+      "block_count": 42,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/build-a-fundraising-campaign.md",
+      "source_url": "https://claude.com/resources/use-cases/build-a-fundraising-campaign",
+      "title": "Build a fundraising campaign"
+    },
+    {
+      "block_count": 47,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/build-analysis-from-browser-charts-and-folder-data.md",
+      "source_url": "https://claude.com/resources/use-cases/build-analysis-from-browser-charts-and-folder-data",
+      "title": "Build analysis from browser charts and folder data"
+    },
+    {
+      "block_count": 39,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/build-customer-personas.md",
+      "source_url": "https://claude.com/resources/use-cases/build-customer-personas",
+      "title": "Build customer personas"
+    },
+    {
+      "block_count": 50,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/build-financial-models.md",
+      "source_url": "https://claude.com/resources/use-cases/build-financial-models",
+      "title": "Build financial models"
+    },
+    {
+      "block_count": 49,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/build-interactive-diagram-tools.md",
+      "source_url": "https://claude.com/resources/use-cases/build-interactive-diagram-tools",
+      "title": "Build interactive diagram tools"
+    },
+    {
+      "block_count": 33,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/chart-your-data-before-you-commit.md",
+      "source_url": "https://claude.com/resources/use-cases/chart-your-data-before-you-commit",
+      "title": "Chart your data in conversation with Claude before you commit to a reading"
+    },
+    {
+      "block_count": 48,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/clean-up-promotional-emails.md",
+      "source_url": "https://claude.com/resources/use-cases/clean-up-promotional-emails",
+      "title": "Clean up promotional emails"
+    },
+    {
+      "block_count": 41,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/compare-and-analyze-competing-options.md",
+      "source_url": "https://claude.com/resources/use-cases/compare-and-analyze-competing-options",
+      "title": "Compare and analyze competing options"
+    },
+    {
+      "block_count": 51,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/compare-products-across-sites.md",
+      "source_url": "https://claude.com/resources/use-cases/compare-products-across-sites",
+      "title": "Compare products across sites"
+    },
+    {
+      "block_count": 39,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/contract-redlining-and-negotiation.md",
+      "source_url": "https://claude.com/resources/use-cases/contract-redlining-and-negotiation",
+      "title": "Contract redlining and negotiation"
+    },
+    {
+      "block_count": 38,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/create-a-company-newsletter.md",
+      "source_url": "https://claude.com/resources/use-cases/create-a-company-newsletter",
+      "title": "Create a company newsletter"
+    },
+    {
+      "block_count": 36,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/create-a-custom-webpage.md",
+      "source_url": "https://claude.com/resources/use-cases/create-a-custom-webpage",
+      "title": "Create a custom webpage"
+    },
+    {
+      "block_count": 42,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/create-a-daily-travel-itinerary.md",
+      "source_url": "https://claude.com/resources/use-cases/create-a-daily-travel-itinerary",
+      "title": "Create a daily travel itinerary"
+    },
+    {
+      "block_count": 40,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/create-a-process-flowchart.md",
+      "source_url": "https://claude.com/resources/use-cases/create-a-process-flowchart",
+      "title": "Create a process flowchart"
+    },
+    {
+      "block_count": 38,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/create-a-sales-proposal-presentation.md",
+      "source_url": "https://claude.com/resources/use-cases/create-a-sales-proposal-presentation",
+      "title": "Create a sales proposal presentation"
+    },
+    {
+      "block_count": 49,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/create-a-volunteer-management-system.md",
+      "source_url": "https://claude.com/resources/use-cases/create-a-volunteer-management-system",
+      "title": "Create a volunteer management system"
+    },
+    {
+      "block_count": 39,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/Create-brand-assets.md",
+      "source_url": "https://claude.com/resources/use-cases/Create-brand-assets",
+      "title": "Create brand assets"
+    },
+    {
+      "block_count": 37,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/create-custom-course-materials.md",
+      "source_url": "https://claude.com/resources/use-cases/create-custom-course-materials",
+      "title": "Create custom course materials"
+    },
+    {
+      "block_count": 43,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/create-digital-recipe-cards.md",
+      "source_url": "https://claude.com/resources/use-cases/create-digital-recipe-cards",
+      "title": "Create digital recipe cards"
+    },
+    {
+      "block_count": 40,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/create-health-and-exercise-notes.md",
+      "source_url": "https://claude.com/resources/use-cases/create-health-and-exercise-notes",
+      "title": "Create health and exercise notes"
+    },
+    {
+      "block_count": 38,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/create-interactive-pdf-forms.md",
+      "source_url": "https://claude.com/resources/use-cases/create-interactive-pdf-forms",
+      "title": "Create interactive PDF forms"
+    },
+    {
+      "block_count": 41,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/create-new-hire-onboarding-guides.md",
+      "source_url": "https://claude.com/resources/use-cases/create-new-hire-onboarding-guides",
+      "title": "Create new hire onboarding guides"
+    },
+    {
+      "block_count": 42,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/create-sales-reports.md",
+      "source_url": "https://claude.com/resources/use-cases/create-sales-reports",
+      "title": "Create sales reports"
+    },
+    {
+      "block_count": 43,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/debate-practice-with-feedback.md",
+      "source_url": "https://claude.com/resources/use-cases/debate-practice-with-feedback",
+      "title": "Debate practice with feedback"
+    },
+    {
+      "block_count": 39,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/design-a-local-foraging-guide.md",
+      "source_url": "https://claude.com/resources/use-cases/design-a-local-foraging-guide",
+      "title": "Design a local foraging guide"
+    },
+    {
+      "block_count": 48,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/develop-a-program-toolkit.md",
+      "source_url": "https://claude.com/resources/use-cases/develop-a-program-toolkit",
+      "title": "Develop a program toolkit"
+    },
+    {
+      "block_count": 48,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/draft-investment-memos.md",
+      "source_url": "https://claude.com/resources/use-cases/draft-investment-memos",
+      "title": "Draft investment memos"
+    },
+    {
+      "block_count": 49,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/elevate-claudes-design-using-skills.md",
+      "source_url": "https://claude.com/resources/use-cases/elevate-claudes-design-using-skills",
+      "title": "Elevate Claude's design using skills"
+    },
+    {
+      "block_count": 55,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/evaluate-a-company-from-the-science-to-the-balance-sheet.md",
+      "source_url": "https://claude.com/resources/use-cases/evaluate-a-company-from-the-science-to-the-balance-sheet",
+      "title": "Evaluate a company from the science to the balance sheet"
+    },
+    {
+      "block_count": 51,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/explore-what-claude-can-do-for-you.md",
+      "source_url": "https://claude.com/resources/use-cases/explore-what-claude-can-do-for-you",
+      "title": "Explore what Claude can do for you"
+    },
+    {
+      "block_count": 59,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/generate-an-ai-policy.md",
+      "source_url": "https://claude.com/resources/use-cases/generate-an-ai-policy",
+      "title": "Generate an AI policy"
+    },
+    {
+      "block_count": 39,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/generate-project-status-reports.md",
+      "source_url": "https://claude.com/resources/use-cases/generate-project-status-reports",
+      "title": "Generate project status reports"
+    },
+    {
+      "block_count": 57,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/genomic-data-analysis.md",
+      "source_url": "https://claude.com/resources/use-cases/genomic-data-analysis",
+      "title": "Genomic data analysis"
+    },
+    {
+      "block_count": 67,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/grant-proposal-assembly-line.md",
+      "source_url": "https://claude.com/resources/use-cases/grant-proposal-assembly-line",
+      "title": "Grant proposal assembly line"
+    },
+    {
+      "block_count": 56,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/log-sales-calls-to-your-crm.md",
+      "source_url": "https://claude.com/resources/use-cases/log-sales-calls-to-your-crm",
+      "title": "Log sales calls to your CRM"
+    },
+    {
+      "block_count": 33,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/map-your-lit-review-mid-conversation.md",
+      "source_url": "https://claude.com/resources/use-cases/map-your-lit-review-mid-conversation",
+      "title": "Map your lit review mid-conversation to surface the underlying debate"
+    },
+    {
+      "block_count": 49,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/map-your-understanding-and-build-lessons-from-the-gaps.md",
+      "source_url": "https://claude.com/resources/use-cases/map-your-understanding-and-build-lessons-from-the-gaps",
+      "title": "Map your understanding and build lessons from the gaps"
+    },
+    {
+      "block_count": 44,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/organize-files-by-whats-in-them.md",
+      "source_url": "https://claude.com/resources/use-cases/organize-files-by-whats-in-them",
+      "title": "Organize files across your desktop"
+    },
+    {
+      "block_count": 51,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/organize-files-in-google-drive.md",
+      "source_url": "https://claude.com/resources/use-cases/organize-files-in-google-drive",
+      "title": "Organize files in Google Drive"
+    },
+    {
+      "block_count": 37,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/organize-your-business-finances.md",
+      "source_url": "https://claude.com/resources/use-cases/organize-your-business-finances",
+      "title": "Organize your business finances"
+    },
+    {
+      "block_count": 54,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/organize-your-legal-workflows-using-projects.md",
+      "source_url": "https://claude.com/resources/use-cases/organize-your-legal-workflows-using-projects",
+      "title": "Organize your legal workflows using Projects"
+    },
+    {
+      "block_count": 77,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/package-your-brand-guidelines-in-a-skill.md",
+      "source_url": "https://claude.com/resources/use-cases/package-your-brand-guidelines-in-a-skill",
+      "title": "Package your brand guidelines in a skill"
+    },
+    {
+      "block_count": 68,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/package-your-research-workflow-in-a-skill.md",
+      "source_url": "https://claude.com/resources/use-cases/package-your-research-workflow-in-a-skill",
+      "title": "Package your research workflow using skills"
+    },
+    {
+      "block_count": 47,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/Plan-your-career-path.md",
+      "source_url": "https://claude.com/resources/use-cases/Plan-your-career-path",
+      "title": "Plan your career path"
+    },
+    {
+      "block_count": 44,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/plan-your-literature-review.md",
+      "source_url": "https://claude.com/resources/use-cases/plan-your-literature-review",
+      "title": "Plan your literature review"
+    },
+    {
+      "block_count": 31,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/plan-your-syllabus-see-which-weeks-are-locked.md",
+      "source_url": "https://claude.com/resources/use-cases/plan-your-syllabus-see-which-weeks-are-locked",
+      "title": "Plan your syllabus in chat with Claude — see which weeks are locked"
+    },
+    {
+      "block_count": 45,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/practice-case-interviews-with-feedback.md",
+      "source_url": "https://claude.com/resources/use-cases/practice-case-interviews-with-feedback",
+      "title": "Practice case interviews with feedback"
+    },
+    {
+      "block_count": 52,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/preclinical-study-analysis.md",
+      "source_url": "https://claude.com/resources/use-cases/preclinical-study-analysis",
+      "title": "Preclinical study analysis"
+    },
+    {
+      "block_count": 45,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/prep-scattered-documents-for-a-compliance-audit.md",
+      "source_url": "https://claude.com/resources/use-cases/prep-scattered-documents-for-a-compliance-audit",
+      "title": "Prep scattered documents for a compliance audit"
+    },
+    {
+      "block_count": 46,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/prepare-and-plan-from-your-calendar.md",
+      "source_url": "https://claude.com/resources/use-cases/prepare-and-plan-from-your-calendar",
+      "title": "Prepare and plan from your calendar"
+    },
+    {
+      "block_count": 35,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/prepare-for-sales-deals.md",
+      "source_url": "https://claude.com/resources/use-cases/prepare-for-sales-deals",
+      "title": "Prepare for sales deals"
+    },
+    {
+      "block_count": 43,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/process-batches-of-vendors-with-cowork.md",
+      "source_url": "https://claude.com/resources/use-cases/process-batches-of-vendors-with-cowork",
+      "title": "Process batches of vendors with Cowork"
+    },
+    {
+      "block_count": 52,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/pull-metrics-from-analytics-dashboards.md",
+      "source_url": "https://claude.com/resources/use-cases/pull-metrics-from-analytics-dashboards",
+      "title": "Pull metrics from analytics dashboards"
+    },
+    {
+      "block_count": 60,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/quickly-prep-for-your-week.md",
+      "source_url": "https://claude.com/resources/use-cases/quickly-prep-for-your-week",
+      "title": "Quickly prep for your week"
+    },
+    {
+      "block_count": 45,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/reconcile-transactions-across-your-accounts.md",
+      "source_url": "https://claude.com/resources/use-cases/reconcile-transactions-across-your-accounts",
+      "title": "Reconcile transactions across your accounts"
+    },
+    {
+      "block_count": 43,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/research-and-compare-travel-destinations.md",
+      "source_url": "https://claude.com/resources/use-cases/research-and-compare-travel-destinations",
+      "title": "Research and compare travel destinations"
+    },
+    {
+      "block_count": 33,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/see-budget-futures-side-by-side.md",
+      "source_url": "https://claude.com/resources/use-cases/see-budget-futures-side-by-side",
+      "title": "See budget futures side by side, in chat with Claude"
+    },
+    {
+      "block_count": 33,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/see-what-your-campaign-goal-actually-requires.md",
+      "source_url": "https://claude.com/resources/use-cases/see-what-your-campaign-goal-actually-requires",
+      "title": "See what your campaign goal actually requires"
+    },
+    {
+      "block_count": 33,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/see-why-donor-retention-beats-acquisition.md",
+      "source_url": "https://claude.com/resources/use-cases/see-why-donor-retention-beats-acquisition",
+      "title": "See why donor retention beats acquisition, in chat with Claude"
+    },
+    {
+      "block_count": 33,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/see-your-theory-of-change-in-chat-with-claude.md",
+      "source_url": "https://claude.com/resources/use-cases/see-your-theory-of-change-in-chat-with-claude",
+      "title": "See your theory of change in chat with Claude, and spot where the logic is thin"
+    },
+    {
+      "block_count": 46,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/size-a-market-using-your-research.md",
+      "source_url": "https://claude.com/resources/use-cases/size-a-market-using-your-research",
+      "title": "Size a market using your research"
+    },
+    {
+      "block_count": 44,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/source-insights-from-your-tools-to-build-a-deck.md",
+      "source_url": "https://claude.com/resources/use-cases/source-insights-from-your-tools-to-build-a-deck",
+      "title": "Source insights from your tools to build a deck"
+    },
+    {
+      "block_count": 43,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/stress-test-your-financial-plan-across-scenarios.md",
+      "source_url": "https://claude.com/resources/use-cases/stress-test-your-financial-plan-across-scenarios",
+      "title": "Stress-test your financial plan across scenarios"
+    },
+    {
+      "block_count": 45,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/surface-themes-from-all-your-feedback-channels.md",
+      "source_url": "https://claude.com/resources/use-cases/surface-themes-from-all-your-feedback-channels",
+      "title": "Surface themes from all your feedback channels"
+    },
+    {
+      "block_count": 44,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/thoughtful-gift-giving-with-claude.md",
+      "source_url": "https://claude.com/resources/use-cases/thoughtful-gift-giving-with-claude",
+      "title": "Thoughtful gift giving with Claude"
+    },
+    {
+      "block_count": 40,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/track-discovery-timelines-and-analyze-patterns.md",
+      "source_url": "https://claude.com/resources/use-cases/track-discovery-timelines-and-analyze-patterns",
+      "title": "Track discovery timelines and analyze patterns"
+    },
+    {
+      "block_count": 40,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/turn-emails-into-an-event-tracker.md",
+      "source_url": "https://claude.com/resources/use-cases/turn-emails-into-an-event-tracker",
+      "title": "Turn emails into an event tracker"
+    },
+    {
+      "block_count": 44,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/turn-inspiration-to-design-plans.md",
+      "source_url": "https://claude.com/resources/use-cases/turn-inspiration-to-design-plans",
+      "title": "Turn inspiration into design plans"
+    },
+    {
+      "block_count": 48,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/turn-research-into-presentations.md",
+      "source_url": "https://claude.com/resources/use-cases/turn-research-into-presentations",
+      "title": "Turn research into presentations"
+    },
+    {
+      "block_count": 38,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/turn-text-threads-to-researched-notes.md",
+      "source_url": "https://claude.com/resources/use-cases/turn-text-threads-to-researched-notes",
+      "title": "Turn text threads to researched notes"
+    },
+    {
+      "block_count": 70,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/turn-transit-time-into-research-time.md",
+      "source_url": "https://claude.com/resources/use-cases/turn-transit-time-into-research-time",
+      "title": "Turn transit time into research time"
+    },
+    {
+      "block_count": 46,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/understand-and-extend-an-inherited-spreadsheet.md",
+      "source_url": "https://claude.com/resources/use-cases/understand-and-extend-an-inherited-spreadsheet",
+      "title": "Understand and extend an inherited spreadsheet"
+    },
+    {
+      "block_count": 51,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/verify-statistics-from-raw-data.md",
+      "source_url": "https://claude.com/resources/use-cases/verify-statistics-from-raw-data",
+      "title": "Verify statistics from raw data"
+    },
+    {
+      "block_count": 43,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/visualize-database-architecture.md",
+      "source_url": "https://claude.com/resources/use-cases/visualize-database-architecture",
+      "title": "Visualize database architecture"
+    },
+    {
+      "block_count": 52,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/visualize-program-data.md",
+      "source_url": "https://claude.com/resources/use-cases/visualize-program-data",
+      "title": "Visualize program data"
+    },
+    {
+      "block_count": 34,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/visualize-the-mechanism-behind-an-explanation-mid-chat.md",
+      "source_url": "https://claude.com/resources/use-cases/visualize-the-mechanism-behind-an-explanation-mid-chat",
+      "title": "Visualize the mechanism behind an explanation mid-chat"
+    },
+    {
+      "block_count": 33,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/work-through-grant-options-in-chat-with-claude.md",
+      "source_url": "https://claude.com/resources/use-cases/work-through-grant-options-in-chat-with-claude",
+      "title": "Work through grant options in chat with Claude"
+    },
+    {
+      "block_count": 44,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/workflow-improvement-planner.md",
+      "source_url": "https://claude.com/resources/use-cases/workflow-improvement-planner",
+      "title": "Workflow improvement planner"
+    },
+    {
+      "block_count": 43,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/resources/use-cases/write-an-impact-report.md",
+      "source_url": "https://claude.com/resources/use-cases/write-an-impact-report",
+      "title": "Write an impact report"
+    }
+  ]
+}

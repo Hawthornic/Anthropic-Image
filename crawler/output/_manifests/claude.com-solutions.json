@@ -1,0 +1,84 @@
+{
+  "updated_at": "2026-03-29T14:32:41.082Z",
+  "site": "claude.com",
+  "section": "solutions",
+  "items": [
+    {
+      "block_count": 16,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/solutions/agents.md",
+      "source_url": "https://claude.com/solutions/agents",
+      "title": "Make AI agents your unfair advantage"
+    },
+    {
+      "block_count": 16,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/solutions/claude-code-security.md",
+      "source_url": "https://claude.com/solutions/claude-code-security",
+      "title": "From scan to fix, done seamlessly"
+    },
+    {
+      "block_count": 18,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/solutions/code-modernization.md",
+      "source_url": "https://claude.com/solutions/code-modernization",
+      "title": "Accelerate code modernization with Claude Code"
+    },
+    {
+      "block_count": 11,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/solutions/coding.md",
+      "source_url": "https://claude.com/solutions/coding",
+      "title": "The best AI for developers"
+    },
+    {
+      "block_count": 8,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/solutions/customer-support.md",
+      "source_url": "https://claude.com/solutions/customer-support",
+      "title": "Build AI support agents with a more human touch"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/solutions/education.md",
+      "source_url": "https://claude.com/solutions/education",
+      "title": "Navigating AI in education together"
+    },
+    {
+      "block_count": 23,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/solutions/financial-services.md",
+      "source_url": "https://claude.com/solutions/financial-services",
+      "title": "Transform financial services with Claude"
+    },
+    {
+      "block_count": 13,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/solutions/government.md",
+      "source_url": "https://claude.com/solutions/government",
+      "title": "Responsible AI that meets government needs"
+    },
+    {
+      "block_count": 22,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/solutions/healthcare.md",
+      "source_url": "https://claude.com/solutions/healthcare",
+      "title": "Transform healthcare from insight to action"
+    },
+    {
+      "block_count": 16,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/solutions/life-sciences.md",
+      "source_url": "https://claude.com/solutions/life-sciences",
+      "title": "Accelerate science, from discovery through translation"
+    },
+    {
+      "block_count": 18,
+      "date": null,
+      "output_path": "/home/Oliver/WorkSpace/Anthropic-Image/crawler/output/claude.com/solutions/nonprofits.md",
+      "source_url": "https://claude.com/solutions/nonprofits",
+      "title": "Accelerate the work that matters most"
+    }
+  ]
+}

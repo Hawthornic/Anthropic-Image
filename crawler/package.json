@@ -7,6 +7,7 @@
     "crawl:claude": "tsx src/crawl-claude-site.ts",
     "crawl:engineering": "tsx src/crawl-anthropic-research.ts --section engineering",
     "crawl:news": "tsx src/crawl-anthropic-research.ts --section news",
+    "crawl:platform-docs": "tsx src/crawl-platform-docs.ts",
     "crawl:research": "tsx src/crawl-anthropic-research.ts --section research",
     "manifests:rebuild": "tsx src/rebuild-manifests.ts",
     "crawl:support": "tsx src/crawl-support-claude.ts",

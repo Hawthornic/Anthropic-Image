@@ -6,14 +6,16 @@ import DocsSidebar from "../components/DocsSidebar.astro";
 import HostSectionNav from "../components/HostSectionNav.astro";
 import LanguageToggle from "../components/LanguageToggle.astro";
 import SectionList from "../components/SectionList.astro";
+import SupportSidebar from "../components/SupportSidebar.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import {
   getArchivePaths,
   getArchiveRecord,
   getBreadcrumbsFromSlug,
-  getDocsGroups,
+  getDocsNavigation,
   getRelatedDocuments,
   getSiteMeta,
+  getSupportTopicGroups,
   prettifySegment,
 } from "../lib/catalog";
 import { listDocumentPaths, readMirrorDocument, resolveDocumentPath, sourcePathToSlug } from "../lib/content";
@@ -60,7 +62,8 @@ const title = archive?.title ?? document?.metadata.title ?? slug.join("/");
 const currentHost = archive?.host ?? slug[0] ?? "";
 const siteMeta = getSiteMeta(currentHost);
 const breadcrumbs = getBreadcrumbsFromSlug(slug);
-const docsGroups = currentHost === "platform.claude.com" ? await getDocsGroups() : [];
+const docsNavigation = currentHost === "platform.claude.com" ? await getDocsNavigation(slug) : [];
+const supportTopics = currentHost === "support.claude.com" ? await getSupportTopicGroups() : [];
 
 const availableTranslations = new Set(document?.entries.flatMap((entry) => Object.keys(entry.translations)) ?? []);
 const isBilingual = availableTranslations.size > 1;
@@ -114,10 +117,15 @@ const related = record ? await getRelatedDocuments(record) : [];
       <HostSectionNav host={archive.host} activeHref={archive.href} />
 
       <div class="content-frame">
-        {archive.host === "platform.claude.com" ? <DocsSidebar groups={docsGroups} activeHref={archive.href} /> : null}
+        {archive.host === "platform.claude.com" ? <DocsSidebar groups={docsNavigation} activeHref={archive.href} /> : null}
+        {archive.host === "support.claude.com" ? <SupportSidebar groups={supportTopics} activeHref={archive.href} /> : null}
         <section class="article-column">
           {archive.children.length > 0 && <DirectoryList title="Subsections" items={archive.children} />}
-          <SectionList title={`Latest in ${prettifySegment(slug.at(-1) ?? archive.host)}`} items={archive.items.slice(0, 18)} />
+          {archive.host === "support.claude.com" ? (
+            supportTopics.map((group) => <SectionList title={group.label} items={group.items.slice(0, 10)} />)
+          ) : (
+            <SectionList title={`Latest in ${prettifySegment(slug.at(-1) ?? archive.host)}`} items={archive.items.slice(0, 18)} />
+          )}
         </section>
       </div>
     </>
@@ -139,7 +147,8 @@ const related = record ? await getRelatedDocuments(record) : [];
       {isBilingual ? <LanguageToggle /> : <p class="status-note">Translation pending. This page is currently rendered from the original crawler markdown.</p>}
 
       <div class="content-frame">
-        {record.host === "platform.claude.com" ? <DocsSidebar groups={docsGroups} activeHref={record.href} /> : null}
+        {record.host === "platform.claude.com" ? <DocsSidebar groups={docsNavigation} activeHref={record.href} /> : null}
+        {record.host === "support.claude.com" ? <SupportSidebar groups={supportTopics} activeHref={record.href} /> : null}
         <section class="article-column">
           <section class="article-body">
             {document.entries.map((entry) => (

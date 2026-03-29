@@ -1,16 +1,21 @@
 ---
-import type { SidebarNavGroup } from "../lib/catalog";
+import type { DocumentRecord } from "../lib/catalog";
+
+type Group = {
+  items: DocumentRecord[];
+  label: string;
+};
 
 type Props = {
   activeHref?: string;
-  groups: SidebarNavGroup[];
+  groups: Group[];
 };
 
 const { activeHref = "", groups } = Astro.props;
 ---
 
 <aside class="sidebar-panel">
-  <div class="sidebar-heading">Documentation</div>
+  <div class="sidebar-heading">Support Topics</div>
   {groups.map((group) => (
     <section class="sidebar-group">
       <h3>{group.label}</h3>

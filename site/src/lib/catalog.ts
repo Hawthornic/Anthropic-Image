@@ -44,6 +44,11 @@ export type ArchiveRecord = {
   title: string;
 };
 
+export type SidebarNavGroup = {
+  items: Array<{ href: string; label: string }>;
+  label: string;
+};
+
 const SITE_META: Record<string, SiteMeta> = {
   "www.anthropic.com": {
     label: "Anthropic",
@@ -82,6 +87,28 @@ const SITE_META: Record<string, SiteMeta> = {
     sectionOrder: ["blog"],
   },
 };
+
+const SUPPORT_TOPIC_RULES = [
+  { label: "Getting Started", keywords: ["get started", "getting started", "what is", "choose", "sign up", "max plan"] },
+  { label: "Billing & Plans", keywords: ["billing", "invoice", "receipt", "refund", "coupon", "plan", "subscription", "tax", "seat"] },
+  {
+    label: "Apps & Features",
+    keywords: ["desktop", "ios", "android", "chrome", "slack", "voice", "memory", "chat search", "styles", "widget", "project"],
+  },
+  {
+    label: "Claude Code & API",
+    keywords: ["claude code", "api", "console", "model", "mcp", "skills", "prompt", "web search", "extended thinking", "research"],
+  },
+  {
+    label: "Teams & Enterprise",
+    keywords: ["enterprise", "team", "sso", "scim", "organization", "roles", "permissions", "admin", "provision", "member"],
+  },
+  {
+    label: "Safety & Policy",
+    keywords: ["safety", "policy", "privacy", "security", "report", "vulnerability", "copyright", "blocked", "restriction"],
+  },
+  { label: "General", keywords: [] },
+] as const;
 
 let archiveCache: Promise<ArchiveRecord[]> | null = null;
 let catalogCache: Promise<DocumentRecord[]> | null = null;
@@ -164,12 +191,73 @@ export async function getDocsGroups(): Promise<Array<{ items: DocumentRecord[]; 
     .sort((left, right) => left.label.localeCompare(right.label));
 }
 
+export async function getDocsNavigation(slug: string[]): Promise<SidebarNavGroup[]> {
+  const catalog = await getCatalog();
+  const docs = catalog.filter((item) => item.host === "platform.claude.com" && item.section === "docs");
+  const areas = new Map<string, number>();
+
+  for (const item of docs) {
+    const area = item.slug[2];
+    if (!area) {
+      continue;
+    }
+    areas.set(area, (areas.get(area) ?? 0) + 1);
+  }
+
+  const groups: SidebarNavGroup[] = [
+    {
+      label: "Areas",
+      items: Array.from(areas.entries())
+        .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
+        .map(([area]) => ({
+          label: prettifySegment(area),
+          href: `/platform.claude.com/docs/en/${area}/`,
+        })),
+    },
+  ];
+
+  const currentArea = slug[2];
+  if (currentArea) {
+    groups.push({
+      label: `In ${prettifySegment(currentArea)}`,
+      items: docs
+        .filter((item) => item.slug[2] === currentArea)
+        .sort(compareByDateAndTitle)
+        .slice(0, 20)
+        .map((item) => ({
+          label: item.title,
+          href: item.href,
+        })),
+    });
+  }
+
+  return groups;
+}
+
 export async function getSupportHighlights(): Promise<DocumentRecord[]> {
   const catalog = await getCatalog();
   return catalog
     .filter((item) => item.host === "support.claude.com")
     .sort(compareByDateAndTitle)
     .slice(0, 24);
+}
+
+export async function getSupportTopicGroups(): Promise<Array<{ items: DocumentRecord[]; label: string }>> {
+  const catalog = await getCatalog();
+  const supportItems = catalog.filter((item) => item.host === "support.claude.com");
+  const buckets = new Map<string, DocumentRecord[]>();
+
+  for (const item of supportItems) {
+    const bucket = resolveSupportTopic(item.title);
+    const current = buckets.get(bucket) ?? [];
+    current.push(item);
+    buckets.set(bucket, current);
+  }
+
+  return SUPPORT_TOPIC_RULES.map((rule) => ({
+    label: rule.label,
+    items: (buckets.get(rule.label) ?? []).sort(compareByDateAndTitle).slice(0, 24),
+  })).filter((group) => group.items.length > 0);
 }
 
 export async function getRelatedDocuments(record: Pick<DocumentRecord, "host" | "href" | "section" | "slug">): Promise<DocumentRecord[]> {
@@ -392,6 +480,16 @@ function getSectionArchiveSlug(host: string, section: string): string[] | null {
   }
 
   return [host, section];
+}
+
+function resolveSupportTopic(title: string): string {
+  const normalized = title.toLowerCase();
+  for (const rule of SUPPORT_TOPIC_RULES) {
+    if (rule.keywords.some((keyword) => normalized.includes(keyword))) {
+      return rule.label;
+    }
+  }
+  return "General";
 }
 
 function deriveSection(slug: string[], metadataSection: string | undefined): string {

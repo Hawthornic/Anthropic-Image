@@ -1,9 +1,11 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import BilingualBlock from "../../components/BilingualBlock.astro";
+import DocsSidebar from "../../components/DocsSidebar.astro";
 import HostSectionNav from "../../components/HostSectionNav.astro";
 import SectionList from "../../components/SectionList.astro";
-import { getHostSections, getHosts, getSiteMeta } from "../../lib/catalog";
+import SupportSidebar from "../../components/SupportSidebar.astro";
+import { getDocsGroups, getDocsNavigation, getHostSections, getHosts, getSiteMeta, getSupportTopicGroups } from "../../lib/catalog";
 import { readMirrorDocument, resolveDocumentPath } from "../../lib/content";
 
 export async function getStaticPaths() {
@@ -17,6 +19,9 @@ const host = Astro.params.host ?? "";
 const meta = getSiteMeta(host);
 const sections = await getHostSections(host);
 const homeDocument = await loadHomeDocument(host);
+const docsGroups = host === "platform.claude.com" ? await getDocsGroups() : [];
+const docsNavigation = host === "platform.claude.com" ? await getDocsNavigation([host, "docs", "en"]) : [];
+const supportTopics = host === "support.claude.com" ? await getSupportTopicGroups() : [];
 
 async function loadHomeDocument(value: string) {
   try {
@@ -36,7 +41,56 @@ async function loadHomeDocument(value: string) {
 
   <HostSectionNav host={host} activeHref={`/${host}/`} />
 
-  {homeDocument && (
+  {host === "platform.claude.com" ? (
+    <div class="content-frame">
+      <DocsSidebar groups={docsNavigation} activeHref="/platform.claude.com/docs/en/" />
+      <section class="article-column">
+        <section class="section-panel">
+          <div class="section-heading">
+            <h2>Docs Areas</h2>
+            <span>{docsGroups.length}</span>
+          </div>
+          <div class="section-list compact">
+            {docsGroups.map((group) => (
+              <a class="section-item" href={`/${group.slug}/`}>
+                <strong>{group.label}</strong>
+                <span>{group.items.length} pages</span>
+                <p>{group.items[0]?.description ?? "Browse the mirrored documentation area."}</p>
+              </a>
+            ))}
+          </div>
+        </section>
+
+        <section class="section-grid">
+          {sections.map((section) => (
+            <SectionList title={section.label} href={section.href} items={section.items.slice(0, 18)} />
+          ))}
+        </section>
+      </section>
+    </div>
+  ) : host === "support.claude.com" ? (
+    <div class="content-frame">
+      <SupportSidebar groups={supportTopics} activeHref="/support.claude.com/en/articles/" />
+      <section class="article-column">
+        <section class="section-panel support-landing-note">
+          <div class="section-heading">
+            <h2>Help Center</h2>
+            <span>{supportTopics.length} topics</span>
+          </div>
+          <p>
+            Browse the mirrored Claude help center by topic instead of scanning a single long article feed. This keeps
+            account, billing, app, API, and enterprise guidance closer to how a real support center is used.
+          </p>
+        </section>
+
+        <section class="section-grid">
+          {supportTopics.map((group) => (
+            <SectionList title={group.label} items={group.items.slice(0, 10)} />
+          ))}
+        </section>
+      </section>
+    </div>
+  ) : homeDocument ? (
     <section class="section-panel">
       <div class="section-heading">
         <h2>Home Page</h2>
@@ -52,11 +106,13 @@ async function loadHomeDocument(value: string) {
         ))}
       </div>
     </section>
-  )}
+  ) : null}
 
-  <section class="section-grid">
-    {sections.map((section) => (
-      <SectionList title={section.label} href={section.href} items={section.items.slice(0, 24)} />
-    ))}
-  </section>
+  {host !== "platform.claude.com" && host !== "support.claude.com" ? (
+    <section class="section-grid">
+      {sections.map((section) => (
+        <SectionList title={section.label} href={section.href} items={section.items.slice(0, 24)} />
+      ))}
+    </section>
+  ) : null}
 </BaseLayout>

@@ -375,8 +375,14 @@ body[data-mode="source-only"] .bilingual-ja {
 }
 
 .sidebar-group a {
+  display: grid;
+  gap: 2px;
   text-decoration: none;
   color: var(--text);
+}
+
+.sidebar-group a small {
+  color: var(--muted);
 }
 
 .sidebar-group a.is-active {

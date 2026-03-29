@@ -45,7 +45,7 @@ export type ArchiveRecord = {
 };
 
 export type SidebarNavGroup = {
-  items: Array<{ href: string; label: string }>;
+  items: Array<{ href: string; label: string; meta?: string }>;
   label: string;
 };
 
@@ -176,7 +176,7 @@ export async function getDocsGroups(): Promise<Array<{ items: DocumentRecord[]; 
   const groups = new Map<string, DocumentRecord[]>();
 
   for (const item of docs) {
-    const label = item.slug.slice(2, 4).join(" / ") || "Overview";
+    const label = item.slug.slice(3, 5).join(" / ") || "Overview";
     const current = groups.get(label) ?? [];
     current.push(item);
     groups.set(label, current);
@@ -186,7 +186,7 @@ export async function getDocsGroups(): Promise<Array<{ items: DocumentRecord[]; 
     .map(([label, items]) => ({
       label,
       items: items.sort(compareByDateAndTitle).slice(0, 12),
-      slug: items[0]?.slug.slice(0, 4).join("/") ?? "",
+      slug: items[0]?.slug.slice(0, 5).join("/") ?? "",
     }))
     .sort((left, right) => left.label.localeCompare(right.label));
 }
@@ -197,7 +197,7 @@ export async function getDocsNavigation(slug: string[]): Promise<SidebarNavGroup
   const areas = new Map<string, number>();
 
   for (const item of docs) {
-    const area = item.slug[2];
+    const area = item.slug[3];
     if (!area) {
       continue;
     }
@@ -209,29 +209,70 @@ export async function getDocsNavigation(slug: string[]): Promise<SidebarNavGroup
       label: "Areas",
       items: Array.from(areas.entries())
         .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
-        .map(([area]) => ({
+        .map(([area, count]) => ({
           label: prettifySegment(area),
           href: `/platform.claude.com/docs/en/${area}/`,
+          meta: `${count} pages`,
         })),
     },
   ];
 
-  const currentArea = slug[2];
+  const currentArea = slug[3];
   if (currentArea) {
+    const sectionGroups = new Map<string, DocumentRecord[]>();
+    const areaRoots: DocumentRecord[] = [];
+
+    for (const item of docs.filter((entry) => entry.slug[3] === currentArea)) {
+      const section = item.slug[4];
+      if (!section) {
+        areaRoots.push(item);
+        continue;
+      }
+
+      const current = sectionGroups.get(section) ?? [];
+      current.push(item);
+      sectionGroups.set(section, current);
+    }
+
     groups.push({
       label: `In ${prettifySegment(currentArea)}`,
-      items: docs
-        .filter((item) => item.slug[2] === currentArea)
+      items: areaRoots
         .sort(compareByDateAndTitle)
-        .slice(0, 20)
         .map((item) => ({
           label: item.title,
           href: item.href,
         })),
     });
+
+    if (sectionGroups.size > 0) {
+      groups.push({
+        label: `Sections in ${prettifySegment(currentArea)}`,
+        items: Array.from(sectionGroups.entries())
+          .sort((left, right) => right[1].length - left[1].length || left[0].localeCompare(right[0]))
+          .map(([section, items]) => ({
+            label: prettifySegment(section),
+            href: `/platform.claude.com/docs/en/${currentArea}/${section}/`,
+            meta: `${items.length} pages`,
+          })),
+      });
+    }
+
+    const currentSection = slug[4];
+    if (currentSection) {
+      groups.push({
+        label: `Pages in ${prettifySegment(currentSection)}`,
+        items: docs
+          .filter((item) => item.slug[3] === currentArea && item.slug[4] === currentSection)
+          .sort(compareByDateAndTitle)
+          .map((item) => ({
+            label: item.title,
+            href: item.href,
+          })),
+      });
+    }
   }
 
-  return groups;
+  return groups.filter((group) => group.items.length > 0);
 }
 
 export async function getSupportHighlights(): Promise<DocumentRecord[]> {

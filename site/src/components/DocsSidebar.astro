@@ -18,7 +18,8 @@ const { activeHref = "", groups } = Astro.props;
         {group.items.map((item) => (
           <li>
             <a class:list={[item.href === activeHref && "is-active"]} href={item.href}>
-              {item.title}
+              <span>{item.label}</span>
+              {item.meta ? <small>{item.meta}</small> : null}
             </a>
           </li>
         ))}

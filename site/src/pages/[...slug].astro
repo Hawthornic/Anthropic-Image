@@ -95,6 +95,12 @@ const record =
 const related = record ? await getRelatedDocuments(record) : [];
 const archiveYearGroups = archive && archive.host === "www.anthropic.com" && archive.slug.length === 2 ? groupDocumentsByYear(archive.items) : [];
 const resourceCollections = archive && archive.host === "claude.com" && archive.slug[1] === "resources" ? buildArchiveCollections(archive) : [];
+const archiveFeature = archive ? archive.items[0] ?? null : null;
+const archiveSecondary = archive ? archive.items.slice(1, 4) : [];
+const claudeArchivePanels =
+  archive && archive.host === "claude.com" && ["product", "solutions", "customers", "connectors", "plugins", "resources"].includes(archive.slug[1] ?? "")
+    ? buildClaudeArchivePanels(archive)
+    : [];
 
 function groupDocumentsByYear(items: DocumentRecord[]) {
   const groups = new Map<string, DocumentRecord[]>();
@@ -123,6 +129,22 @@ function buildArchiveCollections(currentArchive: ArchiveRecord) {
         .slice(0, 10),
     }))
     .filter((child) => child.items.length > 0);
+}
+
+function buildClaudeArchivePanels(currentArchive: ArchiveRecord) {
+  if (currentArchive.slug[1] === "resources") {
+    return resourceCollections;
+  }
+
+  return currentArchive.children
+    .map((child) => ({
+      ...child,
+      items: currentArchive.items
+        .filter((item) => item.slug[currentArchive.slug.length] === child.href.split("/").filter(Boolean).at(-1))
+        .slice(0, 6),
+    }))
+    .filter((child) => child.items.length > 0)
+    .slice(0, 6);
 }
 ---
 
@@ -153,12 +175,63 @@ function buildArchiveCollections(currentArchive: ArchiveRecord) {
         {archive.host === "platform.claude.com" ? <DocsSidebar groups={docsNavigation} activeHref={archive.href} /> : null}
         {archive.host === "support.claude.com" ? <SupportSidebar groups={supportTopics} activeHref={archive.href} /> : null}
         <section class="article-column">
+          {archiveFeature && (archive.host === "www.anthropic.com" && archive.slug.length === 2) ? (
+            <section class="feature-shell editorial-shell">
+              <a class="feature-card feature-primary editorial-primary" href={archiveFeature.href}>
+                <span class="feature-kicker">Featured</span>
+                <strong>{archiveFeature.title}</strong>
+                <span>{archiveFeature.date ?? archiveFeature.section}</span>
+                {archiveFeature.description && <p>{archiveFeature.description}</p>}
+              </a>
+              <div class="feature-stack">
+                {archiveSecondary.map((item) => (
+                  <a class="feature-card feature-compact editorial-compact" href={item.href}>
+                    <span class="feature-kicker">Latest</span>
+                    <strong>{item.title}</strong>
+                    <span>{item.date ?? item.section}</span>
+                    {item.description && <p>{item.description}</p>}
+                  </a>
+                ))}
+              </div>
+            </section>
+          ) : null}
+
+          {archiveFeature && archive.host === "claude.com" && ["product", "solutions", "customers", "connectors", "plugins", "resources"].includes(archive.slug[1] ?? "") ? (
+            <section class="feature-shell product-shell">
+              <a class="feature-card feature-primary product-primary" href={archiveFeature.href}>
+                <span class="feature-kicker">Highlighted</span>
+                <strong>{archiveFeature.title}</strong>
+                <span>{archiveFeature.date ?? `${archive.items.length} pages`}</span>
+                {archiveFeature.description && <p>{archiveFeature.description}</p>}
+              </a>
+              <div class="feature-stack">
+                {archiveSecondary.map((item) => (
+                  <a class="feature-card feature-compact product-compact" href={item.href}>
+                    <span class="feature-kicker">Explore</span>
+                    <strong>{item.title}</strong>
+                    <span>{item.date ?? item.section}</span>
+                    {item.description && <p>{item.description}</p>}
+                  </a>
+                ))}
+              </div>
+            </section>
+          ) : null}
+
           {archive.host === "claude.com" && archive.slug[1] === "resources" ? (
             <>
               {archive.children.length > 0 && <DirectoryList title="Collections" items={archive.children} />}
               <section class="section-grid">
                 {resourceCollections.map((collection) => (
                   <SectionList title={collection.label} href={collection.href} items={collection.items.slice(0, 8)} />
+                ))}
+              </section>
+            </>
+          ) : archive.host === "claude.com" && ["product", "solutions", "customers", "connectors", "plugins"].includes(archive.slug[1] ?? "") ? (
+            <>
+              {archive.children.length > 0 && <DirectoryList title="Collections" items={archive.children} />}
+              <section class="section-grid">
+                {claudeArchivePanels.map((collection) => (
+                  <SectionList title={collection.label} href={collection.href} items={collection.items.slice(0, 6)} />
                 ))}
               </section>
             </>
